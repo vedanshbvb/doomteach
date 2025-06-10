@@ -5,11 +5,19 @@ import './App.css';
 function App() {
   const [prompt, setPrompt] = useState('');
   const [response, setResponse] = useState('');
+  const [status, setStatus] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post('http://localhost:5000/api/prompt', { prompt });
-    setResponse(res.data.response);
+    setStatus('Generating script...');
+    setResponse('');
+    try {
+      const res = await axios.post('http://localhost:5000/api/generate', { prompt });
+      setResponse(res.data.script);
+      setStatus('');
+    } catch (err) {
+      setStatus('Error generating script.');
+    }
   };
 
   return (
@@ -24,7 +32,13 @@ function App() {
         />
         <button type="submit">Send</button>
       </form>
-      {response && <p className="response">{response}</p>}
+      {status && <p className="response">{status}</p>}
+      {response && (
+        <div className="response">
+          <strong>Script:</strong>
+          <pre style={{whiteSpace: 'pre-wrap'}}>{response}</pre>
+        </div>
+      )}
     </div>
   );
 }

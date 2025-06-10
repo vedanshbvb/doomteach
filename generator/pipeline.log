@@ -1,0 +1,157 @@
+STATUS: Generating script...
+STATUS: Script generated.
+STATUS: Converting text to voice for Donald Trump...
+STATUS: Voice conversion done.
+STATUS: Converting text to voice for Elon Musk...
+STATUS: Voice conversion done.
+{"characters": "Donald Trump, Elon Musk", "tokens": ["weight_vadc6zst7jq26jdfhkckab8yh", "weight_hkawmassbvv8e6sb66638kg9p"], "indices": [902, 1046]}
+STATUS: Generating script...
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Voice conversion done.
+STATUS: Converting text to voice for Elon Musk...
+STATUS: Voice conversion done.
+{"characters": "Optimus Prime, Elon Musk", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_hkawmassbvv8e6sb66638kg9p"], "indices": [2532, 1046]}
+STATUS: Generating script...
+    "Optimus Prime": 'Greetings, Elon! I've heard of Docker, but what's the significance of it in the Autobot's mission to protect the Cybertronian infrastructure?'
+
+    "Elon Musk": 'Ah, Optimus, Docker is a containerization platform that allows us to package, ship, and run applications in containers. It's like a portable, self-contained Energon cell that can be easily deployed and scaled.'
+
+    "Optimus Prime": 'That's fascinating! How does it work, exactly? Is it like a complex Autobot algorithm?'
+
+    "Elon Musk": 'Ha! Not exactly, Optimus. Docker uses a lightweight virtualization technology to create containers that include everything an application needs to run, including code, dependencies, and system libraries. It's like a customized Autobot chassis, tailored to each application's specific needs.'
+
+    "Optimus Prime": 'I see. And what about security? We can't have our Autobot systems compromised by malicious Cybertronians.'
+
+    "Elon Musk": 'Good point, Optimus. Docker has robust security features, including network isolation, access control, and image scanning. We can also use Docker Compose to manage multiple containers as a single unit, making it easier to scale and deploy our Autobot applications.'
+
+    "Optimus Prime": 'Impressive, Elon! Docker seems like a valuable tool for the Autobot's mission. I think we can integrate it into our systems to improve our efficiency and security.'
+
+    "Elon Musk": 'Exactly, Optimus! With Docker, we can create a more agile, flexible, and secure Autobot infrastructure. It's a win-win for Cybertron!'
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Voice conversion done.
+STATUS: Converting text to voice for Elon Musk...
+STATUS: Voice conversion done.
+{"characters": "Optimus Prime, Elon Musk", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_hkawmassbvv8e6sb66638kg9p"], "indices": [2532, 1046]}
+STATUS: Generating script...
+"Optimus Prime": 'Greetings, Elon! I've heard of Docker, but what's the significance of it in the Autobot's mission to protect the Cybertronian infrastructure?'
+
+"Elon Musk": 'Ah, Optimus, Docker is a containerization platform that allows us to package, ship, and run applications in containers. It's like a portable, self-contained Energon cell that can be easily deployed and scaled.'
+
+"Optimus Prime": 'That's fascinating! How does it work, exactly? Is it like a complex Autobot algorithm?'
+
+"Elon Musk": 'Ha! Not exactly, Optimus. Docker uses a lightweight virtualization technology to create containers that include everything an application needs to run, including code, dependencies, and system libraries. It's like a customized Autobot chassis, tailored to each application's specific needs.'
+
+"Optimus Prime": 'I see. And what about security? We can't have our Autobot systems compromised by malicious Cybertronians.'
+
+"Elon Musk": 'Good point, Optimus. Docker has robust security features, including network isolation, access control, and image scanning. We can also use Docker Compose to manage multiple containers as a single unit, making it easier to scale and deploy our Autobot applications.'
+
+"Optimus Prime": 'Impressive, Elon! Docker seems like a valuable tool for the Autobot's mission. I think we can integrate it into our systems to improve our efficiency and security.'
+
+"Elon Musk": 'Exactly, Optimus! With Docker, we can create a more agile, flexible, and secure Autobot infrastructure. It's a win-win for Cybertron!'
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Voice conversion done.
+STATUS: Converting text to voice for Elon Musk...
+STATUS: Voice conversion done.
+{"characters": "Optimus Prime, Elon Musk", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_hkawmassbvv8e6sb66638kg9p"], "indices": [2532, 1046]}
+    STATUS: Generating script...
+"Optimus Prime": 'Greetings, Donald! I've heard of n8n, but what's the significance of it in the Autobot's mission to streamline our workflows?'
+
+"Donald Trump": 'Ah, Optimus, n8n is a fantastic tool, believe me. It's like a top-notch Autobot, but instead of transforming into a car, it automates your workflows and data pipelines.'
+
+"Optimus Prime": 'That's fascinating! How does it work, exactly? Is it like a complex Autobot algorithm?'
+
+"Donald Trump": 'It's got a lot of great features, Optimus. n8n uses a visual interface to create workflows, so you can just drag and drop nodes to automate tasks. And it's got a lot of integrations with other tools, so you can connect it to all sorts of Autobot systems.'
+
+"Optimus Prime": 'I see. And what about security? We can't have our Autobot systems compromised by malicious Cybertronians.'
+
+"Donald Trump": 'Don't worry, Optimus, n8n's got you covered. It's got built-in security features, like encryption and access controls, so you can keep your Autobot data safe.'
+
+"Optimus Prime": 'Impressive, Donald! n8n seems like a valuable tool for the Autobot's mission. I think we can integrate it into our systems to improve our efficiency and productivity.'
+
+"Donald Trump": 'That's what I like to hear, Optimus. n8n is a winner, a real champion. It's going to make your Autobot workflows great again, believe me.'
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Voice conversion done.
+STATUS: Converting text to voice for Donald Trump...
+STATUS: Voice conversion done.
+{"characters": "Optimus Prime, Donald Trump", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_cg6heneq0rmkas3qj7ccz0t0r"], "indices": [2532, 909]}
+STATUS: Generating script...
+"Optimus Prime": 'Greetings, Donald! I've heard of n8n, but what's the significance of it in the Autobot's mission to streamline our workflows?'
+
+"Donald Trump": 'Ah, Optimus, n8n is a fantastic tool, believe me. It's like a top-notch Autobot, but instead of transforming into a car, it automates your workflows and data pipelines.'
+
+"Optimus Prime": 'That's fascinating! How does it work, exactly? Is it like a complex Autobot algorithm?'
+
+"Donald Trump": 'It's got a lot of great features, Optimus. n8n uses a visual interface to create workflows, so you can just drag and drop nodes to automate tasks. And it's got a lot of integrations with other tools, so you can connect it to all sorts of Autobot systems.'
+
+"Optimus Prime": 'I see. And what about security? We can't have our Autobot systems compromised by malicious Cybertronians.'
+
+"Donald Trump": 'Don't worry, Optimus, n8n's got you covered. It's got built-in security features, like encryption and access controls, so you can keep your Autobot data safe.'
+
+"Optimus Prime": 'Impressive, Donald! n8n seems like a valuable tool for the Autobot's mission. I think we can integrate it into our systems to improve our efficiency and productivity.'
+
+"Donald Trump": 'That's what I like to hear, Optimus. n8n is a winner, a real champion. It's going to make your Autobot workflows great again, believe me.'
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Donald Trump...
+STATUS: Generating script...
+"Optimus Prime": 'Greetings, Donald! I've heard of n8n, but what's the significance of it in the Autobot's mission to streamline our workflows?'
+
+"Donald Trump": 'Ah, Optimus, n8n is a fantastic tool, believe me. It's like a top-notch Autobot, but instead of transforming into a car, it automates your workflows and data pipelines.'
+
+"Optimus Prime": 'That's fascinating! How does it work, exactly? Is it like a complex Autobot algorithm?'
+
+"Donald Trump": 'It's got a lot of great features, Optimus. n8n uses a visual interface to create workflows, so you can just drag and drop nodes to automate tasks. And it's got a lot of integrations with other tools, so you can connect it to all sorts of Autobot systems.'
+
+"Optimus Prime": 'I see. And what about security? We can't have our Autobot systems compromised by malicious Cybertronians.'
+
+"Donald Trump": 'Don't worry, Optimus, n8n's got you covered. It's got built-in security features, like encryption and access controls, so you can keep your Autobot data safe.'
+
+"Optimus Prime": 'Impressive, Donald! n8n seems like a valuable tool for the Autobot's mission. I think we can integrate it into our systems to improve our efficiency and productivity.'
+
+"Donald Trump": 'That's what I like to hear, Optimus. n8n is a winner, a real champion. It's going to make your Autobot workflows great again, believe me.'
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Donald Trump...
+STATUS: Generating script...
+"Optimus Prime": 'Greetings, Donald! I've heard of n8n, but what's the significance of it in the Autobot's mission to streamline our workflows?'
+
+"Donald Trump": 'Ah, Optimus, n8n is a fantastic tool, believe me. It's like a top-notch Autobot, but instead of transforming into a car, it automates your workflows and data pipelines.'
+
+"Optimus Prime": 'That's fascinating! How does it work, exactly? Is it like a complex Autobot algorithm?'
+
+"Donald Trump": 'It's got a lot of great features, Optimus. n8n uses a visual interface to create workflows, so you can just drag and drop nodes to automate tasks. And it's got a lot of integrations with other tools, so you can connect it to all sorts of Autobot systems.'
+
+"Optimus Prime": 'I see. And what about security? We can't have our Autobot systems compromised by malicious Cybertronians.'
+
+"Donald Trump": 'Don't worry, Optimus, n8n's got you covered. It's got built-in security features, like encryption and access controls, so you can keep your Autobot data safe.'
+
+"Optimus Prime": 'Impressive, Donald! n8n seems like a valuable tool for the Autobot's mission. I think we can integrate it into our systems to improve our efficiency and productivity.'
+
+"Donald Trump": 'That's what I like to hear, Optimus. n8n is a winner, a real champion. It's going to make your Autobot workflows great again, believe me.'
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Donald Trump...
+STATUS: Generating script...
+{
+"Optimus Prime": "Greetings, Elon. I've been studying the vast potential of AWS. Can you explain its role in machine learning?",
+"Elon Musk": "Ah, Optimus, AWS has made tremendous strides in ML. Its SageMaker platform allows developers to build, train, and deploy models at scale.",
+"Optimus Prime": "That's fascinating. How does AWS ensure the security and integrity of sensitive data during ML model training?",
+"Elon Musk": "AWS provides robust security features like encryption, access controls, and auditing. Plus, its ML services are designed to handle sensitive data with care.",
+"Optimus Prime": "I see. What about edge computing? Can AWS help us process data in real-time, even in remote areas of Cybertron?",
+"Elon Musk": "AWS IoT and AWS Greengrass enable edge computing, Optimus. We can deploy ML models directly on edge devices, reducing latency and improving response times.",
+"Optimus Prime": "Impressive. How does AWS compare to other cloud providers in terms of cost and scalability?",
+"Elon Musk": "AWS offers a pay-as-you-go model, Optimus. You only pay for what you use, making it a cost-effective choice. Plus, its scalability is unmatched, allowing you to quickly adapt to changing workloads.",
+"Optimus Prime": "Thank you, Elon. Your insights have shed new light on the possibilities of AWS.",
+"Elon Musk": "The future is bright, Optimus. With AWS, the possibilities are endless."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Elon Musk...
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: [{"speaker": "Optimus Prime", "start": 0.0, "duration": 6.14165625, "filename": "optimus_prime1.wav"}, {"speaker": "Elon Musk", "start": 6.14165625, "duration": 4.65559375, "filename": "elon_musk2.wav"}]
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Optimus Prime", "start": 0.0, "duration": 6.14165625, "filename": "optimus_prime1.wav"}, {"speaker": "Elon Musk", "start": 6.14165625, "duration": 4.65559375, "filename": "elon_musk2.wav"}]}
+{"characters": "Optimus Prime, Elon Musk", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_hkawmassbvv8e6sb66638kg9p"], "indices": [2532, 1046]}
