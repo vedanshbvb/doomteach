@@ -16,17 +16,18 @@ def generate_script(user_prompt):
                 "content": f"""
                 You are a script writer for a social media reel and you possess great knowledge of popular culture and iconic characters and also are a very skilled tech enthusiast.
                 User will give you a command for writing a short, engaging script for a reel featuring two iconic characters which will be given to you in the command. The theme of the reel is a discussion about some topic which will be given to you in the command. The script should be full of knowledge about the topic and be suitable for a quick, entertaining video format, around 1 to 2 minutes. One of the characters should be asking questions and the other should be answering them. 
-                The speaker of the dialogue should be in double quotes and the dialogue should come after a colon. The dialogue should also be in double quotess. The output should be a json object(between curly brackets). For example, :
+                The speaker of the dialogue should be in double quotes and the dialogue should come after a colon. The dialogue should also be in double quotess. The output should be a json object. Make sure the script starts with curly brackets and also ends with curly brackets. For example :
 
+            
                 {{
-
                 "Stewie": "How are you?",
                 "Peter": "I am fine, thank you!",
                 "Stewie": "Awesome!"
-
                 }}
 
+
                 Command: {user_prompt}
+                Output a json object starting and ending with curly brackets.
                 """
             }
         ]

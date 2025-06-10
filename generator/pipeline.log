@@ -155,3 +155,376 @@ Final audio path: media/generated/audio/final_audio.wav
 Timeline: [{"speaker": "Optimus Prime", "start": 0.0, "duration": 6.14165625, "filename": "optimus_prime1.wav"}, {"speaker": "Elon Musk", "start": 6.14165625, "duration": 4.65559375, "filename": "elon_musk2.wav"}]
 {"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Optimus Prime", "start": 0.0, "duration": 6.14165625, "filename": "optimus_prime1.wav"}, {"speaker": "Elon Musk", "start": 6.14165625, "duration": 4.65559375, "filename": "elon_musk2.wav"}]}
 {"characters": "Optimus Prime, Elon Musk", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_hkawmassbvv8e6sb66638kg9p"], "indices": [2532, 1046]}
+STATUS: Generating script...
+{
+"Snow White": "Peppa, I've been trying to understand this concept of internal variable pointers. Can you explain it to me in a way that's as clear as a mirror, mirror on the wall?",
+"Peppa Pig": "Oink oink, Snow White! Ah, internal variable pointers! Well, it's like having a special address book for your variables.",
+"Snow White": "An address book? That sounds like something Dopey would lose. How does it work, exactly?",
+"Peppa Pig": "Think of it like a treasure map, Snow White. When you declare a variable, the compiler gives it a unique address in memory. An internal variable pointer is like a shortcut to that address.",
+"Snow White": "A shortcut? That's like the magic mirror's quick reply feature! How does it help with memory management?",
+"Peppa Pig": "Well, when you use an internal variable pointer, you don't need to worry about allocating separate memory for the pointer itself. It's all handled automatically, just like how Grumpy's grumpiness is always handled by the Seven Dwarfs.",
+"Snow White": "That makes sense, Peppa. What about when you want to pass variables to functions? How do internal variable pointers come into play?",
+"Peppa Pig": "Ah, that's the best part! When you pass a variable to a function using an internal variable pointer, you're essentially passing a map to the treasure. The function can then access the variable directly, without having to worry about memory allocation.",
+"Snow White": "Wow, Peppa, you're a genius! I think I finally understand internal variable pointers. Thanks for explaining it to me in a way that's as easy as following a trail of breadcrumbs!",
+"Peppa Pig": "Oink oink, any time, Snow White! Now let's go find some muddy puddles to play in!"
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Peppa Pig...
+ERROR: Failed to parse script JSON: Expecting ',' delimiter: line 11 column 97 (char 1713)
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: []
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": []}
+{"characters": "Snow White, Peppa Pig", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_1tyyw5205pftdz23ddv1h3vs2"], "indices": [3197, 2616]}
+STATUS: Generating script...
+STATUS: Generating script...
+{
+"Snow White": "Peppa, I've been trying to understand this concept of internal variable pointers. Can you explain it to me in a way that's as clear as a mirror, mirror on the wall?",
+"Peppa Pig": "Oink oink, Snow White! Ah, internal variable pointers! Well, it's like having a special address book for your variables.",
+"Snow White": "An address book? That sounds like something Dopey would lose. How does it work, exactly?",
+"Peppa Pig": "Think of it like a treasure map, Snow White. When you declare a variable, the compiler gives it a unique address in memory. An internal variable pointer is like a shortcut to that address.",
+"Snow White": "A shortcut? That's like the magic mirror's quick reply feature! How does it help with memory management?",
+"Peppa Pig": "Well, when you use an internal variable pointer, you don't need to worry about allocating separate memory for the pointer itself. It's all handled automatically, just like how Grumpy's grumpiness is always handled by the Seven Dwarfs.",
+"Snow White": "That makes sense, Peppa. What about when you want to pass variables to functions? How do internal variable pointers come into play?",
+"Peppa Pig": "Ah, that's the best part! When you pass a variable to a function using an internal variable pointer, you're essentially passing a map to the treasure. The function can then access the variable directly, without having to worry about memory allocation.",
+"Snow White": "Wow, Peppa, you're a genius! I think I finally understand internal variable pointers. Thanks for explaining it to me in a way that's as easy as following a trail of breadcrumbs!",
+"Peppa Pig": "Oink oink, any time, Snow White! Now let's go find some muddy puddles to play in!"
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Peppa Pig...
+{
+"Snow White": "Peppa, I've been trying to understand this concept of internal variable pointers. Can you explain it to me in a way that's as clear as a mirror, mirror on the wall?",
+"Peppa Pig": "Oink oink, Snow White! Ah, internal variable pointers! Well, it's like having a special address book for your variables.",
+"Snow White": "An address book? That sounds like something Dopey would lose. How does it work, exactly?",
+"Peppa Pig": "Think of it like a treasure map, Snow White. When you declare a variable, the compiler gives it a unique address in memory. An internal variable pointer is like a shortcut to that address.",
+"Snow White": "A shortcut? That's like the magic mirror's quick reply feature! How does it help with memory management?",
+"Peppa Pig": "Well, when you use an internal variable pointer, you don't need to worry about allocating separate memory for the pointer itself. It's all handled automatically, just like how Grumpy's grumpiness is always handled by the Seven Dwarfs.",
+"Snow White": "That makes sense, Peppa. What about when you want to pass variables to functions? How do internal variable pointers come into play?",
+"Peppa Pig": "Ah, that's the best part! When you pass a variable to a function using an internal variable pointer, you're essentially passing a map to the treasure. The function can then access the variable directly, without having to worry about memory allocation.",
+"Snow White": "Wow, Peppa, you're a genius! I think I finally understand internal variable pointers. Thanks for explaining it to me in a way that's as easy as following a trail of breadcrumbs!",
+"Peppa Pig": "Oink oink, any time, Snow White! Now let's go find some muddy puddles to play in!"
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Peppa Pig...
+ERROR: Failed to parse script JSON: Expecting ',' delimiter: line 11 column 97 (char 1713)
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: []
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": []}
+{"characters": "Snow White, Peppa Pig", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_1tyyw5205pftdz23ddv1h3vs2"], "indices": [3197, 2616]}
+ERROR: Failed to parse script JSON: Expecting ',' delimiter: line 11 column 97 (char 1713)
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: []
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": []}
+{"characters": "Snow White, Peppa Pig", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_1tyyw5205pftdz23ddv1h3vs2"], "indices": [3197, 2616]}
+STATUS: Generating script...
+{
+"Snow White": "Peppa, I've been trying to understand this concept of internal variable pointers. Can you explain it to me in a way that's as clear as a mirror, mirror on the wall?:",
+"Peppa Pig": "Oink oink, Snow White! Ah, internal variable pointers! Well, it's like having a special address book for your variables.:",
+"Snow White": "An address book? That sounds like something Dopey would lose. How does it work, exactly?:",
+"Peppa Pig": "Think of it like a treasure map, Snow White. When you declare a variable, the compiler gives it a unique address in memory. An internal variable pointer is like a shortcut to that address.:",
+"Snow White": "A shortcut? That's like the magic mirror's quick reply feature! How does it help with memory management?:",
+"Peppa Pig": "Well, when you use an internal variable pointer, you don't need to worry about allocating separate memory for the pointer itself. It's all handled automatically, just like how Grumpy's grumpiness is always handled by the Seven Dwarfs.:",
+"Snow White": "That makes sense, Peppa. What about when you want to pass variables to functions? How do internal variable pointers come into play?:",
+"Peppa Pig": "Ah, that's the best part! When you pass a variable to a function using an internal variable pointer, you're essentially passing a map to the treasure. The function can then access the variable directly, without having to worry about memory allocation.:",
+"Snow White": "Wow, Peppa, you're a genius! I think I finally understand internal variable pointers. Thanks for explaining it to me in a way that's as easy as following a trail of breadcrumbs!:",
+"Peppa Pig": "Oink oink, any time, Snow White! Now let's go find some muddy puddles to play in!"
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Peppa Pig...
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: [{"speaker": "Snow White", "start": 0.0, "duration": 11.60996875, "filename": "snow_white1.wav"}, {"speaker": "Peppa Pig", "start": 11.60996875, "duration": 5.0503125, "filename": "peppa_pig2.wav"}]
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Snow White", "start": 0.0, "duration": 11.60996875, "filename": "snow_white1.wav"}, {"speaker": "Peppa Pig", "start": 11.60996875, "duration": 5.0503125, "filename": "peppa_pig2.wav"}]}
+{"characters": "Snow White, Peppa Pig", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_1tyyw5205pftdz23ddv1h3vs2"], "indices": [3197, 2616]}
+STATUS: Generating script...
+{
+"Snow White": "Elon, I've been trying to understand this concept of internal variable pointers. Can you explain it to me in a way that's as clear as a Tesla navigation system?:",
+"Elon Musk": "Of course, Snow White! An internal variable pointer is a variable that holds the memory address of another variable. Think of it like a GPS coordinate for a treasure map.:",
+"Snow White": "Ah, I see. So it's like a shortcut to the treasure, rather than the treasure itself.:",
+"Elon Musk": "Exactly! When you use an internal variable pointer, you're creating a way to access the memory location of another variable without having to know its exact address.:",
+"Snow White": "That's like having a map to the treasure, without having to search for the X marking the spot.:",
+"Elon Musk": "Ha! Yes, it's like having a MapQuest for your code. But with great power comes great responsibility, Snow White.:",
+"Snow White": "What do you mean, Elon?:",
+"Elon Musk": "Well, when you use internal variable pointers, you need to be careful not to create memory leaks or access unexpected memory locations.:",
+"Snow White": "Ah, I see. So it's like navigating a treacherous path, where one wrong turn can lead to disaster.:",
+"Elon Musk": "Precisely, Snow White. But with the right tools and knowledge, you can avoid the pitfalls and reach your destination safely.:",
+"Snow White": "Thank you, Elon. I feel like I've got a much better understanding of internal variable pointers now.:",
+"Elon Musk": "Anytime, Snow White. Now if you'll excuse me, I have to get back to work on my Neuralink project.:"
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Elon Musk...
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: [{"speaker": "Snow White", "start": 0.0, "duration": 6.6989375, "filename": "snow_white_1_d1cf25f8.wav"}, {"speaker": "Elon Musk", "start": 6.6989375, "duration": 4.4814375, "filename": "elon_musk_2_fcf975d2.wav"}]
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Snow White", "start": 0.0, "duration": 6.6989375, "filename": "snow_white_1_d1cf25f8.wav"}, {"speaker": "Elon Musk", "start": 6.6989375, "duration": 4.4814375, "filename": "elon_musk_2_fcf975d2.wav"}]}
+{"characters": "Snow White, Elon Musk", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_hkawmassbvv8e6sb66638kg9p"], "indices": [3197, 1046]}
+STATUS: Generating script...
+{
+"Snow White": "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure.:",
+"Snow White": "A wall? I'm not sure I understand, Mr. Trump.:",
+"Donald Trump": "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update.:",
+"Snow White": "I see. So it's like a team of builders working together to create a beautiful castle.:",
+"Donald Trump": "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!:",
+"Snow White": "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?:",
+"Donald Trump": "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks.:",
+"Snow White": "Wow, that sounds impressive. But what about its uses, Mr. Trump?:",
+"Donald Trump": "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device.:",
+"Snow White": "I see. So it's like a global phenomenon, Mr. Trump.:",
+"Donald Trump": "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me.:",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript a little better now.:",
+"Donald Trump": "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Donald Trump...
+{"characters": "Snow White, Donald Trump", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_ekwz4cqek5rrdez73rgy843ft"], "indices": [3197, 908]}
+STATUS: emptied folder
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: [{"speaker": "Snow White", "start": 0.0, "duration": 4.65559375, "filename": "snow_white_1_8bff337a.wav"}, {"speaker": "Donald Trump", "start": 4.65559375, "duration": 7.244625, "filename": "donald_trump_2_7c095573.wav"}]
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Snow White", "start": 0.0, "duration": 4.65559375, "filename": "snow_white_1_8bff337a.wav"}, {"speaker": "Donald Trump", "start": 4.65559375, "duration": 7.244625, "filename": "donald_trump_2_7c095573.wav"}]}
+STATUS: Generating script...
+{
+"Snow White": "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure.:",
+"Snow White": "A wall? I'm not sure I understand, Mr. Trump.:",
+"Donald Trump": "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update.:",
+"Snow White": "I see. So it's like a team of builders working together to create a beautiful castle.:",
+"Donald Trump": "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!:",
+"Snow White": "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?:",
+"Donald Trump": "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks.:",
+"Snow White": "Wow, that sounds impressive. But what about its uses, Mr. Trump?:",
+"Donald Trump": "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device.:",
+"Snow White": "I see. So it's like a global phenomenon, Mr. Trump.:",
+"Donald Trump": "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me.:",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript a little better now.:",
+"Donald Trump": "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge.",
+"Snow White": "Wait, Mr. Trump! What's the difference between JavaScript and Java?:",
+"Donald Trump": "Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.:",
+"Snow White": "I see. So it's like comparing apples and oranges, Mr. Trump.:",
+"Donald Trump": "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Donald Trump...
+{"characters": "Snow White, Donald Trump", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_cg6heneq0rmkas3qj7ccz0t0r"], "indices": [3197, 909]}
+STATUS: emptied folder
+Synthesizing text: I see. So it's like comparing apples and oranges, Mr. Trump.: with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_1_b2f0dead.wav
+Processed Snow White: I see. So it's like comparing apples and oranges, Mr. Trump.: -> snow_white_1_b2f0dead.wav (5.05s)
+Synthesizing text: Exactly, Snow! And I'm the one who knows all about great comparisons, believe me. with token: weight_cg6heneq0rmkas3qj7ccz0t0r to media/generated/audio/donald_trump_2_72383f6d.wav
+Processed Donald Trump: Exactly, Snow! And I'm the one who knows all about great comparisons, believe me. -> donald_trump_2_72383f6d.wav (5.27s)
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: [{"speaker": "Snow White", "start": 0.0, "duration": 5.0503125, "filename": "snow_white_1_b2f0dead.wav"}, {"speaker": "Donald Trump", "start": 5.0503125, "duration": 5.27090625, "filename": "donald_trump_2_72383f6d.wav"}]
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Snow White", "start": 0.0, "duration": 5.0503125, "filename": "snow_white_1_b2f0dead.wav"}, {"speaker": "Donald Trump", "start": 5.0503125, "duration": 5.27090625, "filename": "donald_trump_2_72383f6d.wav"}]}
+STATUS: Generating script...
+{
+"Snow White": "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure.:",
+"Snow White": "A wall? I'm not sure I understand, Mr. Trump.:",
+"Donald Trump": "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update.:",
+"Snow White": "I see. So it's like a team of builders working together to create a beautiful castle.:",
+"Donald Trump": "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!:",
+"Snow White": "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?:",
+"Donald Trump": "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks.:",
+"Snow White": "Wow, that sounds impressive. But what about its uses, Mr. Trump?:",
+"Donald Trump": "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device.:",
+"Snow White": "I see. So it's like a global phenomenon, Mr. Trump.:",
+"Donald Trump": "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me.:",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript a little better now.:",
+"Donald Trump": "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge.",
+"Snow White": "Wait, Mr. Trump! What's the difference between JavaScript and Java?:",
+"Donald Trump": "Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.:",
+"Snow White": "I see. So it's like comparing apples and oranges, Mr. Trump.:",
+"Donald Trump": "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me.",
+"Snow White": "I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?:",
+"Donald Trump": "Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience.:",
+"Snow White": "Ah, I see. So it's like a seamless transaction, Mr. Trump.:",
+"Donald Trump": "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Donald Trump...
+{"characters": "Snow White, Donald Trump", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_ekwz4cqek5rrdez73rgy843ft"], "indices": [3197, 908]}
+STATUS: emptied folder
+Parsed script: [('Snow White', "Ah, I see. So it's like a seamless transaction, Mr. Trump.:"), ('Donald Trump', "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me.")]
+STATUS: Generating script...
+{
+"Snow White": "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure.:",
+"Snow White": "A wall? I'm not sure I understand, Mr. Trump.:",
+"Donald Trump": "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update.:",
+"Snow White": "I see. So it's like a team of builders working together to create a beautiful castle.:",
+"Donald Trump": "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!:",
+"Snow White": "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?:",
+"Donald Trump": "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks.:",
+"Snow White": "Wow, that sounds impressive. But what about its uses, Mr. Trump?:",
+"Donald Trump": "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device.:",
+"Snow White": "I see. So it's like a global phenomenon, Mr. Trump.:",
+"Donald Trump": "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me.:",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript a little better now.:",
+"Donald Trump": "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge.",
+"Snow White": "Wait, Mr. Trump! What's the difference between JavaScript and Java?:",
+"Donald Trump": "Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.:",
+"Snow White": "I see. So it's like comparing apples and oranges, Mr. Trump.:",
+"Donald Trump": "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me.",
+"Snow White": "I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?:",
+"Donald Trump": "Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience.:",
+"Snow White": "Ah, I see. So it's like a seamless transaction, Mr. Trump.:",
+"Donald Trump": "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me.",
+"Snow White": "Thank you, Mr. Trump. I think I finally understand JavaScript.:",
+"Donald Trump": "Anytime, Snow. Now let's make some great deals, folks!"
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Donald Trump...
+{"characters": "Snow White, Donald Trump", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_ekwz4cqek5rrdez73rgy843ft"], "indices": [3197, 908]}
+STATUS: emptied folder
+Parsed script: [('Snow White', "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?"), ('Donald Trump', "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure."), ('Snow White', "A wall? I'm not sure I understand, Mr. Trump."), ('Donald Trump', "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update."), ('Snow White', "I see. So it's like a team of builders working together to create a beautiful castle."), ('Donald Trump', "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!"), ('Snow White', "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?"), ('Donald Trump', "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks."), ('Snow White', 'Wow, that sounds impressive. But what about its uses, Mr. Trump?'), ('Donald Trump', "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device."), ('Snow White', "I see. So it's like a global phenomenon, Mr. Trump."), ('Donald Trump', "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me."), ('Snow White', 'Thank you, Mr. Trump. I think I understand JavaScript a little better now.'), ('Donald Trump', "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge."), ('Snow White', "Wait, Mr. Trump! What's the difference between JavaScript and Java?"), ('Donald Trump', 'Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.'), ('Snow White', "I see. So it's like comparing apples and oranges, Mr. Trump."), ('Donald Trump', "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me."), ('Snow White', "I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?"), ('Donald Trump', "Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience."), ('Snow White', "Ah, I see. So it's like a seamless transaction, Mr. Trump."), ('Donald Trump', "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me."), ('Snow White', 'Thank you, Mr. Trump. I think I finally understand JavaScript.'), ('Donald Trump', "Anytime, Snow. Now let's make some great deals, folks!")]
+    STATUS: Generating script...
+{
+"Snow White": "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure.:",
+"Snow White": "A wall? I'm not sure I understand, Mr. Trump.:",
+"Donald Trump": "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update.:",
+"Snow White": "I see. So it's like a team of builders working together to create a beautiful castle.:",
+"Donald Trump": "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!:",
+"Snow White": "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?:",
+"Donald Trump": "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks.:",
+"Snow White": "Wow, that sounds impressive. But what about its uses, Mr. Trump?:",
+"Donald Trump": "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device.:",
+"Snow White": "I see. So it's like a global phenomenon, Mr. Trump.:",
+"Donald Trump": "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me.:",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript a little better now.:",
+"Donald Trump": "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge.",
+"Snow White": "Wait, Mr. Trump! What's the difference between JavaScript and Java?:",
+"Donald Trump": "Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.:",
+"Snow White": "I see. So it's like comparing apples and oranges, Mr. Trump.:",
+"Donald Trump": "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me.",
+"Snow White": "I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?:",
+"Donald Trump": "Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience.:",
+"Snow White": "Ah, I see. So it's like a seamless transaction, Mr. Trump.:",
+"Donald Trump": "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me.",
+"Snow White": "Thank you, Mr. Trump. I think I finally understand JavaScript.:",
+"Donald Trump": "Anytime, Snow. Now let's make some great deals, folks!",
+"Snow White": "I think I need a bit more clarification on JavaScript. Can you explain it like you're giving a speech at the United Nations?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a fantastic language. It's got tremendous features, the best, the greatest, the most fantastic features. It's used everywhere, folks, on every website, every app, every device. Believe me, it's a big league language.",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript now.:",
+"Donald Trump": "That's terrific, Snow. Now let's get back to work on our next big project, folks. It's going to be yuge, just yuge."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Donald Trump...
+{"characters": "Snow White, Donald Trump", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_cg6heneq0rmkas3qj7ccz0t0r"], "indices": [3197, 909]}
+STATUS: emptied folder
+Parsed script: [('Snow White', "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?"), ('Donald Trump', "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure."), ('Snow White', "A wall? I'm not sure I understand, Mr. Trump."), ('Donald Trump', "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update."), ('Snow White', "I see. So it's like a team of builders working together to create a beautiful castle."), ('Donald Trump', "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!"), ('Snow White', "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?"), ('Donald Trump', "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks."), ('Snow White', 'Wow, that sounds impressive. But what about its uses, Mr. Trump?'), ('Donald Trump', "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device."), ('Snow White', "I see. So it's like a global phenomenon, Mr. Trump."), ('Donald Trump', "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me."), ('Snow White', 'Thank you, Mr. Trump. I think I understand JavaScript a little better now.'), ('Donald Trump', "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge."), ('Snow White', "Wait, Mr. Trump! What's the difference between JavaScript and Java?"), ('Donald Trump', 'Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.'), ('Snow White', "I see. So it's like comparing apples and oranges, Mr. Trump."), ('Donald Trump', "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me."), ('Snow White', "I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?"), ('Donald Trump', "Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience."), ('Snow White', "Ah, I see. So it's like a seamless transaction, Mr. Trump."), ('Donald Trump', "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me."), ('Snow White', 'Thank you, Mr. Trump. I think I finally understand JavaScript.'), ('Donald Trump', "Anytime, Snow. Now let's make some great deals, folks!"), ('Snow White', "I think I need a bit more clarification on JavaScript. Can you explain it like you're giving a speech at the United Nations?"), ('Donald Trump', "Folks, let me tell you, JavaScript is a fantastic language. It's got tremendous features, the best, the greatest, the most fantastic features. It's used everywhere, folks, on every website, every app, every device. Believe me, it's a big league language."), ('Snow White', 'Thank you, Mr. Trump. I think I understand JavaScript now.'), ('Donald Trump', "That's terrific, Snow. Now let's get back to work on our next big project, folks. It's going to be yuge, just yuge.")]
+entered run
+
+
+STATUS: Generating script...
+{
+"Snow White": "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure.:",
+"Snow White": "A wall? I'm not sure I understand, Mr. Trump.:",
+"Donald Trump": "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update.:",
+"Snow White": "I see. So it's like a team of builders working together to create a beautiful castle.:",
+"Donald Trump": "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!:",
+"Snow White": "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?:",
+"Donald Trump": "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks.:",
+"Snow White": "Wow, that sounds impressive. But what about its uses, Mr. Trump?:",
+"Donald Trump": "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device.:",
+"Snow White": "I see. So it's like a global phenomenon, Mr. Trump.:",
+"Donald Trump": "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me.:",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript a little better now.:",
+"Donald Trump": "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge.",
+"Snow White": "Wait, Mr. Trump! What's the difference between JavaScript and Java?:",
+"Donald Trump": "Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.:",
+"Snow White": "I see. So it's like comparing apples and oranges, Mr. Trump.:",
+"Donald Trump": "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me.",
+"Snow White": "I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?:",
+"Donald Trump": "Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience.:",
+"Snow White": "Ah, I see. So it's like a seamless transaction, Mr. Trump.:",
+"Donald Trump": "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me.",
+"Snow White": "Thank you, Mr. Trump. I think I finally understand JavaScript.:",
+"Donald Trump": "Anytime, Snow. Now let's make some great deals, folks!",
+"Snow White": "I think I need a bit more clarification on JavaScript. Can you explain it like you're giving a speech at the United Nations?:",
+"Donald Trump": "Folks, let me tell you, JavaScript is a fantastic language. It's got tremendous features, the best, the greatest, the most fantastic features. It's used everywhere, folks, on every website, every app, every device. Believe me, it's a big league language.",
+"Snow White": "Thank you, Mr. Trump. I think I understand JavaScript now.:",
+"Donald Trump": "That's terrific, Snow. Now let's get back to work on our next big project, folks. It's going to be yuge, just yuge.",
+"Snow White": "I have one more question, Mr. Trump. What are the benefits of using JavaScript?:",
+"Donald Trump": "Ah, a great question, Snow! The benefits of using JavaScript are tremendous, folks. It's fast, it's efficient, it's easy to learn. It's like a Trump Tower skyscraper, the best, the greatest, the most fantastic!",
+"Snow White": "Thank you, Mr. Trump. I think I've learned a lot about JavaScript today.:",
+"Donald Trump": "Anytime, Snow. Now let's make America great again, folks!"
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Snow White...
+STATUS: Converting text to voice for Donald Trump...
+{"characters": "Snow White, Donald Trump", "tokens": ["weight_xntkf0t36ze7r0ffmyemxypqg", "weight_ekwz4cqek5rrdez73rgy843ft"], "indices": [3197, 908]}
+STATUS: emptied folder
+Parsed script: [('Snow White', "Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?"), ('Donald Trump', "Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure."), ('Snow White', "A wall? I'm not sure I understand, Mr. Trump."), ('Donald Trump', "The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update."), ('Snow White', "I see. So it's like a team of builders working together to create a beautiful castle."), ('Donald Trump', "That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest!"), ('Snow White', "I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features?"), ('Donald Trump', "Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks."), ('Snow White', 'Wow, that sounds impressive. But what about its uses, Mr. Trump?'), ('Donald Trump', "Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device."), ('Snow White', "I see. So it's like a global phenomenon, Mr. Trump."), ('Donald Trump', "A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me."), ('Snow White', 'Thank you, Mr. Trump. I think I understand JavaScript a little better now.'), ('Donald Trump', "Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge."), ('Snow White', "Wait, Mr. Trump! What's the difference between JavaScript and Java?"), ('Donald Trump', 'Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky.'), ('Snow White', "I see. So it's like comparing apples and oranges, Mr. Trump."), ('Donald Trump', "Exactly, Snow! And I'm the one who knows all about great comparisons, believe me."), ('Snow White', "I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?"), ('Donald Trump', "Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience."), ('Snow White', "Ah, I see. So it's like a seamless transaction, Mr. Trump."), ('Donald Trump', "That's right, Snow! And I'm the one who knows all about seamless transactions, believe me."), ('Snow White', 'Thank you, Mr. Trump. I think I finally understand JavaScript.'), ('Donald Trump', "Anytime, Snow. Now let's make some great deals, folks!"), ('Snow White', "I think I need a bit more clarification on JavaScript. Can you explain it like you're giving a speech at the United Nations?"), ('Donald Trump', "Folks, let me tell you, JavaScript is a fantastic language. It's got tremendous features, the best, the greatest, the most fantastic features. It's used everywhere, folks, on every website, every app, every device. Believe me, it's a big league language."), ('Snow White', 'Thank you, Mr. Trump. I think I understand JavaScript now.'), ('Donald Trump', "That's terrific, Snow. Now let's get back to work on our next big project, folks. It's going to be yuge, just yuge."), ('Snow White', 'I have one more question, Mr. Trump. What are the benefits of using JavaScript?'), ('Donald Trump', "Ah, a great question, Snow! The benefits of using JavaScript are tremendous, folks. It's fast, it's efficient, it's easy to learn. It's like a Trump Tower skyscraper, the best, the greatest, the most fantastic!"), ('Snow White', "Thank you, Mr. Trump. I think I've learned a lot about JavaScript today."), ('Donald Trump', "Anytime, Snow. Now let's make America great again, folks!")]
+entered run
+Synthesizing text: Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper? with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_1_32e263f1.wav
+Processed Snow White: Mr. Trump, I've been trying to understand this concept of JavaScript. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper? -> snow_white_1_32e263f1.wav (9.37s)
+Synthesizing text: Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_2_c71ff51d.wav
+Processed Donald Trump: Folks, let me tell you, JavaScript is a big league programming language. It's tremendous, believe me. It's like a beautiful wall, keeping all the code organized and secure. -> donald_trump_2_c71ff51d.wav (9.76s)
+Synthesizing text: A wall? I'm not sure I understand, Mr. Trump. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_3_6cfa25d1.wav
+Processed Snow White: A wall? I'm not sure I understand, Mr. Trump. -> snow_white_3_6cfa25d1.wav (3.54s)
+Synthesizing text: The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_4_3a17a95e.wav
+Processed Donald Trump: The wall, Snow, it's a metaphor! JavaScript is like a wall that keeps all the code elements in line, making it easy to maintain and update. -> donald_trump_4_3a17a95e.wav (7.53s)
+Synthesizing text: I see. So it's like a team of builders working together to create a beautiful castle. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_5_ca6a7e8e.wav
+Processed Snow White: I see. So it's like a team of builders working together to create a beautiful castle. -> snow_white_5_ca6a7e8e.wav (5.51s)
+Synthesizing text: That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest! with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_6_be945613.wav
+Processed Donald Trump: That's right, Snow! And JavaScript is the ultimate builder, the best, the greatest, the fantasticest! -> donald_trump_6_be945613.wav (6.06s)
+Synthesizing text: I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features? with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_7_2ac002dc.wav
+Processed Snow White: I'm not sure I agree, Mr. Trump. Can you tell me more about JavaScript's features? -> snow_white_7_2ac002dc.wav (5.80s)
+Synthesizing text: Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_8_4ca8352b.wav
+Processed Donald Trump: Features, Snow, JavaScript has the best features, the greatest features, the most fantastic features! It's got functions, variables, loops, and more, folks. -> donald_trump_8_4ca8352b.wav (9.74s)
+Synthesizing text: Wow, that sounds impressive. But what about its uses, Mr. Trump? with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_9_36e80fdb.wav
+Processed Snow White: Wow, that sounds impressive. But what about its uses, Mr. Trump? -> snow_white_9_36e80fdb.wav (4.70s)
+Synthesizing text: Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_10_d219cac0.wav
+Processed Donald Trump: Uses, Snow, JavaScript is used everywhere, folks! It's like a Trump logo, on every website, every app, every device. -> donald_trump_10_d219cac0.wav (6.66s)
+Synthesizing text: I see. So it's like a global phenomenon, Mr. Trump. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_11_feb764fa.wav
+Processed Snow White: I see. So it's like a global phenomenon, Mr. Trump. -> snow_white_11_feb764fa.wav (4.16s)
+Synthesizing text: A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_12_64f5268b.wav
+Processed Donald Trump: A global phenomenon, Snow, that's what it is! And I'm the one who knows all about phenomena, believe me. -> donald_trump_12_64f5268b.wav (5.97s)
+Synthesizing text: Thank you, Mr. Trump. I think I understand JavaScript a little better now. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_13_b205addd.wav
+Processed Snow White: Thank you, Mr. Trump. I think I understand JavaScript a little better now. -> snow_white_13_b205addd.wav (4.69s)
+Synthesizing text: Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_14_589ba290.wav
+Processed Donald Trump: Anytime, Snow. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge. -> donald_trump_14_589ba290.wav (7.78s)
+Synthesizing text: Wait, Mr. Trump! What's the difference between JavaScript and Java? with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_15_7fb6aa94.wav
+Processed Snow White: Wait, Mr. Trump! What's the difference between JavaScript and Java? -> snow_white_15_7fb6aa94.wav (4.43s)
+Synthesizing text: Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_16_0bc8302a.wav
+Processed Donald Trump: Ah, a great question, Snow! JavaScript is like a luxury car, fast and sleek. Java is like a big, heavy truck, slow and clunky. -> donald_trump_16_0bc8302a.wav (8.72s)
+Synthesizing text: I see. So it's like comparing apples and oranges, Mr. Trump. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_17_2ab05d3f.wav
+Processed Snow White: I see. So it's like comparing apples and oranges, Mr. Trump. -> snow_white_17_2ab05d3f.wav (4.67s)
+Synthesizing text: Exactly, Snow! And I'm the one who knows all about great comparisons, believe me. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_18_61115458.wav
+Processed Donald Trump: Exactly, Snow! And I'm the one who knows all about great comparisons, believe me. -> donald_trump_18_61115458.wav (4.86s)
+Synthesizing text: I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life? with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_19_5e65f36a.wav
+ERROR: Failed to synthesize text 'I'm still a bit confused, Mr. Trump. Can you give me an example of how JavaScript is used in real life?' with token 'weight_xntkf0t36ze7r0ffmyemxypqg': Too many requests, try again later or use a proxy.
+Synthesizing text: Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_20_abe21e65.wav
+Processed Donald Trump: Okay, Snow, let me give you an example. JavaScript is used in online shopping carts, folks. It's like a beautiful, smooth, Trump-like experience. -> donald_trump_20_abe21e65.wav (8.05s)
+Synthesizing text: Ah, I see. So it's like a seamless transaction, Mr. Trump. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_21_210a783d.wav
+Processed Snow White: Ah, I see. So it's like a seamless transaction, Mr. Trump. -> snow_white_21_210a783d.wav (4.86s)
+Synthesizing text: That's right, Snow! And I'm the one who knows all about seamless transactions, believe me. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_22_031bd6f8.wav
+Processed Donald Trump: That's right, Snow! And I'm the one who knows all about seamless transactions, believe me. -> donald_trump_22_031bd6f8.wav (5.09s)
+Synthesizing text: Thank you, Mr. Trump. I think I finally understand JavaScript. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_23_00622af8.wav
+Processed Snow White: Thank you, Mr. Trump. I think I finally understand JavaScript. -> snow_white_23_00622af8.wav (4.43s)
+Synthesizing text: Anytime, Snow. Now let's make some great deals, folks! with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_24_15f864a6.wav
+Processed Donald Trump: Anytime, Snow. Now let's make some great deals, folks! -> donald_trump_24_15f864a6.wav (4.06s)
+Synthesizing text: I think I need a bit more clarification on JavaScript. Can you explain it like you're giving a speech at the United Nations? with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_25_8cdcfbc1.wav
+Processed Snow White: I think I need a bit more clarification on JavaScript. Can you explain it like you're giving a speech at the United Nations? -> snow_white_25_8cdcfbc1.wav (7.47s)
+Synthesizing text: Folks, let me tell you, JavaScript is a fantastic language. It's got tremendous features, the best, the greatest, the most fantastic features. It's used everywhere, folks, on every website, every app, every device. Believe me, it's a big league language. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_26_6dcda6c2.wav
+Processed Donald Trump: Folks, let me tell you, JavaScript is a fantastic language. It's got tremendous features, the best, the greatest, the most fantastic features. It's used everywhere, folks, on every website, every app, every device. Believe me, it's a big league language. -> donald_trump_26_6dcda6c2.wav (11.61s)
+Synthesizing text: Thank you, Mr. Trump. I think I understand JavaScript now. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_27_03d6b938.wav
+Processed Snow White: Thank you, Mr. Trump. I think I understand JavaScript now. -> snow_white_27_03d6b938.wav (4.45s)
+Synthesizing text: That's terrific, Snow. Now let's get back to work on our next big project, folks. It's going to be yuge, just yuge. with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_28_ee528739.wav
+Processed Donald Trump: That's terrific, Snow. Now let's get back to work on our next big project, folks. It's going to be yuge, just yuge. -> donald_trump_28_ee528739.wav (6.28s)
+Synthesizing text: I have one more question, Mr. Trump. What are the benefits of using JavaScript? with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_29_15013765.wav
+ERROR: Failed to synthesize text 'I have one more question, Mr. Trump. What are the benefits of using JavaScript?' with token 'weight_xntkf0t36ze7r0ffmyemxypqg': Too many requests, try again later or use a proxy.
+Synthesizing text: Ah, a great question, Snow! The benefits of using JavaScript are tremendous, folks. It's fast, it's efficient, it's easy to learn. It's like a Trump Tower skyscraper, the best, the greatest, the most fantastic! with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_30_b00b5a4a.wav
+Processed Donald Trump: Ah, a great question, Snow! The benefits of using JavaScript are tremendous, folks. It's fast, it's efficient, it's easy to learn. It's like a Trump Tower skyscraper, the best, the greatest, the most fantastic! -> donald_trump_30_b00b5a4a.wav (11.61s)
+Synthesizing text: Thank you, Mr. Trump. I think I've learned a lot about JavaScript today. with token: weight_xntkf0t36ze7r0ffmyemxypqg to media/generated/audio/snow_white_31_320c7106.wav
+Processed Snow White: Thank you, Mr. Trump. I think I've learned a lot about JavaScript today. -> snow_white_31_320c7106.wav (4.48s)
+Synthesizing text: Anytime, Snow. Now let's make America great again, folks! with token: weight_ekwz4cqek5rrdez73rgy843ft to media/generated/audio/donald_trump_32_1feb97cb.wav
+Processed Donald Trump: Anytime, Snow. Now let's make America great again, folks! -> donald_trump_32_1feb97cb.wav (4.32s)
+Final audio path: media/generated/audio/final_audio.wav
+Timeline: [{"speaker": "Snow White", "start": 0.0, "duration": 9.36925, "filename": "snow_white_1_32e263f1.wav"}, {"speaker": "Donald Trump", "start": 9.36925, "duration": 9.76396875, "filename": "donald_trump_2_c71ff51d.wav"}, {"speaker": "Snow White", "start": 19.133218749999997, "duration": 3.54103125, "filename": "snow_white_3_6cfa25d1.wav"}, {"speaker": "Donald Trump", "start": 22.674249999999997, "duration": 7.534875, "filename": "donald_trump_4_3a17a95e.wav"}, {"speaker": "Snow White", "start": 30.209124999999997, "duration": 5.51471875, "filename": "snow_white_5_ca6a7e8e.wav"}, {"speaker": "Donald Trump", "start": 35.72384375, "duration": 6.06040625, "filename": "donald_trump_6_be945613.wav"}, {"speaker": "Snow White", "start": 41.78425, "duration": 5.80496875, "filename": "snow_white_7_2ac002dc.wav"}, {"speaker": "Donald Trump", "start": 47.58921875, "duration": 9.74075, "filename": "donald_trump_8_4ca8352b.wav"}, {"speaker": "Snow White", "start": 57.32996875, "duration": 4.70203125, "filename": "snow_white_9_36e80fdb.wav"}, {"speaker": "Donald Trump", "start": 62.032, "duration": 6.664125, "filename": "donald_trump_10_d219cac0.wav"}, {"speaker": "Snow White", "start": 68.696125, "duration": 4.15634375, "filename": "snow_white_11_feb764fa.wav"}, {"speaker": "Donald Trump", "start": 72.85246875, "duration": 5.9675, "filename": "donald_trump_12_64f5268b.wav"}, {"speaker": "Snow White", "start": 78.81996875, "duration": 4.69040625, "filename": "snow_white_13_b205addd.wav"}, {"speaker": "Donald Trump", "start": 83.510375, "duration": 7.77865625, "filename": "donald_trump_14_589ba290.wav"}, {"speaker": "Snow White", "start": 91.28903125, "duration": 4.435, "filename": "snow_white_15_7fb6aa94.wav"}, {"speaker": "Donald Trump", "start": 95.72403125, "duration": 8.7190625, "filename": "donald_trump_16_0bc8302a.wav"}, {"speaker": "Snow White", "start": 104.44309375, "duration": 4.6671875, "filename": "snow_white_17_2ab05d3f.wav"}, {"speaker": "Donald Trump", "start": 109.11028125, "duration": 4.8645625, "filename": "donald_trump_18_61115458.wav"}, {"speaker": "Donald Trump", "start": 113.97484375, "duration": 8.0456875, "filename": "donald_trump_20_abe21e65.wav"}, {"speaker": "Snow White", "start": 122.02053125, "duration": 4.8645625, "filename": "snow_white_21_210a783d.wav"}, {"speaker": "Donald Trump", "start": 126.88509375000001, "duration": 5.08515625, "filename": "donald_trump_22_031bd6f8.wav"}, {"speaker": "Snow White", "start": 131.97025000000002, "duration": 4.435, "filename": "snow_white_23_00622af8.wav"}, {"speaker": "Donald Trump", "start": 136.40525000000002, "duration": 4.06346875, "filename": "donald_trump_24_15f864a6.wav"}, {"speaker": "Snow White", "start": 140.46871875000002, "duration": 7.4651875, "filename": "snow_white_25_8cdcfbc1.wav"}, {"speaker": "Donald Trump", "start": 147.93390625000004, "duration": 11.60996875, "filename": "donald_trump_26_6dcda6c2.wav"}, {"speaker": "Snow White", "start": 159.54387500000004, "duration": 4.44659375, "filename": "snow_white_27_03d6b938.wav"}, {"speaker": "Donald Trump", "start": 163.99046875000005, "duration": 6.28096875, "filename": "donald_trump_28_ee528739.wav"}, {"speaker": "Donald Trump", "start": 170.27143750000005, "duration": 11.60996875, "filename": "donald_trump_30_b00b5a4a.wav"}, {"speaker": "Snow White", "start": 181.88140625000005, "duration": 4.4814375, "filename": "snow_white_31_320c7106.wav"}, {"speaker": "Donald Trump", "start": 186.36284375000005, "duration": 4.31890625, "filename": "donald_trump_32_1feb97cb.wav"}]
+{"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Snow White", "start": 0.0, "duration": 9.36925, "filename": "snow_white_1_32e263f1.wav"}, {"speaker": "Donald Trump", "start": 9.36925, "duration": 9.76396875, "filename": "donald_trump_2_c71ff51d.wav"}, {"speaker": "Snow White", "start": 19.133218749999997, "duration": 3.54103125, "filename": "snow_white_3_6cfa25d1.wav"}, {"speaker": "Donald Trump", "start": 22.674249999999997, "duration": 7.534875, "filename": "donald_trump_4_3a17a95e.wav"}, {"speaker": "Snow White", "start": 30.209124999999997, "duration": 5.51471875, "filename": "snow_white_5_ca6a7e8e.wav"}, {"speaker": "Donald Trump", "start": 35.72384375, "duration": 6.06040625, "filename": "donald_trump_6_be945613.wav"}, {"speaker": "Snow White", "start": 41.78425, "duration": 5.80496875, "filename": "snow_white_7_2ac002dc.wav"}, {"speaker": "Donald Trump", "start": 47.58921875, "duration": 9.74075, "filename": "donald_trump_8_4ca8352b.wav"}, {"speaker": "Snow White", "start": 57.32996875, "duration": 4.70203125, "filename": "snow_white_9_36e80fdb.wav"}, {"speaker": "Donald Trump", "start": 62.032, "duration": 6.664125, "filename": "donald_trump_10_d219cac0.wav"}, {"speaker": "Snow White", "start": 68.696125, "duration": 4.15634375, "filename": "snow_white_11_feb764fa.wav"}, {"speaker": "Donald Trump", "start": 72.85246875, "duration": 5.9675, "filename": "donald_trump_12_64f5268b.wav"}, {"speaker": "Snow White", "start": 78.81996875, "duration": 4.69040625, "filename": "snow_white_13_b205addd.wav"}, {"speaker": "Donald Trump", "start": 83.510375, "duration": 7.77865625, "filename": "donald_trump_14_589ba290.wav"}, {"speaker": "Snow White", "start": 91.28903125, "duration": 4.435, "filename": "snow_white_15_7fb6aa94.wav"}, {"speaker": "Donald Trump", "start": 95.72403125, "duration": 8.7190625, "filename": "donald_trump_16_0bc8302a.wav"}, {"speaker": "Snow White", "start": 104.44309375, "duration": 4.6671875, "filename": "snow_white_17_2ab05d3f.wav"}, {"speaker": "Donald Trump", "start": 109.11028125, "duration": 4.8645625, "filename": "donald_trump_18_61115458.wav"}, {"speaker": "Donald Trump", "start": 113.97484375, "duration": 8.0456875, "filename": "donald_trump_20_abe21e65.wav"}, {"speaker": "Snow White", "start": 122.02053125, "duration": 4.8645625, "filename": "snow_white_21_210a783d.wav"}, {"speaker": "Donald Trump", "start": 126.88509375000001, "duration": 5.08515625, "filename": "donald_trump_22_031bd6f8.wav"}, {"speaker": "Snow White", "start": 131.97025000000002, "duration": 4.435, "filename": "snow_white_23_00622af8.wav"}, {"speaker": "Donald Trump", "start": 136.40525000000002, "duration": 4.06346875, "filename": "donald_trump_24_15f864a6.wav"}, {"speaker": "Snow White", "start": 140.46871875000002, "duration": 7.4651875, "filename": "snow_white_25_8cdcfbc1.wav"}, {"speaker": "Donald Trump", "start": 147.93390625000004, "duration": 11.60996875, "filename": "donald_trump_26_6dcda6c2.wav"}, {"speaker": "Snow White", "start": 159.54387500000004, "duration": 4.44659375, "filename": "snow_white_27_03d6b938.wav"}, {"speaker": "Donald Trump", "start": 163.99046875000005, "duration": 6.28096875, "filename": "donald_trump_28_ee528739.wav"}, {"speaker": "Donald Trump", "start": 170.27143750000005, "duration": 11.60996875, "filename": "donald_trump_30_b00b5a4a.wav"}, {"speaker": "Snow White", "start": 181.88140625000005, "duration": 4.4814375, "filename": "snow_white_31_320c7106.wav"}, {"speaker": "Donald Trump", "start": 186.36284375000005, "duration": 4.31890625, "filename": "donald_trump_32_1feb97cb.wav"}]}

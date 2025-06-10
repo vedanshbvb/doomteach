@@ -1,12 +1,14 @@
 import sys
 import json
 import os
+import glob
 
 from script_generator import generate_script, identify_characters
 from voice_generator import get_token_for_character, voices
 from tts import TTSPipeline
 
 LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline.log")
+AUDIO_FOLDER = os.path.join(os.path.dirname(__file__), "../media/generated/audio")
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
@@ -43,49 +45,74 @@ def my_pipeline_function(result, script):
         "timestamps": timeline
     }
 
+def empty_audio_folder():
+    files = glob.glob(os.path.join(AUDIO_FOLDER, "*"))
+    for f in files:
+        try:
+            os.remove(f)
+        except Exception as e:
+            log_line(f"ERROR: Could not remove {f}: {e}")
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         log_line("STATUS: No prompt provided.")
-        print("STATUS: No prompt provided.", flush=True)
         sys.exit(1)
+
     user_prompt = sys.argv[1]
+
     log_line("STATUS: Generating script...")
-    print("STATUS: Generating script...", flush=True)
+
     script, characters = call_script_generator(user_prompt)
     log_line(script)
     log_line("STATUS: Script generated.")
-    print("STATUS: Script generated.", flush=True)
+
+
     char_list = [c.strip() for c in characters.split(',') if c.strip()] if characters else []
     tokens = []
     indices = []
     for character in char_list:
         log_line(f"STATUS: Converting text to voice for {character}...")
-        print(f"STATUS: Converting text to voice for {character}...", flush=True)
+
         token, index = call_voice_generator(character)
         tokens.append(token)
         indices.append(index)
-        # log_line("STATUS: Voice conversion done.")
-        print("poop", flush=True)
+
     result = {
-        # "script": script,  # Do not include script in output
         "characters": characters,
         "tokens": tokens,
         "indices": indices
     }
-
-    # Parse the script JSON object into a list of (speaker, line) tuples
-    if isinstance(script, str):
-        try:
-            script_dict = json.loads(script)
-            parsed_script = [(speaker, line) for speaker, line in script_dict.items()]
-            script = parsed_script
-        except Exception as e:
-            log_line(f"ERROR: Failed to parse script JSON: {e}")
-            script = []
-
-    tts_output = my_pipeline_function(result, script)
-    log_line(json.dumps(tts_output))
-    print(json.dumps(tts_output), flush=True)
-
     log_line(json.dumps(result))
-    print(json.dumps(result), flush=True)
+
+    empty_audio_folder()
+    log_line("STATUS: emptied folder")
+
+    parsed_script = []
+    try:
+        if isinstance(script, str):
+            # Use object_pairs_hook to preserve order in dict
+            script_pairs = json.loads(script, object_pairs_hook=list)
+            if isinstance(script_pairs, list):
+                parsed_script = [(k, v.strip().rstrip(":")) for k, v in script_pairs if isinstance(k, str) and isinstance(v, str)]
+        elif isinstance(script, dict):
+            # Convert to list but order is not guaranteed
+            parsed_script = [(k, v.strip().rstrip(":")) for k, v in script.items()]
+        elif isinstance(script, list) and all(isinstance(item, (list, tuple)) and len(item) == 2 for item in script):
+            parsed_script = [(item[0], item[1].strip().rstrip(":")) for item in script]
+    except Exception as e:
+        log_line(f"ERROR: Failed to parse script JSON: {e}")
+        parsed_script = []
+
+
+
+    log_line(f"Parsed script: {parsed_script}")
+
+    
+    
+
+    tts_output = my_pipeline_function(result, parsed_script)
+    log_line(json.dumps(tts_output))
+
+
+    
+
