@@ -20,6 +20,7 @@ from video_editing import create_video_with_stickers  # <-- import the new funct
 
 LOG_FILE = os.path.join(get_project_root(), "generator", "pipeline2.log")
 AUDIO_FOLDER = os.path.join(get_project_root(), "media", "generated", "audio")
+VIDEO_FOLDER = os.path.join(get_project_root(), "media", "generated", "video")
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
@@ -53,6 +54,14 @@ def my_pipeline_function(char_list, script):
 
 def empty_audio_folder():
     files = glob.glob(os.path.join(AUDIO_FOLDER, "*"))
+    for f in files:
+        try:
+            os.remove(f)
+        except Exception as e:
+            log_line(f"ERROR: Could not remove {f}: {e}")
+
+def empty_video_folder():
+    files = glob.glob(os.path.join(VIDEO_FOLDER, "*"))
     for f in files:
         try:
             os.remove(f)
@@ -110,6 +119,9 @@ if __name__ == "__main__":
             log_line("STATUS: Sticker images downloaded.")
         except Exception as e:
             log_line(f"ERROR: Failed to download stickers: {e}")
+
+    empty_video_folder()
+    log_line("STATUS: emptied video folder")
 
     # Call video editing after TTS and stickers
     try:

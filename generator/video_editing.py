@@ -7,12 +7,24 @@ import subprocess
 from moviepy.editor import VideoFileClip, AudioFileClip, CompositeVideoClip, ImageClip, TextClip
 from moviepy.video.fx.all import loop
 
+def get_project_root():
+    # Returns the doomteach/ directory (one level up from this file)
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 def convert_mp3_to_wav(mp3_path, wav_path):
     """Converts MP3 to WAV using ffmpeg"""
     subprocess.run([
         "ffmpeg", "-y", "-i", mp3_path, wav_path
     ], check=True)
+
+
+LOG_FILE = os.path.join(get_project_root(), "generator", "pipeline2.log")
+def log_line(line):
+    with open(LOG_FILE, "a") as f:
+        f.write(line + "\n")
+
+
 
 
 def resolve_path(path):
@@ -112,7 +124,8 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
                         txt=subtitle_text,
                         fontsize=40,
                         color='white',
-                        font='Arial-Bold',
+                        # font='Arial-Bold',
+                        font='Helvetica-Bold',
                         stroke_color='black',
                         stroke_width=2,
                         size=(text_width, None),
@@ -121,11 +134,14 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
                     )
                     .set_duration(duration)
                     .set_start(start)
-                    .set_position(('center', video.h - 120))
+                    .set_position(('center', 'center'))
                 )
                 clips.append(subtitle)
+                log_line(f"Created subtitle for '{subtitle_text}' at {start:.2f}s with duration {duration:.2f}s")
             except Exception as e:
                 print(f"Warning: Could not create subtitle for '{subtitle_text}': {e}")
+                log_line(f"ERROR: Could not create subtitle for '{subtitle_text}': {e}")
+
 
     # Create final composite video
     final_video = CompositeVideoClip(clips, size=video.size).set_duration(target_duration)

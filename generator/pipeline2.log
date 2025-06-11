@@ -1846,3 +1846,121 @@ Timeline: [{"speaker": "Captain America", "start": 0.0, "duration": 4.8587755102
 {"audio_path": "media/generated/audio/final_audio.mp3", "timestamps": [{"speaker": "Captain America", "start": 0.0, "duration": 4.858775510204081, "filename": "captain_america_1.mp3"}, {"speaker": "Green Lantern", "start": 4.858775510204081, "duration": 9.613061224489796, "filename": "green_lantern_2.mp3"}, {"speaker": "Captain America", "start": 14.471836734693877, "duration": 3.3436734693877552, "filename": "captain_america_3.mp3"}, {"speaker": "Green Lantern", "start": 17.815510204081633, "duration": 9.37795918367347, "filename": "green_lantern_4.mp3"}, {"speaker": "Captain America", "start": 27.1934693877551, "duration": 3.5787755102040815, "filename": "captain_america_5.mp3"}, {"speaker": "Green Lantern", "start": 30.772244897959183, "duration": 9.508571428571429, "filename": "green_lantern_6.mp3"}, {"speaker": "Captain America", "start": 40.28081632653061, "duration": 3.0040816326530613, "filename": "captain_america_7.mp3"}, {"speaker": "Green Lantern", "start": 43.284897959183674, "duration": 8.437551020408163, "filename": "green_lantern_8.mp3"}, {"speaker": "Captain America", "start": 51.72244897959184, "duration": 3.709387755102041, "filename": "captain_america_9.mp3"}, {"speaker": "Green Lantern", "start": 55.43183673469388, "duration": 8.306938775510204, "filename": "green_lantern_10.mp3"}, {"speaker": "Captain America", "start": 63.738775510204086, "duration": 2.403265306122449, "filename": "captain_america_11.mp3"}, {"speaker": "Green Lantern", "start": 66.14204081632653, "duration": 9.142857142857142, "filename": "green_lantern_12.mp3"}, {"speaker": "Captain America", "start": 75.28489795918367, "duration": 1.906938775510204, "filename": "captain_america_13.mp3"}, {"speaker": "Green Lantern", "start": 77.19183673469387, "duration": 5.851428571428571, "filename": "green_lantern_14.mp3"}, {"speaker": "Captain America", "start": 83.04326530612244, "duration": 3.422040816326531, "filename": "captain_america_15.mp3"}, {"speaker": "Green Lantern", "start": 86.46530612244896, "duration": 11.728979591836735, "filename": "green_lantern_16.mp3"}, {"speaker": "Captain America", "start": 98.1942857142857, "duration": 1.6979591836734693, "filename": "captain_america_17.mp3"}, {"speaker": "Green Lantern", "start": 99.89224489795917, "duration": 6.086530612244898, "filename": "green_lantern_18.mp3"}, {"speaker": "Captain America", "start": 105.97877551020407, "duration": 1.5673469387755101, "filename": "captain_america_19.mp3"}]}
 STATUS: Sticker images downloaded.
 STATUS: Video created with stickers.
+
+
+
+STATUS: Generating script...
+Generated script: {
+"Cinderella": "Peter, I've been wanting to learn more about programming and I was wondering if you could tell me about C++.",
+"Peter Griffin": "C++? Ah, yeah, it's like, a programming language, Lois.",
+"Cinderella": "That's what I thought. So, what makes it so special?",
+"Peter Griffin": "Well, Cinderella, C++ is an object-oriented language, which means it's like a fairy tale, but instead of princesses and castles, it's about objects and classes.",
+"Cinderella": "I see. So, it's like a magic wand for computers?",
+"Peter Griffin": "Ha! Yeah, something like that, Cinderella. But seriously, C++ is a powerful language that's used in many applications, from games to operating systems.",
+"Cinderella": "That's impressive. What about the benefits of using C++?",
+"Peter Griffin": "Well, Cinderella, C++ is fast, efficient, and can be used for a wide range of applications.",
+"Cinderella": "That sounds great. But what about the challenges of learning C++?",
+"Peter Griffin": "Ah, Cinderella, C++ can be tough to learn, especially for beginners. But with practice and patience, anyone can become a C++ master.",
+"Cinderella": "I see. So, it's like learning to dance, it takes time and practice?",
+"Peter Griffin": "Exactly, Cinderella. And with the right resources, you can be dancing your way to C++ mastery in no time.",
+"Cinderella": "Thanks for explaining it to me, Peter.",
+"Peter Griffin": "No problem, Cinderella. It's always great to talk tech with a princess.",
+"Cinderella": "Bye, Peter.",
+"Peter Griffin": "Bye, Cinderella."
+{
+"Cinderella": "Peter, I've been wanting to learn more about programming and I was wondering if you could tell me about C++.",
+"Peter Griffin": "C++? Ah, yeah, it's like, a programming language, Lois.",
+"Cinderella": "That's what I thought. So, what makes it so special?",
+"Peter Griffin": "Well, Cinderella, C++ is an object-oriented language, which means it's like a fairy tale, but instead of princesses and castles, it's about objects and classes.",
+"Cinderella": "I see. So, it's like a magic wand for computers?",
+"Peter Griffin": "Ha! Yeah, something like that, Cinderella. But seriously, C++ is a powerful language that's used in many applications, from games to operating systems.",
+"Cinderella": "That's impressive. What about the benefits of using C++?",
+"Peter Griffin": "Well, Cinderella, C++ is fast, efficient, and can be used for a wide range of applications.",
+"Cinderella": "That sounds great. But what about the challenges of learning C++?",
+"Peter Griffin": "Ah, Cinderella, C++ can be tough to learn, especially for beginners. But with practice and patience, anyone can become a C++ master.",
+"Cinderella": "I see. So, it's like learning to dance, it takes time and practice?",
+"Peter Griffin": "Exactly, Cinderella. And with the right resources, you can be dancing your way to C++ mastery in no time.",
+"Cinderella": "Thanks for explaining it to me, Peter.",
+"Peter Griffin": "No problem, Cinderella. It's always great to talk tech with a princess.",
+"Cinderella": "Bye, Peter.",
+"Peter Griffin": "Bye, Cinderella."}
+STATUS: Script generated.
+STATUS: Converting text to voice for Cinderella...
+STATUS: Converting text to voice for Peter Griffin...
+STATUS: emptied audio folder
+Parsed script: [('Cinderella', "Peter, I've been wanting to learn more about programming and I was wondering if you could tell me about C++."), ('Peter Griffin', "C++? Ah, yeah, it's like, a programming language, Lois."), ('Cinderella', "That's what I thought. So, what makes it so special?"), ('Peter Griffin', "Well, Cinderella, C++ is an object-oriented language, which means it's like a fairy tale, but instead of princesses and castles, it's about objects and classes."), ('Cinderella', "I see. So, it's like a magic wand for computers?"), ('Peter Griffin', "Ha! Yeah, something like that, Cinderella. But seriously, C++ is a powerful language that's used in many applications, from games to operating systems."), ('Cinderella', "That's impressive. What about the benefits of using C++?"), ('Peter Griffin', 'Well, Cinderella, C++ is fast, efficient, and can be used for a wide range of applications.'), ('Cinderella', 'That sounds great. But what about the challenges of learning C++?'), ('Peter Griffin', 'Ah, Cinderella, C++ can be tough to learn, especially for beginners. But with practice and patience, anyone can become a C++ master.'), ('Cinderella', "I see. So, it's like learning to dance, it takes time and practice?"), ('Peter Griffin', 'Exactly, Cinderella. And with the right resources, you can be dancing your way to C++ mastery in no time.'), ('Cinderella', 'Thanks for explaining it to me, Peter.'), ('Peter Griffin', "No problem, Cinderella. It's always great to talk tech with a princess."), ('Cinderella', 'Bye, Peter.'), ('Peter Griffin', 'Bye, Cinderella.')]
+entered run
+Synthesizing text: Peter, I've been wanting to learn more about programming and I was wondering if you could tell me about C++. to media/generated/audio/cinderella_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-nst-2025-06-11-14-56-54.mp3
+Audio duration: 5.15s
+Processed Cinderella: Peter, I've been wanting to learn more about programming and I was wondering if you could tell me about C++. -> cinderella_1.mp3 (5.15s)
+Synthesizing text: C++? Ah, yeah, it's like, a programming language, Lois. to media/generated/audio/peter_griffin_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-haj-2025-06-11-14-57-10.mp3
+Audio duration: 5.02s
+Processed Peter Griffin: C++? Ah, yeah, it's like, a programming language, Lois. -> peter_griffin_2.mp3 (5.02s)
+Synthesizing text: That's what I thought. So, what makes it so special? to media/generated/audio/cinderella_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lax-2025-06-11-14-57-26.mp3
+Audio duration: 2.74s
+Processed Cinderella: That's what I thought. So, what makes it so special? -> cinderella_3.mp3 (2.74s)
+Synthesizing text: Well, Cinderella, C++ is an object-oriented language, which means it's like a fairy tale, but instead of princesses and castles, it's about objects and classes. to media/generated/audio/peter_griffin_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-pae-2025-06-11-14-57-43.mp3
+Audio duration: 12.62s
+Processed Peter Griffin: Well, Cinderella, C++ is an object-oriented language, which means it's like a fairy tale, but instead of princesses and castles, it's about objects and classes. -> peter_griffin_4.mp3 (12.62s)
+Synthesizing text: I see. So, it's like a magic wand for computers? to media/generated/audio/cinderella_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-oot-2025-06-11-14-58-00.mp3
+Audio duration: 2.74s
+Processed Cinderella: I see. So, it's like a magic wand for computers? -> cinderella_5.mp3 (2.74s)
+Synthesizing text: Ha! Yeah, something like that, Cinderella. But seriously, C++ is a powerful language that's used in many applications, from games to operating systems. to media/generated/audio/peter_griffin_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dym-2025-06-11-14-58-16.mp3
+Audio duration: 11.10s
+Processed Peter Griffin: Ha! Yeah, something like that, Cinderella. But seriously, C++ is a powerful language that's used in many applications, from games to operating systems. -> peter_griffin_6.mp3 (11.10s)
+Synthesizing text: That's impressive. What about the benefits of using C++? to media/generated/audio/cinderella_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-htf-2025-06-11-14-58-33.mp3
+Audio duration: 3.37s
+Processed Cinderella: That's impressive. What about the benefits of using C++? -> cinderella_7.mp3 (3.37s)
+Synthesizing text: Well, Cinderella, C++ is fast, efficient, and can be used for a wide range of applications. to media/generated/audio/peter_griffin_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-aia-2025-06-11-14-58-49.mp3
+Audio duration: 7.00s
+Processed Peter Griffin: Well, Cinderella, C++ is fast, efficient, and can be used for a wide range of applications. -> peter_griffin_8.mp3 (7.00s)
+Synthesizing text: That sounds great. But what about the challenges of learning C++? to media/generated/audio/cinderella_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-wsd-2025-06-11-14-59-06.mp3
+Audio duration: 3.42s
+Processed Cinderella: That sounds great. But what about the challenges of learning C++? -> cinderella_9.mp3 (3.42s)
+Synthesizing text: Ah, Cinderella, C++ can be tough to learn, especially for beginners. But with practice and patience, anyone can become a C++ master. to media/generated/audio/peter_griffin_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-xms-2025-06-11-14-59-23.mp3
+Audio duration: 11.00s
+Processed Peter Griffin: Ah, Cinderella, C++ can be tough to learn, especially for beginners. But with practice and patience, anyone can become a C++ master. -> peter_griffin_10.mp3 (11.00s)
+Synthesizing text: I see. So, it's like learning to dance, it takes time and practice? to media/generated/audio/cinderella_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-omw-2025-06-11-14-59-39.mp3
+Audio duration: 3.53s
+Processed Cinderella: I see. So, it's like learning to dance, it takes time and practice? -> cinderella_11.mp3 (3.53s)
+Synthesizing text: Exactly, Cinderella. And with the right resources, you can be dancing your way to C++ mastery in no time. to media/generated/audio/peter_griffin_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ilg-2025-06-11-14-59-55.mp3
+Audio duration: 7.34s
+Processed Peter Griffin: Exactly, Cinderella. And with the right resources, you can be dancing your way to C++ mastery in no time. -> peter_griffin_12.mp3 (7.34s)
+Synthesizing text: Thanks for explaining it to me, Peter. to media/generated/audio/cinderella_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lmb-2025-06-11-15-00-11.mp3
+Audio duration: 1.67s
+Processed Cinderella: Thanks for explaining it to me, Peter. -> cinderella_13.mp3 (1.67s)
+Synthesizing text: No problem, Cinderella. It's always great to talk tech with a princess. to media/generated/audio/peter_griffin_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-upr-2025-06-11-15-00-28.mp3
+Audio duration: 4.68s
+Processed Peter Griffin: No problem, Cinderella. It's always great to talk tech with a princess. -> peter_griffin_14.mp3 (4.68s)
+Synthesizing text: Bye, Peter. to media/generated/audio/cinderella_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ytj-2025-06-11-15-00-44.mp3
+Audio duration: 0.73s
+Processed Cinderella: Bye, Peter. -> cinderella_15.mp3 (0.73s)
+Synthesizing text: Bye, Cinderella. to media/generated/audio/peter_griffin_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-kji-2025-06-11-15-01-00.mp3
+Audio duration: 1.33s
+Processed Peter Griffin: Bye, Cinderella. -> peter_griffin_16.mp3 (1.33s)
+Final audio path: media/generated/audio/final_audio.mp3
+Timeline: [{"speaker": "Cinderella", "start": 0.0, "duration": 5.146122448979592, "filename": "cinderella_1.mp3"}, {"speaker": "Peter Griffin", "start": 5.146122448979592, "duration": 5.015510204081632, "filename": "peter_griffin_2.mp3"}, {"speaker": "Cinderella", "start": 10.161632653061226, "duration": 2.742857142857143, "filename": "cinderella_3.mp3"}, {"speaker": "Peter Griffin", "start": 12.90448979591837, "duration": 12.617142857142857, "filename": "peter_griffin_4.mp3"}, {"speaker": "Cinderella", "start": 25.521632653061225, "duration": 2.742857142857143, "filename": "cinderella_5.mp3"}, {"speaker": "Peter Griffin", "start": 28.26448979591837, "duration": 11.10204081632653, "filename": "peter_griffin_6.mp3"}, {"speaker": "Cinderella", "start": 39.3665306122449, "duration": 3.369795918367347, "filename": "cinderella_7.mp3"}, {"speaker": "Peter Griffin", "start": 42.736326530612246, "duration": 7.000816326530612, "filename": "peter_griffin_8.mp3"}, {"speaker": "Cinderella", "start": 49.73714285714286, "duration": 3.422040816326531, "filename": "cinderella_9.mp3"}, {"speaker": "Peter Griffin", "start": 53.159183673469386, "duration": 10.997551020408164, "filename": "peter_griffin_10.mp3"}, {"speaker": "Cinderella", "start": 64.15673469387755, "duration": 3.526530612244898, "filename": "cinderella_11.mp3"}, {"speaker": "Peter Griffin", "start": 67.68326530612245, "duration": 7.340408163265306, "filename": "peter_griffin_12.mp3"}, {"speaker": "Cinderella", "start": 75.02367346938776, "duration": 1.6718367346938776, "filename": "cinderella_13.mp3"}, {"speaker": "Peter Griffin", "start": 76.69551020408164, "duration": 4.675918367346939, "filename": "peter_griffin_14.mp3"}, {"speaker": "Cinderella", "start": 81.37142857142858, "duration": 0.7314285714285714, "filename": "cinderella_15.mp3"}, {"speaker": "Peter Griffin", "start": 82.10285714285715, "duration": 1.3322448979591837, "filename": "peter_griffin_16.mp3"}]
+{"audio_path": "media/generated/audio/final_audio.mp3", "timestamps": [{"speaker": "Cinderella", "start": 0.0, "duration": 5.146122448979592, "filename": "cinderella_1.mp3"}, {"speaker": "Peter Griffin", "start": 5.146122448979592, "duration": 5.015510204081632, "filename": "peter_griffin_2.mp3"}, {"speaker": "Cinderella", "start": 10.161632653061226, "duration": 2.742857142857143, "filename": "cinderella_3.mp3"}, {"speaker": "Peter Griffin", "start": 12.90448979591837, "duration": 12.617142857142857, "filename": "peter_griffin_4.mp3"}, {"speaker": "Cinderella", "start": 25.521632653061225, "duration": 2.742857142857143, "filename": "cinderella_5.mp3"}, {"speaker": "Peter Griffin", "start": 28.26448979591837, "duration": 11.10204081632653, "filename": "peter_griffin_6.mp3"}, {"speaker": "Cinderella", "start": 39.3665306122449, "duration": 3.369795918367347, "filename": "cinderella_7.mp3"}, {"speaker": "Peter Griffin", "start": 42.736326530612246, "duration": 7.000816326530612, "filename": "peter_griffin_8.mp3"}, {"speaker": "Cinderella", "start": 49.73714285714286, "duration": 3.422040816326531, "filename": "cinderella_9.mp3"}, {"speaker": "Peter Griffin", "start": 53.159183673469386, "duration": 10.997551020408164, "filename": "peter_griffin_10.mp3"}, {"speaker": "Cinderella", "start": 64.15673469387755, "duration": 3.526530612244898, "filename": "cinderella_11.mp3"}, {"speaker": "Peter Griffin", "start": 67.68326530612245, "duration": 7.340408163265306, "filename": "peter_griffin_12.mp3"}, {"speaker": "Cinderella", "start": 75.02367346938776, "duration": 1.6718367346938776, "filename": "cinderella_13.mp3"}, {"speaker": "Peter Griffin", "start": 76.69551020408164, "duration": 4.675918367346939, "filename": "peter_griffin_14.mp3"}, {"speaker": "Cinderella", "start": 81.37142857142858, "duration": 0.7314285714285714, "filename": "cinderella_15.mp3"}, {"speaker": "Peter Griffin", "start": 82.10285714285715, "duration": 1.3322448979591837, "filename": "peter_griffin_16.mp3"}]}
+STATUS: Sticker images downloaded.
+STATUS: emptied video folder
+STATUS: Video created with stickers.
+Created subtitle for 'Hello!' at 0.00s with duration 1.51s
+Created subtitle for 'Hi there!' at 1.51s with duration 5.32s
+Created subtitle for 'How are you?' at 6.84s with duration 4.54s
+Created subtitle for 'I'm great, thanks!' at 11.38s with duration 7.88s
