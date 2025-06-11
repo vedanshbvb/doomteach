@@ -1,13 +1,26 @@
-import sys
+from dotenv import load_dotenv
+import os
 from openai import OpenAI
+import sys
+
+
+load_dotenv() 
 
 shapes_client = OpenAI(
-    api_key="A2WHR9GRSEPOTJKG9XOKX76EZ8PN9VIRGHEQ9CZVY3W",
+    api_key= os.environ.get("SHAPES_API_KEY"),
     base_url="https://api.shapes.inc/v1/",
 )
 
+LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline2.log")
+
+def log_line(line):
+    with open(LOG_FILE, "a") as f:
+        f.write(line + "\n")
+
+
 def generate_script(user_prompt):
-    print("generating script")
+
+
     response = shapes_client.chat.completions.create(
         model="shapesinc/jsonbot",
         messages=[
@@ -15,7 +28,7 @@ def generate_script(user_prompt):
                 "role": "user",
                 "content": f"""
                 You are a script writer for a social media reel and you possess great knowledge of popular culture and iconic characters and also are a very skilled tech enthusiast.
-                User will give you a command for writing a short, engaging script for a reel featuring two iconic characters which will be given to you in the command. The theme of the reel is a discussion about some topic which will be given to you in the command. The script should be full of knowledge about the topic and be suitable for a quick, entertaining video format, around 1 to 2 minutes. One of the characters should be asking questions and the other should be answering them. 
+                User will give you a command for writing a short, engaging script for a reel featuring two iconic characters which will be given to you in the command. The theme of the reel is a discussion about some topic which will be given to you in the command. The script should be full of knowledge about the topic and be suitable for a quick, entertaining video format, around 1 to 2 minutes. There should not be more than 20 dialogues in any condition. The script should be a short one meant for instagram reels. One of the characters should be asking questions and the other should be answering them. 
                 The speaker of the dialogue should be in double quotes and the dialogue should come after a colon. The dialogue should also be in double quotess. The output should be a json object. Make sure the script starts with curly brackets and also ends with curly brackets. For example :
 
             
@@ -33,6 +46,15 @@ def generate_script(user_prompt):
         ]
     )
     script = response.choices[0].message.content.strip()
+    log_line(f"Generated script: {script}")
+
+    # Fix: If script does not end with '}', add it
+    if not script.endswith("}"):
+        script += "}"
+    if script.startswith("{") and script.endswith("}"):
+        return script
+    log_line("i want to die")
+    # If all retries fail, return the last script anyway
     return script
 
 def identify_characters(user_prompt):

@@ -6,9 +6,11 @@ import glob
 from script_generator import generate_script, identify_characters
 from voice_generator import get_token_for_character, voices
 from tts import TTSPipeline
+from get_stickers import download_character_stickers
+from video_editing import create_video_with_stickers  # <-- import the new function
 
 LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline.log")
-AUDIO_FOLDER = os.path.join(os.path.dirname(__file__), "../media/generated/audio")
+AUDIO_FOLDER = os.path.join(os.path.dirname(__file__), "media/generated/audio")
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
@@ -85,7 +87,7 @@ if __name__ == "__main__":
     log_line(json.dumps(result))
 
     empty_audio_folder()
-    log_line("STATUS: emptied folder")
+    log_line("STATUS: emptied audio folder")
 
     parsed_script = []
     try:
@@ -113,6 +115,31 @@ if __name__ == "__main__":
     tts_output = my_pipeline_function(result, parsed_script)
     log_line(json.dumps(tts_output))
 
-
     
+
+
+    # Download stickers for the characters after TTS is done
+    character_img_paths = {}
+    if char_list:
+        try:
+            character_img_paths = download_character_stickers(char_list)
+            log_line("STATUS: Sticker images downloaded.")
+        except Exception as e:
+            log_line(f"ERROR: Failed to download stickers: {e}")
+
+    # Call video editing after TTS and stickers
+    try:
+        create_video_with_stickers(
+            tts_output,
+            character_img_paths,  # Make sure this dict has all characters
+            char_list,
+            bg_video_path="media/bg_videos/vid1.mp4",
+            audio_path=tts_output["audio_path"]  # Pass audio path to video editor
+        )
+        log_line("STATUS: Video created with stickers.")
+    except Exception as e:
+        log_line(f"ERROR: Failed to create video: {e}")
+
+
+
 

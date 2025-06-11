@@ -528,3 +528,286 @@ Processed Donald Trump: Anytime, Snow. Now let's make America great again, folks
 Final audio path: media/generated/audio/final_audio.wav
 Timeline: [{"speaker": "Snow White", "start": 0.0, "duration": 9.36925, "filename": "snow_white_1_32e263f1.wav"}, {"speaker": "Donald Trump", "start": 9.36925, "duration": 9.76396875, "filename": "donald_trump_2_c71ff51d.wav"}, {"speaker": "Snow White", "start": 19.133218749999997, "duration": 3.54103125, "filename": "snow_white_3_6cfa25d1.wav"}, {"speaker": "Donald Trump", "start": 22.674249999999997, "duration": 7.534875, "filename": "donald_trump_4_3a17a95e.wav"}, {"speaker": "Snow White", "start": 30.209124999999997, "duration": 5.51471875, "filename": "snow_white_5_ca6a7e8e.wav"}, {"speaker": "Donald Trump", "start": 35.72384375, "duration": 6.06040625, "filename": "donald_trump_6_be945613.wav"}, {"speaker": "Snow White", "start": 41.78425, "duration": 5.80496875, "filename": "snow_white_7_2ac002dc.wav"}, {"speaker": "Donald Trump", "start": 47.58921875, "duration": 9.74075, "filename": "donald_trump_8_4ca8352b.wav"}, {"speaker": "Snow White", "start": 57.32996875, "duration": 4.70203125, "filename": "snow_white_9_36e80fdb.wav"}, {"speaker": "Donald Trump", "start": 62.032, "duration": 6.664125, "filename": "donald_trump_10_d219cac0.wav"}, {"speaker": "Snow White", "start": 68.696125, "duration": 4.15634375, "filename": "snow_white_11_feb764fa.wav"}, {"speaker": "Donald Trump", "start": 72.85246875, "duration": 5.9675, "filename": "donald_trump_12_64f5268b.wav"}, {"speaker": "Snow White", "start": 78.81996875, "duration": 4.69040625, "filename": "snow_white_13_b205addd.wav"}, {"speaker": "Donald Trump", "start": 83.510375, "duration": 7.77865625, "filename": "donald_trump_14_589ba290.wav"}, {"speaker": "Snow White", "start": 91.28903125, "duration": 4.435, "filename": "snow_white_15_7fb6aa94.wav"}, {"speaker": "Donald Trump", "start": 95.72403125, "duration": 8.7190625, "filename": "donald_trump_16_0bc8302a.wav"}, {"speaker": "Snow White", "start": 104.44309375, "duration": 4.6671875, "filename": "snow_white_17_2ab05d3f.wav"}, {"speaker": "Donald Trump", "start": 109.11028125, "duration": 4.8645625, "filename": "donald_trump_18_61115458.wav"}, {"speaker": "Donald Trump", "start": 113.97484375, "duration": 8.0456875, "filename": "donald_trump_20_abe21e65.wav"}, {"speaker": "Snow White", "start": 122.02053125, "duration": 4.8645625, "filename": "snow_white_21_210a783d.wav"}, {"speaker": "Donald Trump", "start": 126.88509375000001, "duration": 5.08515625, "filename": "donald_trump_22_031bd6f8.wav"}, {"speaker": "Snow White", "start": 131.97025000000002, "duration": 4.435, "filename": "snow_white_23_00622af8.wav"}, {"speaker": "Donald Trump", "start": 136.40525000000002, "duration": 4.06346875, "filename": "donald_trump_24_15f864a6.wav"}, {"speaker": "Snow White", "start": 140.46871875000002, "duration": 7.4651875, "filename": "snow_white_25_8cdcfbc1.wav"}, {"speaker": "Donald Trump", "start": 147.93390625000004, "duration": 11.60996875, "filename": "donald_trump_26_6dcda6c2.wav"}, {"speaker": "Snow White", "start": 159.54387500000004, "duration": 4.44659375, "filename": "snow_white_27_03d6b938.wav"}, {"speaker": "Donald Trump", "start": 163.99046875000005, "duration": 6.28096875, "filename": "donald_trump_28_ee528739.wav"}, {"speaker": "Donald Trump", "start": 170.27143750000005, "duration": 11.60996875, "filename": "donald_trump_30_b00b5a4a.wav"}, {"speaker": "Snow White", "start": 181.88140625000005, "duration": 4.4814375, "filename": "snow_white_31_320c7106.wav"}, {"speaker": "Donald Trump", "start": 186.36284375000005, "duration": 4.31890625, "filename": "donald_trump_32_1feb97cb.wav"}]
 {"audio_path": "media/generated/audio/final_audio.wav", "timestamps": [{"speaker": "Snow White", "start": 0.0, "duration": 9.36925, "filename": "snow_white_1_32e263f1.wav"}, {"speaker": "Donald Trump", "start": 9.36925, "duration": 9.76396875, "filename": "donald_trump_2_c71ff51d.wav"}, {"speaker": "Snow White", "start": 19.133218749999997, "duration": 3.54103125, "filename": "snow_white_3_6cfa25d1.wav"}, {"speaker": "Donald Trump", "start": 22.674249999999997, "duration": 7.534875, "filename": "donald_trump_4_3a17a95e.wav"}, {"speaker": "Snow White", "start": 30.209124999999997, "duration": 5.51471875, "filename": "snow_white_5_ca6a7e8e.wav"}, {"speaker": "Donald Trump", "start": 35.72384375, "duration": 6.06040625, "filename": "donald_trump_6_be945613.wav"}, {"speaker": "Snow White", "start": 41.78425, "duration": 5.80496875, "filename": "snow_white_7_2ac002dc.wav"}, {"speaker": "Donald Trump", "start": 47.58921875, "duration": 9.74075, "filename": "donald_trump_8_4ca8352b.wav"}, {"speaker": "Snow White", "start": 57.32996875, "duration": 4.70203125, "filename": "snow_white_9_36e80fdb.wav"}, {"speaker": "Donald Trump", "start": 62.032, "duration": 6.664125, "filename": "donald_trump_10_d219cac0.wav"}, {"speaker": "Snow White", "start": 68.696125, "duration": 4.15634375, "filename": "snow_white_11_feb764fa.wav"}, {"speaker": "Donald Trump", "start": 72.85246875, "duration": 5.9675, "filename": "donald_trump_12_64f5268b.wav"}, {"speaker": "Snow White", "start": 78.81996875, "duration": 4.69040625, "filename": "snow_white_13_b205addd.wav"}, {"speaker": "Donald Trump", "start": 83.510375, "duration": 7.77865625, "filename": "donald_trump_14_589ba290.wav"}, {"speaker": "Snow White", "start": 91.28903125, "duration": 4.435, "filename": "snow_white_15_7fb6aa94.wav"}, {"speaker": "Donald Trump", "start": 95.72403125, "duration": 8.7190625, "filename": "donald_trump_16_0bc8302a.wav"}, {"speaker": "Snow White", "start": 104.44309375, "duration": 4.6671875, "filename": "snow_white_17_2ab05d3f.wav"}, {"speaker": "Donald Trump", "start": 109.11028125, "duration": 4.8645625, "filename": "donald_trump_18_61115458.wav"}, {"speaker": "Donald Trump", "start": 113.97484375, "duration": 8.0456875, "filename": "donald_trump_20_abe21e65.wav"}, {"speaker": "Snow White", "start": 122.02053125, "duration": 4.8645625, "filename": "snow_white_21_210a783d.wav"}, {"speaker": "Donald Trump", "start": 126.88509375000001, "duration": 5.08515625, "filename": "donald_trump_22_031bd6f8.wav"}, {"speaker": "Snow White", "start": 131.97025000000002, "duration": 4.435, "filename": "snow_white_23_00622af8.wav"}, {"speaker": "Donald Trump", "start": 136.40525000000002, "duration": 4.06346875, "filename": "donald_trump_24_15f864a6.wav"}, {"speaker": "Snow White", "start": 140.46871875000002, "duration": 7.4651875, "filename": "snow_white_25_8cdcfbc1.wav"}, {"speaker": "Donald Trump", "start": 147.93390625000004, "duration": 11.60996875, "filename": "donald_trump_26_6dcda6c2.wav"}, {"speaker": "Snow White", "start": 159.54387500000004, "duration": 4.44659375, "filename": "snow_white_27_03d6b938.wav"}, {"speaker": "Donald Trump", "start": 163.99046875000005, "duration": 6.28096875, "filename": "donald_trump_28_ee528739.wav"}, {"speaker": "Donald Trump", "start": 170.27143750000005, "duration": 11.60996875, "filename": "donald_trump_30_b00b5a4a.wav"}, {"speaker": "Snow White", "start": 181.88140625000005, "duration": 4.4814375, "filename": "snow_white_31_320c7106.wav"}, {"speaker": "Donald Trump", "start": 186.36284375000005, "duration": 4.31890625, "filename": "donald_trump_32_1feb97cb.wav"}]}
+STATUS: Generating script...
+{
+"Elon Musk": "Optimus Prime, I've been thinking a lot about the concept of agentic AI. Can you tell me more about it?:",
+"Optimus Prime": "Ah, Elon, agentic AI is a type of artificial intelligence that has the ability to act independently and make decisions on its own.:",
+"Elon Musk": "That's fascinating. I've been working on developing agentic AI for my own projects, like Neuralink.:",
+"Optimus Prime": "Yes, I've been following your work, Elon. Agentic AI has the potential to revolutionize many industries, from healthcare to finance.:",
+"Elon Musk": "Exactly. And with agentic AI, we can create machines that can learn and adapt at an exponential rate, leading to breakthroughs in fields like space exploration and sustainable energy.:",
+"Optimus Prime": "That's the vision, Elon. But we also need to be careful about the potential risks of agentic AI, like job displacement and loss of human control.:",
+"Elon Musk": "I agree, Optimus. We need to ensure that agentic AI is developed in a way that benefits humanity as a whole, and not just a select few.:",
+"Optimus Prime": "I couldn't agree more, Elon. We need to work together to create a future where agentic AI enhances human life, rather than replaces it.:",
+"Elon Musk": "I'm glad we're on the same page, Optimus. Let's make sure to prioritize ethics and responsibility in the development of agentic AI.:",
+"Optimus Prime": "Absolutely, Elon. Together, we can create a future where agentic AI is a powerful tool for humanity's benefit.:",
+"Elon Musk": "Agreed. Now, let's get back to work on making Neuralink a reality, and change the world together.:",
+"Optimus Prime": "I'm ready to roll out, Elon. Let's make it happen!"
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Elon Musk...
+STATUS: Converting text to voice for Optimus Prime...
+{"characters": "Elon Musk, Optimus Prime", "tokens": ["weight_hkawmassbvv8e6sb66638kg9p", "weight_2dymgf6pcrfr6p1twmc4pnpf9"], "indices": [1046, 2532]}
+STATUS: emptied folder
+Parsed script: [('Elon Musk', "Optimus Prime, I've been thinking a lot about the concept of agentic AI. Can you tell me more about it?"), ('Optimus Prime', 'Ah, Elon, agentic AI is a type of artificial intelligence that has the ability to act independently and make decisions on its own.'), ('Elon Musk', "That's fascinating. I've been working on developing agentic AI for my own projects, like Neuralink."), ('Optimus Prime', "Yes, I've been following your work, Elon. Agentic AI has the potential to revolutionize many industries, from healthcare to finance."), ('Elon Musk', 'Exactly. And with agentic AI, we can create machines that can learn and adapt at an exponential rate, leading to breakthroughs in fields like space exploration and sustainable energy.'), ('Optimus Prime', "That's the vision, Elon. But we also need to be careful about the potential risks of agentic AI, like job displacement and loss of human control."), ('Elon Musk', 'I agree, Optimus. We need to ensure that agentic AI is developed in a way that benefits humanity as a whole, and not just a select few.'), ('Optimus Prime', "I couldn't agree more, Elon. We need to work together to create a future where agentic AI enhances human life, rather than replaces it."), ('Elon Musk', "I'm glad we're on the same page, Optimus. Let's make sure to prioritize ethics and responsibility in the development of agentic AI."), ('Optimus Prime', "Absolutely, Elon. Together, we can create a future where agentic AI is a powerful tool for humanity's benefit."), ('Elon Musk', "Agreed. Now, let's get back to work on making Neuralink a reality, and change the world together."), ('Optimus Prime', "I'm ready to roll out, Elon. Let's make it happen!")]
+entered run
+Synthesizing text: Optimus Prime, I've been thinking a lot about the concept of agentic AI. Can you tell me more about it? with token: weight_hkawmassbvv8e6sb66638kg9p to media/generated/audio/elon_musk_1_362d8aa5.wav
+STATUS: Generating script...
+{
+"Elon Musk": "Mr. Trump, I've been trying to understand this concept of Kubernetes. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?:",
+"Donald Trump": "Folks, let me tell you, Kubernetes is a big league container orchestration system. It's tremendous, believe me. It's like a beautiful wall, keeping all the containers in line, making it easy to deploy and manage.:",
+"Elon Musk": "A wall? I'm not sure I understand, Mr. Trump.:",
+"Donald Trump": "The wall, Elon, it's a metaphor! Kubernetes is like a wall that keeps all the containers organized and secure, making it easy to scale and maintain.:",
+"Elon Musk": "I see. So it's like a team of builders working together to create a beautiful castle.:",
+"Donald Trump": "That's right, Elon! And Kubernetes is the ultimate builder, the best, the greatest, the fantasticest!:",
+"Elon Musk": "I'm not sure I agree, Mr. Trump. Can you tell me more about Kubernetes' features?:",
+"Donald Trump": "Features, Elon, Kubernetes has the best features, the greatest features, the most fantastic features! It's got deployment, scaling, and management, folks.:",
+"Elon Musk": "Wow, that sounds impressive. But what about its uses, Mr. Trump?:",
+"Donald Trump": "Uses, Elon, Kubernetes is used everywhere, folks! It's like a Trump logo, on every cloud, every app, every device.:",
+"Elon Musk": "I see. So it's like a global phenomenon, Mr. Trump.:",
+"Donald Trump": "A global phenomenon, Elon, that's what it is! And I'm the one who knows all about phenomena, believe me.:",
+"Elon Musk": "Thank you, Mr. Trump. I think I understand Kubernetes a little better now.:",
+"Donald Trump": "Anytime, Elon. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge.",
+"Elon Musk": "Wait, Mr. Trump! What's the difference between Kubernetes and Docker?:",
+"Donald Trump": "Ah, a great question, Elon! Kubernetes is like a luxury car, fast and sleek. Docker is like a big, heavy truck, slow and clunky.:",
+"Elon Musk": "I see. So it's like comparing apples and oranges, Mr. Trump.:",
+"Donald Trump": "Exactly, Elon! And I'm the one who knows all about great comparisons, believe me.",
+"Elon Musk": "I'm still a bit confused, Mr. Trump. Can you give me an example of how Kubernetes is used in real life?:",
+"Donald Trump": "Okay, Elon, let me give you an example. Kubernetes is used in online banking, folks. It's like a beautiful, smooth, Trump-like experience.:",
+"Elon Musk": "Ah, I see. So it's like a seamless transaction, Mr. Trump.:",
+"Donald Trump": "That's right, Elon! And I'm the one who knows all about seamless transactions, believe me."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Elon Musk...
+STATUS: Converting text to voice for Donald Trump...
+{"characters": "Elon Musk, Donald Trump", "tokens": ["weight_hkawmassbvv8e6sb66638kg9p", "weight_cg6heneq0rmkas3qj7ccz0t0r"], "indices": [1046, 909]}
+STATUS: emptied audio folder
+Parsed script: [('Elon Musk', "Mr. Trump, I've been trying to understand this concept of Kubernetes. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper?"), ('Donald Trump', "Folks, let me tell you, Kubernetes is a big league container orchestration system. It's tremendous, believe me. It's like a beautiful wall, keeping all the containers in line, making it easy to deploy and manage."), ('Elon Musk', "A wall? I'm not sure I understand, Mr. Trump."), ('Donald Trump', "The wall, Elon, it's a metaphor! Kubernetes is like a wall that keeps all the containers organized and secure, making it easy to scale and maintain."), ('Elon Musk', "I see. So it's like a team of builders working together to create a beautiful castle."), ('Donald Trump', "That's right, Elon! And Kubernetes is the ultimate builder, the best, the greatest, the fantasticest!"), ('Elon Musk', "I'm not sure I agree, Mr. Trump. Can you tell me more about Kubernetes' features?"), ('Donald Trump', "Features, Elon, Kubernetes has the best features, the greatest features, the most fantastic features! It's got deployment, scaling, and management, folks."), ('Elon Musk', 'Wow, that sounds impressive. But what about its uses, Mr. Trump?'), ('Donald Trump', "Uses, Elon, Kubernetes is used everywhere, folks! It's like a Trump logo, on every cloud, every app, every device."), ('Elon Musk', "I see. So it's like a global phenomenon, Mr. Trump."), ('Donald Trump', "A global phenomenon, Elon, that's what it is! And I'm the one who knows all about phenomena, believe me."), ('Elon Musk', 'Thank you, Mr. Trump. I think I understand Kubernetes a little better now.'), ('Donald Trump', "Anytime, Elon. Now if you'll excuse me, I have to get back to work on my next big project, folks. It's going to be yuge, just yuge."), ('Elon Musk', "Wait, Mr. Trump! What's the difference between Kubernetes and Docker?"), ('Donald Trump', 'Ah, a great question, Elon! Kubernetes is like a luxury car, fast and sleek. Docker is like a big, heavy truck, slow and clunky.'), ('Elon Musk', "I see. So it's like comparing apples and oranges, Mr. Trump."), ('Donald Trump', "Exactly, Elon! And I'm the one who knows all about great comparisons, believe me."), ('Elon Musk', "I'm still a bit confused, Mr. Trump. Can you give me an example of how Kubernetes is used in real life?"), ('Donald Trump', "Okay, Elon, let me give you an example. Kubernetes is used in online banking, folks. It's like a beautiful, smooth, Trump-like experience."), ('Elon Musk', "Ah, I see. So it's like a seamless transaction, Mr. Trump."), ('Donald Trump', "That's right, Elon! And I'm the one who knows all about seamless transactions, believe me.")]
+entered run
+Synthesizing text: Mr. Trump, I've been trying to understand this concept of Kubernetes. Can you explain it to me in a way that's as clear as a Trump Tower skyscraper? with token: weight_hkawmassbvv8e6sb66638kg9p to media/generated/audio/elon_musk_1_3f3fc3b5.wav
+STATUS: Generating script...
+{
+"Optimus Prime": "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux.:",
+"Batman": "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world.:",
+"Optimus Prime": "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone.:",
+"Batman": "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving.:",
+"Optimus Prime": "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system.:",
+"Batman": "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better.:",
+"Optimus Prime": "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs.:",
+"Batman": "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone.:",
+"Optimus Prime": "That's amazing. I think I'm starting to understand the power of Linux.:",
+"Batman": "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City.:",
+"Optimus Prime": "I understand, Batman. It was enlightening to discuss Linux with you.:",
+"Batman": "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation.:",
+"Optimus Prime": "I will, Batman. I will.",
+"Batman": "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals.:",
+"Optimus Prime": "I won't, Batman. Thank you for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Batman...
+{"characters": "Optimus Prime, Batman", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_x2e6rzdkvx2htfxeqnwea5vpm"], "indices": [2532, 265]}
+STATUS: emptied audio folder
+Parsed script: [('Optimus Prime', "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux."), ('Batman', "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world."), ('Optimus Prime', "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone."), ('Batman', "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving."), ('Optimus Prime', "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system."), ('Batman', "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better."), ('Optimus Prime', "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs."), ('Batman', "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone."), ('Optimus Prime', "That's amazing. I think I'm starting to understand the power of Linux."), ('Batman', "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City."), ('Optimus Prime', 'I understand, Batman. It was enlightening to discuss Linux with you.'), ('Batman', "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation."), ('Optimus Prime', 'I will, Batman. I will.'), ('Batman', "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals."), ('Optimus Prime', "I won't, Batman. Thank you for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.')]
+entered run
+Synthesizing text: Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux. with token: weight_2dymgf6pcrfr6p1twmc4pnpf9 to media/generated/audio/optimus_prime_1_05148c01.wav
+STATUS: Generating script...
+{
+"Optimus Prime": "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux.:",
+"Batman": "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world.:",
+"Optimus Prime": "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone.:",
+"Batman": "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving.:",
+"Optimus Prime": "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system.:",
+"Batman": "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better.:",
+"Optimus Prime": "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs.:",
+"Batman": "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone.:",
+"Optimus Prime": "That's amazing. I think I'm starting to understand the power of Linux.:",
+"Batman": "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City.:",
+"Optimus Prime": "I understand, Batman. It was enlightening to discuss Linux with you.:",
+"Batman": "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation.:",
+"Optimus Prime": "I will, Batman. I will.",
+"Batman": "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals.:",
+"Optimus Prime": "I won't, Batman. Thank you for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will.",
+"Optimus Prime": "So, Batman, what's the best way to get started with Linux?:",
+"Batman": "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint.:",
+"Optimus Prime": "That sounds like a great idea, Batman. And what about security?:",
+"Batman": "Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.:",
+"Optimus Prime": "I see. And what about compatibility?:",
+"Batman": "Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.:",
+"Optimus Prime": "That's amazing. I think I'm ready to give Linux a try.:",
+"Batman": "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it.:",
+"Optimus Prime": "I'll keep that in mind, Batman. Thanks for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's take on the digital world together.:",
+"Optimus Prime": "Together, we will, Batman. Together, we will.",
+"Batman": "And remember, Optimus, Linux is not just an operating system, it's a community.:",
+"Optimus Prime": "I won't forget, Batman. Thanks again for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Batman...
+{"characters": "Optimus Prime, Batman", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_x2e6rzdkvx2htfxeqnwea5vpm"], "indices": [2532, 265]}
+STATUS: emptied audio folder
+Parsed script: [('Optimus Prime', "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux."), ('Batman', "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world."), ('Optimus Prime', "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone."), ('Batman', "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving."), ('Optimus Prime', "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system."), ('Batman', "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better."), ('Optimus Prime', "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs."), ('Batman', "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone."), ('Optimus Prime', "That's amazing. I think I'm starting to understand the power of Linux."), ('Batman', "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City."), ('Optimus Prime', 'I understand, Batman. It was enlightening to discuss Linux with you.'), ('Batman', "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation."), ('Optimus Prime', 'I will, Batman. I will.'), ('Batman', "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals."), ('Optimus Prime', "I won't, Batman. Thank you for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.'), ('Optimus Prime', "So, Batman, what's the best way to get started with Linux?"), ('Batman', "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint."), ('Optimus Prime', 'That sounds like a great idea, Batman. And what about security?'), ('Batman', 'Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.'), ('Optimus Prime', 'I see. And what about compatibility?'), ('Batman', 'Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.'), ('Optimus Prime', "That's amazing. I think I'm ready to give Linux a try."), ('Batman', "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it."), ('Optimus Prime', "I'll keep that in mind, Batman. Thanks for the advice."), ('Batman', "Anytime, Optimus. Now, let's take on the digital world together."), ('Optimus Prime', 'Together, we will, Batman. Together, we will.'), ('Batman', "And remember, Optimus, Linux is not just an operating system, it's a community."), ('Optimus Prime', "I won't forget, Batman. Thanks again for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.')]
+entered run
+Synthesizing text: Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux. with token: weight_2dymgf6pcrfr6p1twmc4pnpf9 to ../media/generated/audio/optimus_prime_1_58704f16.wav
+STATUS: Generating script...
+{
+"Optimus Prime": "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux.:",
+"Batman": "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world.:",
+"Optimus Prime": "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone.:",
+"Batman": "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving.:",
+"Optimus Prime": "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system.:",
+"Batman": "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better.:",
+"Optimus Prime": "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs.:",
+"Batman": "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone.:",
+"Optimus Prime": "That's amazing. I think I'm starting to understand the power of Linux.:",
+"Batman": "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City.:",
+"Optimus Prime": "I understand, Batman. It was enlightening to discuss Linux with you.:",
+"Batman": "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation.:",
+"Optimus Prime": "I will, Batman. I will.",
+"Batman": "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals.:",
+"Optimus Prime": "I won't, Batman. Thank you for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will.",
+"Optimus Prime": "So, Batman, what's the best way to get started with Linux?:",
+"Batman": "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint.:",
+"Optimus Prime": "That sounds like a great idea, Batman. And what about security?:",
+"Batman": "Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.:",
+"Optimus Prime": "I see. And what about compatibility?:",
+"Batman": "Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.:",
+"Optimus Prime": "That's amazing. I think I'm ready to give Linux a try.:",
+"Batman": "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it.:",
+"Optimus Prime": "I'll keep that in mind, Batman. Thanks for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's take on the digital world together.:",
+"Optimus Prime": "Together, we will, Batman. Together, we will.",
+"Batman": "And remember, Optimus, Linux is not just an operating system, it's a community.:",
+"Optimus Prime": "I won't forget, Batman. Thanks again for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Batman...
+{"characters": "Optimus Prime, Batman", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_x2e6rzdkvx2htfxeqnwea5vpm"], "indices": [2532, 265]}
+STATUS: emptied audio folder
+Parsed script: [('Optimus Prime', "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux."), ('Batman', "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world."), ('Optimus Prime', "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone."), ('Batman', "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving."), ('Optimus Prime', "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system."), ('Batman', "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better."), ('Optimus Prime', "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs."), ('Batman', "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone."), ('Optimus Prime', "That's amazing. I think I'm starting to understand the power of Linux."), ('Batman', "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City."), ('Optimus Prime', 'I understand, Batman. It was enlightening to discuss Linux with you.'), ('Batman', "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation."), ('Optimus Prime', 'I will, Batman. I will.'), ('Batman', "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals."), ('Optimus Prime', "I won't, Batman. Thank you for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.'), ('Optimus Prime', "So, Batman, what's the best way to get started with Linux?"), ('Batman', "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint."), ('Optimus Prime', 'That sounds like a great idea, Batman. And what about security?'), ('Batman', 'Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.'), ('Optimus Prime', 'I see. And what about compatibility?'), ('Batman', 'Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.'), ('Optimus Prime', "That's amazing. I think I'm ready to give Linux a try."), ('Batman', "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it."), ('Optimus Prime', "I'll keep that in mind, Batman. Thanks for the advice."), ('Batman', "Anytime, Optimus. Now, let's take on the digital world together."), ('Optimus Prime', 'Together, we will, Batman. Together, we will.'), ('Batman', "And remember, Optimus, Linux is not just an operating system, it's a community."), ('Optimus Prime', "I won't forget, Batman. Thanks again for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.')]
+entered run
+Synthesizing text: Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux. with token: weight_2dymgf6pcrfr6p1twmc4pnpf9 to ../media/generated/audio/optimus_prime_1_827e09b1.wav
+Calling fy.say...
+ERROR: Timeout while synthesizing text 'Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux.' with token 'weight_2dymgf6pcrfr6p1twmc4pnpf9'
+Synthesizing text: Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world. with token: weight_x2e6rzdkvx2htfxeqnwea5vpm to ../media/generated/audio/batman_2_50e9a685.wav
+Calling fy.say...
+ERROR: Timeout while synthesizing text 'Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world.' with token 'weight_x2e6rzdkvx2htfxeqnwea5vpm'
+Synthesizing text: That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone. with token: weight_2dymgf6pcrfr6p1twmc4pnpf9 to ../media/generated/audio/optimus_prime_3_93b4d310.wav
+Calling fy.say...
+ERROR: Timeout while synthesizing text 'That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone.' with token 'weight_2dymgf6pcrfr6p1twmc4pnpf9'
+Synthesizing text: Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving. with token: weight_x2e6rzdkvx2htfxeqnwea5vpm to ../media/generated/audio/batman_4_086c1300.wav
+Calling fy.say...
+ERROR: Timeout while synthesizing text 'Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving.' with token 'weight_x2e6rzdkvx2htfxeqnwea5vpm'
+Synthesizing text: I see. So it's like a team of Autobots working together to create a powerful and efficient operating system. with token: weight_2dymgf6pcrfr6p1twmc4pnpf9 to ../media/generated/audio/optimus_prime_5_e63062b8.wav
+Calling fy.say...
+STATUS: Generating script...
+{
+"Optimus Prime": "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux.:",
+"Batman": "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world.:",
+"Optimus Prime": "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone.:",
+"Batman": "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving.:",
+"Optimus Prime": "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system.:",
+"Batman": "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better.:",
+"Optimus Prime": "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs.:",
+"Batman": "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone.:",
+"Optimus Prime": "That's amazing. I think I'm starting to understand the power of Linux.:",
+"Batman": "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City.:",
+"Optimus Prime": "I understand, Batman. It was enlightening to discuss Linux with you.:",
+"Batman": "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation.:",
+"Optimus Prime": "I will, Batman. I will.",
+"Batman": "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals.:",
+"Optimus Prime": "I won't, Batman. Thank you for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will.",
+"Optimus Prime": "So, Batman, what's the best way to get started with Linux?:",
+"Batman": "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint.:",
+"Optimus Prime": "That sounds like a great idea, Batman. And what about security?:",
+"Batman": "Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.:",
+"Optimus Prime": "I see. And what about compatibility?:",
+"Batman": "Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.:",
+"Optimus Prime": "That's amazing. I think I'm ready to give Linux a try.:",
+"Batman": "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it.:",
+"Optimus Prime": "I'll keep that in mind, Batman. Thanks for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's take on the digital world together.:",
+"Optimus Prime": "Together, we will, Batman. Together, we will.",
+"Batman": "And remember, Optimus, Linux is not just an operating system, it's a community.:",
+"Optimus Prime": "I won't forget, Batman. Thanks again for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Batman...
+{"characters": "Optimus Prime, Batman", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_x2e6rzdkvx2htfxeqnwea5vpm"], "indices": [2532, 265]}
+STATUS: emptied audio folder
+Parsed script: [('Optimus Prime', "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux."), ('Batman', "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world."), ('Optimus Prime', "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone."), ('Batman', "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving."), ('Optimus Prime', "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system."), ('Batman', "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better."), ('Optimus Prime', "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs."), ('Batman', "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone."), ('Optimus Prime', "That's amazing. I think I'm starting to understand the power of Linux."), ('Batman', "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City."), ('Optimus Prime', 'I understand, Batman. It was enlightening to discuss Linux with you.'), ('Batman', "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation."), ('Optimus Prime', 'I will, Batman. I will.'), ('Batman', "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals."), ('Optimus Prime', "I won't, Batman. Thank you for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.'), ('Optimus Prime', "So, Batman, what's the best way to get started with Linux?"), ('Batman', "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint."), ('Optimus Prime', 'That sounds like a great idea, Batman. And what about security?'), ('Batman', 'Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.'), ('Optimus Prime', 'I see. And what about compatibility?'), ('Batman', 'Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.'), ('Optimus Prime', "That's amazing. I think I'm ready to give Linux a try."), ('Batman', "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it."), ('Optimus Prime', "I'll keep that in mind, Batman. Thanks for the advice."), ('Batman', "Anytime, Optimus. Now, let's take on the digital world together."), ('Optimus Prime', 'Together, we will, Batman. Together, we will.'), ('Batman', "And remember, Optimus, Linux is not just an operating system, it's a community."), ('Optimus Prime', "I won't forget, Batman. Thanks again for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.')]
+STATUS: Sticker images downloaded.
+ERROR: Failed to create video: name 'tts_output' is not defined
+STATUS: Generating script...
+{
+"Optimus Prime": "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux.:",
+"Batman": "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world.:",
+"Optimus Prime": "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone.:",
+"Batman": "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving.:",
+"Optimus Prime": "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system.:",
+"Batman": "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better.:",
+"Optimus Prime": "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs.:",
+"Batman": "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone.:",
+"Optimus Prime": "That's amazing. I think I'm starting to understand the power of Linux.:",
+"Batman": "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City.:",
+"Optimus Prime": "I understand, Batman. It was enlightening to discuss Linux with you.:",
+"Batman": "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation.:",
+"Optimus Prime": "I will, Batman. I will.",
+"Batman": "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals.:",
+"Optimus Prime": "I won't, Batman. Thank you for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will.",
+"Optimus Prime": "So, Batman, what's the best way to get started with Linux?:",
+"Batman": "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint.:",
+"Optimus Prime": "That sounds like a great idea, Batman. And what about security?:",
+"Batman": "Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.:",
+"Optimus Prime": "I see. And what about compatibility?:",
+"Batman": "Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.:",
+"Optimus Prime": "That's amazing. I think I'm ready to give Linux a try.:",
+"Batman": "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it.:",
+"Optimus Prime": "I'll keep that in mind, Batman. Thanks for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's take on the digital world together.:",
+"Optimus Prime": "Together, we will, Batman. Together, we will.",
+"Batman": "And remember, Optimus, Linux is not just an operating system, it's a community.:",
+"Optimus Prime": "I won't forget, Batman. Thanks again for the advice.:",
+"Batman": "Anytime, Optimus. Now, let's keep the digital world safe.:",
+"Optimus Prime": "Agreed, Batman. Together, we can make a difference.:",
+"Batman": "Together, we will, Optimus. Together, we will."
+}
+STATUS: Script generated.
+STATUS: Converting text to voice for Optimus Prime...
+STATUS: Converting text to voice for Batman...
+{"characters": "Optimus Prime, Batman", "tokens": ["weight_2dymgf6pcrfr6p1twmc4pnpf9", "weight_x2e6rzdkvx2htfxeqnwea5vpm"], "indices": [2532, 265]}
+STATUS: emptied audio folder
+Parsed script: [('Optimus Prime', "Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux."), ('Batman', "Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world."), ('Optimus Prime', "That's fascinating. I've heard that Linux is open-source, which means that it's free and can be modified by anyone."), ('Batman', "Exactly, Optimus. Linux is like a blank canvas, waiting for the brushstrokes of creativity and innovation. And with its open-source nature, it's always evolving and improving."), ('Optimus Prime', "I see. So it's like a team of Autobots working together to create a powerful and efficient operating system."), ('Batman', "That's a great analogy, Optimus. And just like the Autobots, Linux has a strong community of developers and users who work together to make it better."), ('Optimus Prime', "I'm impressed. I've also heard that Linux is highly customizable, which means that users can tailor it to their specific needs."), ('Batman', "Yes, Optimus. Linux is like a Bat-suit, it can be adjusted and modified to fit the unique needs of each user. And with its vast array of distributions, there's a Linux for everyone."), ('Optimus Prime', "That's amazing. I think I'm starting to understand the power of Linux."), ('Batman', "I'm glad I could help, Optimus. Now, if you'll excuse me, I have to get back to patrolling the streets of Gotham City."), ('Optimus Prime', 'I understand, Batman. It was enlightening to discuss Linux with you.'), ('Batman', "The same to you, Optimus. Remember, in the world of Linux, there's always room for improvement and innovation."), ('Optimus Prime', 'I will, Batman. I will.'), ('Batman', "And don't forget, Optimus, Linux is like a trusty sidekick, always there to help you achieve your goals."), ('Optimus Prime', "I won't, Batman. Thank you for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe from the forces of evil."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.'), ('Optimus Prime', "So, Batman, what's the best way to get started with Linux?"), ('Batman', "Ah, a great question, Optimus! I'd recommend starting with a beginner-friendly distribution like Ubuntu or Linux Mint."), ('Optimus Prime', 'That sounds like a great idea, Batman. And what about security?'), ('Batman', 'Security is a top priority, Optimus. Linux has a strong focus on security, with features like encryption and firewalls to keep your data safe.'), ('Optimus Prime', 'I see. And what about compatibility?'), ('Batman', 'Compatibility is not a problem, Optimus. Linux can run on a wide range of hardware, from laptops to servers.'), ('Optimus Prime', "That's amazing. I think I'm ready to give Linux a try."), ('Batman', "That's the spirit, Optimus! Remember, Linux is a powerful tool, but it's only as strong as the user who wields it."), ('Optimus Prime', "I'll keep that in mind, Batman. Thanks for the advice."), ('Batman', "Anytime, Optimus. Now, let's take on the digital world together."), ('Optimus Prime', 'Together, we will, Batman. Together, we will.'), ('Batman', "And remember, Optimus, Linux is not just an operating system, it's a community."), ('Optimus Prime', "I won't forget, Batman. Thanks again for the advice."), ('Batman', "Anytime, Optimus. Now, let's keep the digital world safe."), ('Optimus Prime', 'Agreed, Batman. Together, we can make a difference.'), ('Batman', 'Together, we will, Optimus. Together, we will.')]
+entered run
+Synthesizing text: Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux. with token: weight_2dymgf6pcrfr6p1twmc4pnpf9 to ../media/generated/audio/optimus_prime_1_62ce03b9.wav
+Calling fy.say...
+ERROR: Timeout while synthesizing text 'Greetings, Batman. I've been exploring the world of operating systems and I'm curious to know more about Linux.' with token 'weight_2dymgf6pcrfr6p1twmc4pnpf9'
+Synthesizing text: Ah, Optimus, Linux is a powerful and flexible operating system. It's like my trusty Batmobile, always ready to take on the challenges of the digital world. with token: weight_x2e6rzdkvx2htfxeqnwea5vpm to ../media/generated/audio/batman_2_85b491e0.wav
+Calling fy.say...
+STATUS: Generating script...

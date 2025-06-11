@@ -21,11 +21,20 @@ app.post('/api/generate', (req, res) => {
     return res.status(400).json({ error: 'Prompt is required' });
   }
 
-  // Call the new pipeline.py script
+  // // Call the new pipeline.py script, for fakeyou
+  // const py = spawn('python3', [
+  //   './generator/pipeline.py',
+  //   prompt
+  // ], { cwd: __dirname + '/..' });
+
+//for Shapes API
   const py = spawn('python3', [
-    './generator/pipeline.py',
+    './generator/pipeline2.py',
     prompt
   ], { cwd: __dirname + '/..' });
+
+
+
 
   let output = '';
   let statusUpdates = [];

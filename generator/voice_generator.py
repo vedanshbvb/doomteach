@@ -1,13 +1,18 @@
 from fakeyou.fakeyou import FakeYou
+from dotenv import load_dotenv
+import os
 from openai import OpenAI
 import sys
+
+
+load_dotenv() 
 
 fy = FakeYou()
 fy.login("vedanshbvb", "Ved@fakeyou")
 voices = fy.get_voices()
 
 shapes_client = OpenAI(
-    api_key="A2WHR9GRSEPOTJKG9XOKX76EZ8PN9VIRGHEQ9CZVY3W",
+    api_key= os.environ.get("SHAPES_API_KEY"),
     base_url="https://api.shapes.inc/v1/",
 )
 
