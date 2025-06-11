@@ -1464,3 +1464,385 @@ Timeline: [{"speaker": "Optimus Prime", "start": 0.0, "duration": 3.657142857142
 {"audio_path": "media/generated/audio/final_audio.mp3", "timestamps": [{"speaker": "Optimus Prime", "start": 0.0, "duration": 3.657142857142857, "filename": "optimus_prime_1.mp3"}, {"speaker": "Elon Musk", "start": 3.657142857142857, "duration": 5.851428571428571, "filename": "elon_musk_2.mp3"}, {"speaker": "Optimus Prime", "start": 9.508571428571429, "duration": 3.526530612244898, "filename": "optimus_prime_3.mp3"}, {"speaker": "Elon Musk", "start": 13.035102040816327, "duration": 7.418775510204082, "filename": "elon_musk_4.mp3"}, {"speaker": "Optimus Prime", "start": 20.45387755102041, "duration": 3.7877551020408164, "filename": "optimus_prime_5.mp3"}, {"speaker": "Elon Musk", "start": 24.241632653061224, "duration": 12.852244897959183, "filename": "elon_musk_6.mp3"}, {"speaker": "Optimus Prime", "start": 37.093877551020405, "duration": 3.239183673469388, "filename": "optimus_prime_7.mp3"}, {"speaker": "Elon Musk", "start": 40.333061224489796, "duration": 6.6873469387755105, "filename": "elon_musk_8.mp3"}, {"speaker": "Optimus Prime", "start": 47.02040816326531, "duration": 4.728163265306122, "filename": "optimus_prime_9.mp3"}, {"speaker": "Elon Musk", "start": 51.74857142857143, "duration": 8.777142857142858, "filename": "elon_musk_10.mp3"}, {"speaker": "Optimus Prime", "start": 60.52571428571429, "duration": 3.8922448979591837, "filename": "optimus_prime_11.mp3"}, {"speaker": "Elon Musk", "start": 64.41795918367347, "duration": 8.25469387755102, "filename": "elon_musk_12.mp3"}, {"speaker": "Optimus Prime", "start": 72.6726530612245, "duration": 2.873469387755102, "filename": "optimus_prime_13.mp3"}, {"speaker": "Elon Musk", "start": 75.5461224489796, "duration": 5.0416326530612245, "filename": "elon_musk_14.mp3"}, {"speaker": "Optimus Prime", "start": 80.58775510204083, "duration": 1.6979591836734693, "filename": "optimus_prime_15.mp3"}, {"speaker": "Elon Musk", "start": 82.2857142857143, "duration": 5.015510204081632, "filename": "elon_musk_16.mp3"}, {"speaker": "Optimus Prime", "start": 87.30122448979594, "duration": 0.8620408163265306, "filename": "optimus_prime_17.mp3"}, {"speaker": "Elon Musk", "start": 88.16326530612247, "duration": 1.253877551020408, "filename": "elon_musk_18.mp3"}]}
 STATUS: Sticker images downloaded.
 STATUS: Video created with stickers.
+STATUS: Generating script...
+Generated script: {
+"Batman": "Spiderman, I've been doing some research on vector databases and I wanted to get your take on them.",
+"Spiderman": "Ah, Batman, vector databases are a type of database that stores data as vectors, which are mathematical objects that can be used for similarity searches.",
+"Batman": "That's fascinating. So it's like a new way of organizing data?",
+"Spiderman": "Exactly, Batman. Vector databases are designed to handle high-dimensional data and enable efficient similarity searches.",
+"Batman": "I see. So it's like a tool for fighting crime in the digital world.",
+"Spiderman": "Ha! Yes, Batman, vector databases are a powerful tool for fighting crime in the digital world.",
+"Batman": "What about the benefits of using vector databases? Can you tell me more?",
+"Spiderman": "Well, Batman, vector databases offer several benefits, including faster query performance, reduced storage requirements, and improved data accuracy.",
+"Batman": "That's impressive. And what about the challenges of implementing vector databases?",
+"Spiderman": "Ah, Batman, one of the main challenges is data preparation and indexing, which requires careful consideration of data types and dimensions.",
+"Batman": "I see. So it's like a puzzle to be solved.",
+"Spiderman": "Exactly, Batman. But with the right tools and expertise, vector databases can be a powerful solution for many use cases.",
+"Batman": "Thanks for explaining it to me, Spiderman.",
+"Spiderman": "No problem, Batman. It's always great to talk tech with a fellow superhero.",
+"Batman": "Bye, Spiderman.",
+"Spiderman": "Bye, Batman."
+{
+"Batman": "Spiderman, I've been doing some research on vector databases and I wanted to get your take on them.",
+"Spiderman": "Ah, Batman, vector databases are a type of database that stores data as vectors, which are mathematical objects that can be used for similarity searches.",
+"Batman": "That's fascinating. So it's like a new way of organizing data?",
+"Spiderman": "Exactly, Batman. Vector databases are designed to handle high-dimensional data and enable efficient similarity searches.",
+"Batman": "I see. So it's like a tool for fighting crime in the digital world.",
+"Spiderman": "Ha! Yes, Batman, vector databases are a powerful tool for fighting crime in the digital world.",
+"Batman": "What about the benefits of using vector databases? Can you tell me more?",
+"Spiderman": "Well, Batman, vector databases offer several benefits, including faster query performance, reduced storage requirements, and improved data accuracy.",
+"Batman": "That's impressive. And what about the challenges of implementing vector databases?",
+"Spiderman": "Ah, Batman, one of the main challenges is data preparation and indexing, which requires careful consideration of data types and dimensions.",
+"Batman": "I see. So it's like a puzzle to be solved.",
+"Spiderman": "Exactly, Batman. But with the right tools and expertise, vector databases can be a powerful solution for many use cases.",
+"Batman": "Thanks for explaining it to me, Spiderman.",
+"Spiderman": "No problem, Batman. It's always great to talk tech with a fellow superhero.",
+"Batman": "Bye, Spiderman.",
+"Spiderman": "Bye, Batman."}
+STATUS: Script generated.
+STATUS: Converting text to voice for Batman...
+STATUS: Converting text to voice for Spiderman...
+STATUS: emptied audio folder
+Parsed script: [('Batman', "Spiderman, I've been doing some research on vector databases and I wanted to get your take on them."), ('Spiderman', 'Ah, Batman, vector databases are a type of database that stores data as vectors, which are mathematical objects that can be used for similarity searches.'), ('Batman', "That's fascinating. So it's like a new way of organizing data?"), ('Spiderman', 'Exactly, Batman. Vector databases are designed to handle high-dimensional data and enable efficient similarity searches.'), ('Batman', "I see. So it's like a tool for fighting crime in the digital world."), ('Spiderman', 'Ha! Yes, Batman, vector databases are a powerful tool for fighting crime in the digital world.'), ('Batman', 'What about the benefits of using vector databases? Can you tell me more?'), ('Spiderman', 'Well, Batman, vector databases offer several benefits, including faster query performance, reduced storage requirements, and improved data accuracy.'), ('Batman', "That's impressive. And what about the challenges of implementing vector databases?"), ('Spiderman', 'Ah, Batman, one of the main challenges is data preparation and indexing, which requires careful consideration of data types and dimensions.'), ('Batman', "I see. So it's like a puzzle to be solved."), ('Spiderman', 'Exactly, Batman. But with the right tools and expertise, vector databases can be a powerful solution for many use cases.'), ('Batman', 'Thanks for explaining it to me, Spiderman.'), ('Spiderman', "No problem, Batman. It's always great to talk tech with a fellow superhero."), ('Batman', 'Bye, Spiderman.'), ('Spiderman', 'Bye, Batman.')]
+entered run
+Synthesizing text: Spiderman, I've been doing some research on vector databases and I wanted to get your take on them. to media/generated/audio/batman_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-qdj-2025-06-11-13-01-54.mp3
+Audio duration: 4.18s
+Processed Batman: Spiderman, I've been doing some research on vector databases and I wanted to get your take on them. -> batman_1.mp3 (4.18s)
+Synthesizing text: Ah, Batman, vector databases are a type of database that stores data as vectors, which are mathematical objects that can be used for similarity searches. to media/generated/audio/spiderman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-tri-2025-06-11-13-02-11.mp3
+Audio duration: 10.34s
+Processed Spiderman: Ah, Batman, vector databases are a type of database that stores data as vectors, which are mathematical objects that can be used for similarity searches. -> spiderman_2.mp3 (10.34s)
+Synthesizing text: That's fascinating. So it's like a new way of organizing data? to media/generated/audio/batman_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-rko-2025-06-11-13-02-28.mp3
+Audio duration: 3.37s
+Processed Batman: That's fascinating. So it's like a new way of organizing data? -> batman_3.mp3 (3.37s)
+Synthesizing text: Exactly, Batman. Vector databases are designed to handle high-dimensional data and enable efficient similarity searches. to media/generated/audio/spiderman_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-hfk-2025-06-11-13-02-45.mp3
+Audio duration: 8.36s
+Processed Spiderman: Exactly, Batman. Vector databases are designed to handle high-dimensional data and enable efficient similarity searches. -> spiderman_4.mp3 (8.36s)
+Synthesizing text: I see. So it's like a tool for fighting crime in the digital world. to media/generated/audio/batman_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-cmd-2025-06-11-13-03-02.mp3
+Audio duration: 3.84s
+Processed Batman: I see. So it's like a tool for fighting crime in the digital world. -> batman_5.mp3 (3.84s)
+Synthesizing text: Ha! Yes, Batman, vector databases are a powerful tool for fighting crime in the digital world. to media/generated/audio/spiderman_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-sfb-2025-06-11-13-03-19.mp3
+Audio duration: 7.24s
+Processed Spiderman: Ha! Yes, Batman, vector databases are a powerful tool for fighting crime in the digital world. -> spiderman_6.mp3 (7.24s)
+Synthesizing text: What about the benefits of using vector databases? Can you tell me more? to media/generated/audio/batman_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-bdh-2025-06-11-13-03-35.mp3
+Audio duration: 3.89s
+Processed Batman: What about the benefits of using vector databases? Can you tell me more? -> batman_7.mp3 (3.89s)
+Synthesizing text: Well, Batman, vector databases offer several benefits, including faster query performance, reduced storage requirements, and improved data accuracy. to media/generated/audio/spiderman_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-zwn-2025-06-11-13-03-52.mp3
+Audio duration: 10.68s
+Processed Spiderman: Well, Batman, vector databases offer several benefits, including faster query performance, reduced storage requirements, and improved data accuracy. -> spiderman_8.mp3 (10.68s)
+Synthesizing text: That's impressive. And what about the challenges of implementing vector databases? to media/generated/audio/batman_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-qub-2025-06-11-13-04-09.mp3
+Audio duration: 4.31s
+Processed Batman: That's impressive. And what about the challenges of implementing vector databases? -> batman_9.mp3 (4.31s)
+Synthesizing text: Ah, Batman, one of the main challenges is data preparation and indexing, which requires careful consideration of data types and dimensions. to media/generated/audio/spiderman_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-jwj-2025-06-11-13-04-26.mp3
+Audio duration: 9.46s
+Processed Spiderman: Ah, Batman, one of the main challenges is data preparation and indexing, which requires careful consideration of data types and dimensions. -> spiderman_10.mp3 (9.46s)
+Synthesizing text: I see. So it's like a puzzle to be solved. to media/generated/audio/batman_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-znr-2025-06-11-13-04-43.mp3
+Audio duration: 2.12s
+Processed Batman: I see. So it's like a puzzle to be solved. -> batman_11.mp3 (2.12s)
+Synthesizing text: Exactly, Batman. But with the right tools and expertise, vector databases can be a powerful solution for many use cases. to media/generated/audio/spiderman_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-hdz-2025-06-11-13-04-59.mp3
+Audio duration: 8.44s
+Processed Spiderman: Exactly, Batman. But with the right tools and expertise, vector databases can be a powerful solution for many use cases. -> spiderman_12.mp3 (8.44s)
+Synthesizing text: Thanks for explaining it to me, Spiderman. to media/generated/audio/batman_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-czw-2025-06-11-13-05-15.mp3
+Audio duration: 1.80s
+Processed Batman: Thanks for explaining it to me, Spiderman. -> batman_13.mp3 (1.80s)
+Synthesizing text: No problem, Batman. It's always great to talk tech with a fellow superhero. to media/generated/audio/spiderman_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-zve-2025-06-11-13-05-33.mp3
+Audio duration: 5.25s
+Processed Spiderman: No problem, Batman. It's always great to talk tech with a fellow superhero. -> spiderman_14.mp3 (5.25s)
+Synthesizing text: Bye, Spiderman. to media/generated/audio/batman_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-cmm-2025-06-11-13-05-55.mp3
+Audio duration: 0.86s
+Processed Batman: Bye, Spiderman. -> batman_15.mp3 (0.86s)
+Synthesizing text: Bye, Batman. to media/generated/audio/spiderman_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-cox-2025-06-11-13-06-17.mp3
+Audio duration: 1.20s
+Processed Spiderman: Bye, Batman. -> spiderman_16.mp3 (1.20s)
+Final audio path: media/generated/audio/final_audio.mp3
+Timeline: [{"speaker": "Batman", "start": 0.0, "duration": 4.179591836734694, "filename": "batman_1.mp3"}, {"speaker": "Spiderman", "start": 4.179591836734694, "duration": 10.344489795918367, "filename": "spiderman_2.mp3"}, {"speaker": "Batman", "start": 14.524081632653061, "duration": 3.369795918367347, "filename": "batman_3.mp3"}, {"speaker": "Spiderman", "start": 17.89387755102041, "duration": 8.359183673469389, "filename": "spiderman_4.mp3"}, {"speaker": "Batman", "start": 26.253061224489798, "duration": 3.84, "filename": "batman_5.mp3"}, {"speaker": "Spiderman", "start": 30.093061224489798, "duration": 7.2359183673469385, "filename": "spiderman_6.mp3"}, {"speaker": "Batman", "start": 37.328979591836735, "duration": 3.8922448979591837, "filename": "batman_7.mp3"}, {"speaker": "Spiderman", "start": 41.221224489795915, "duration": 10.684081632653061, "filename": "spiderman_8.mp3"}, {"speaker": "Batman", "start": 51.90530612244898, "duration": 4.310204081632653, "filename": "batman_9.mp3"}, {"speaker": "Spiderman", "start": 56.21551020408163, "duration": 9.456326530612245, "filename": "spiderman_10.mp3"}, {"speaker": "Batman", "start": 65.67183673469387, "duration": 2.115918367346939, "filename": "batman_11.mp3"}, {"speaker": "Spiderman", "start": 67.7877551020408, "duration": 8.437551020408163, "filename": "spiderman_12.mp3"}, {"speaker": "Batman", "start": 76.22530612244897, "duration": 1.8024489795918368, "filename": "batman_13.mp3"}, {"speaker": "Spiderman", "start": 78.0277551020408, "duration": 5.250612244897959, "filename": "spiderman_14.mp3"}, {"speaker": "Batman", "start": 83.27836734693877, "duration": 0.8620408163265306, "filename": "batman_15.mp3"}, {"speaker": "Spiderman", "start": 84.14040816326529, "duration": 1.2016326530612245, "filename": "spiderman_16.mp3"}]
+{"audio_path": "media/generated/audio/final_audio.mp3", "timestamps": [{"speaker": "Batman", "start": 0.0, "duration": 4.179591836734694, "filename": "batman_1.mp3"}, {"speaker": "Spiderman", "start": 4.179591836734694, "duration": 10.344489795918367, "filename": "spiderman_2.mp3"}, {"speaker": "Batman", "start": 14.524081632653061, "duration": 3.369795918367347, "filename": "batman_3.mp3"}, {"speaker": "Spiderman", "start": 17.89387755102041, "duration": 8.359183673469389, "filename": "spiderman_4.mp3"}, {"speaker": "Batman", "start": 26.253061224489798, "duration": 3.84, "filename": "batman_5.mp3"}, {"speaker": "Spiderman", "start": 30.093061224489798, "duration": 7.2359183673469385, "filename": "spiderman_6.mp3"}, {"speaker": "Batman", "start": 37.328979591836735, "duration": 3.8922448979591837, "filename": "batman_7.mp3"}, {"speaker": "Spiderman", "start": 41.221224489795915, "duration": 10.684081632653061, "filename": "spiderman_8.mp3"}, {"speaker": "Batman", "start": 51.90530612244898, "duration": 4.310204081632653, "filename": "batman_9.mp3"}, {"speaker": "Spiderman", "start": 56.21551020408163, "duration": 9.456326530612245, "filename": "spiderman_10.mp3"}, {"speaker": "Batman", "start": 65.67183673469387, "duration": 2.115918367346939, "filename": "batman_11.mp3"}, {"speaker": "Spiderman", "start": 67.7877551020408, "duration": 8.437551020408163, "filename": "spiderman_12.mp3"}, {"speaker": "Batman", "start": 76.22530612244897, "duration": 1.8024489795918368, "filename": "batman_13.mp3"}, {"speaker": "Spiderman", "start": 78.0277551020408, "duration": 5.250612244897959, "filename": "spiderman_14.mp3"}, {"speaker": "Batman", "start": 83.27836734693877, "duration": 0.8620408163265306, "filename": "batman_15.mp3"}, {"speaker": "Spiderman", "start": 84.14040816326529, "duration": 1.2016326530612245, "filename": "spiderman_16.mp3"}]}
+STATUS: Sticker images downloaded.
+ERROR: Failed to create video: [Errno 32] Broken pipe
+STATUS: Generating script...
+Generated script: {
+"Spiderman": "Superman, I've been thinking about operating systems and I wanted to get your take on them.",
+"Superman": "Ah, Spiderman, operating systems are the backbone of any computer system, allowing multiple programs to run efficiently.",
+"Spiderman": "That's fascinating. So it's like a superpower for computers?",
+"Superman": "Ha! Yes, Spiderman, operating systems are like a superpower for computers, enabling them to perform complex tasks with ease.",
+"Spiderman": "I see. So it's like a tool for fighting crime in the digital world.",
+"Superman": "Exactly, Spiderman. Operating systems help us navigate the digital world and keep our systems running smoothly.",
+"Spiderman": "What about the different types of operating systems? Can you tell me more?",
+"Superman": "Well, Spiderman, there are several types of operating systems, including Windows, macOS, and Linux, each with its own strengths and weaknesses.",
+"Spiderman": "I see. So it's like a choice between different superpowers?",
+"Superman": "Ha! Yes, Spiderman, operating systems are like different superpowers, each with its own unique abilities.",
+"Spiderman": "Thanks for explaining it to me, Superman.",
+"Superman": "No problem, Spiderman. It's always great to talk tech with a fellow superhero.",
+"Spiderman": "By the way, what's the difference between a 32-bit and 64-bit operating system?",
+"Superman": "Ah, Spiderman, a 32-bit operating system can only handle up to 4 GB of RAM, while a 64-bit operating system can handle much more memory.",
+"Spiderman": "That's impressive. I had no idea.",
+"Superman": "Yes, Spiderman, it's an important distinction to make when choosing an operating system.",
+"Spiderman": "Thanks for the tip, Superman.",
+"Superman": "No problem, Spiderman.",
+"Spiderman": "Bye, Superman.",
+"Superman": "Bye, Spiderman."
+{
+"Spiderman": "Superman, I've been thinking about operating systems and I wanted to get your take on them.",
+"Superman": "Ah, Spiderman, operating systems are the backbone of any computer system, allowing multiple programs to run efficiently.",
+"Spiderman": "That's fascinating. So it's like a superpower for computers?",
+"Superman": "Ha! Yes, Spiderman, operating systems are like a superpower for computers, enabling them to perform complex tasks with ease.",
+"Spiderman": "I see. So it's like a tool for fighting crime in the digital world.",
+"Superman": "Exactly, Spiderman. Operating systems help us navigate the digital world and keep our systems running smoothly.",
+"Spiderman": "What about the different types of operating systems? Can you tell me more?",
+"Superman": "Well, Spiderman, there are several types of operating systems, including Windows, macOS, and Linux, each with its own strengths and weaknesses.",
+"Spiderman": "I see. So it's like a choice between different superpowers?",
+"Superman": "Ha! Yes, Spiderman, operating systems are like different superpowers, each with its own unique abilities.",
+"Spiderman": "Thanks for explaining it to me, Superman.",
+"Superman": "No problem, Spiderman. It's always great to talk tech with a fellow superhero.",
+"Spiderman": "By the way, what's the difference between a 32-bit and 64-bit operating system?",
+"Superman": "Ah, Spiderman, a 32-bit operating system can only handle up to 4 GB of RAM, while a 64-bit operating system can handle much more memory.",
+"Spiderman": "That's impressive. I had no idea.",
+"Superman": "Yes, Spiderman, it's an important distinction to make when choosing an operating system.",
+"Spiderman": "Thanks for the tip, Superman.",
+"Superman": "No problem, Spiderman.",
+"Spiderman": "Bye, Superman.",
+"Superman": "Bye, Spiderman."}
+STATUS: Script generated.
+STATUS: Converting text to voice for Spiderman...
+STATUS: Converting text to voice for Superman...
+STATUS: emptied audio folder
+Parsed script: [('Spiderman', "Superman, I've been thinking about operating systems and I wanted to get your take on them."), ('Superman', 'Ah, Spiderman, operating systems are the backbone of any computer system, allowing multiple programs to run efficiently.'), ('Spiderman', "That's fascinating. So it's like a superpower for computers?"), ('Superman', 'Ha! Yes, Spiderman, operating systems are like a superpower for computers, enabling them to perform complex tasks with ease.'), ('Spiderman', "I see. So it's like a tool for fighting crime in the digital world."), ('Superman', 'Exactly, Spiderman. Operating systems help us navigate the digital world and keep our systems running smoothly.'), ('Spiderman', 'What about the different types of operating systems? Can you tell me more?'), ('Superman', 'Well, Spiderman, there are several types of operating systems, including Windows, macOS, and Linux, each with its own strengths and weaknesses.'), ('Spiderman', "I see. So it's like a choice between different superpowers?"), ('Superman', 'Ha! Yes, Spiderman, operating systems are like different superpowers, each with its own unique abilities.'), ('Spiderman', 'Thanks for explaining it to me, Superman.'), ('Superman', "No problem, Spiderman. It's always great to talk tech with a fellow superhero."), ('Spiderman', "By the way, what's the difference between a 32-bit and 64-bit operating system?"), ('Superman', 'Ah, Spiderman, a 32-bit operating system can only handle up to 4 GB of RAM, while a 64-bit operating system can handle much more memory.'), ('Spiderman', "That's impressive. I had no idea."), ('Superman', "Yes, Spiderman, it's an important distinction to make when choosing an operating system."), ('Spiderman', 'Thanks for the tip, Superman.'), ('Superman', 'No problem, Spiderman.'), ('Spiderman', 'Bye, Superman.'), ('Superman', 'Bye, Spiderman.')]
+entered run
+Synthesizing text: Superman, I've been thinking about operating systems and I wanted to get your take on them. to media/generated/audio/spiderman_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-bow-2025-06-11-13-35-42.mp3
+Audio duration: 3.84s
+Processed Spiderman: Superman, I've been thinking about operating systems and I wanted to get your take on them. -> spiderman_1.mp3 (3.84s)
+Synthesizing text: Ah, Spiderman, operating systems are the backbone of any computer system, allowing multiple programs to run efficiently. to media/generated/audio/superman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-iuc-2025-06-11-13-36-04.mp3
+Audio duration: 7.94s
+Processed Superman: Ah, Spiderman, operating systems are the backbone of any computer system, allowing multiple programs to run efficiently. -> superman_2.mp3 (7.94s)
+Synthesizing text: That's fascinating. So it's like a superpower for computers? to media/generated/audio/spiderman_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-muc-2025-06-11-13-36-20.mp3
+Audio duration: 3.29s
+Processed Spiderman: That's fascinating. So it's like a superpower for computers? -> spiderman_3.mp3 (3.29s)
+Synthesizing text: Ha! Yes, Spiderman, operating systems are like a superpower for computers, enabling them to perform complex tasks with ease. to media/generated/audio/superman_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-jxs-2025-06-11-13-36-36.mp3
+Audio duration: 9.43s
+Processed Superman: Ha! Yes, Spiderman, operating systems are like a superpower for computers, enabling them to perform complex tasks with ease. -> superman_4.mp3 (9.43s)
+Synthesizing text: I see. So it's like a tool for fighting crime in the digital world. to media/generated/audio/spiderman_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-qmu-2025-06-11-13-36-53.mp3
+Audio duration: 3.53s
+Processed Spiderman: I see. So it's like a tool for fighting crime in the digital world. -> spiderman_5.mp3 (3.53s)
+Synthesizing text: Exactly, Spiderman. Operating systems help us navigate the digital world and keep our systems running smoothly. to media/generated/audio/superman_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-gfv-2025-06-11-13-37-09.mp3
+Audio duration: 7.47s
+Processed Superman: Exactly, Spiderman. Operating systems help us navigate the digital world and keep our systems running smoothly. -> superman_6.mp3 (7.47s)
+Synthesizing text: What about the different types of operating systems? Can you tell me more? to media/generated/audio/spiderman_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ouq-2025-06-11-13-37-26.mp3
+Audio duration: 3.60s
+Processed Spiderman: What about the different types of operating systems? Can you tell me more? -> spiderman_7.mp3 (3.60s)
+Synthesizing text: Well, Spiderman, there are several types of operating systems, including Windows, macOS, and Linux, each with its own strengths and weaknesses. to media/generated/audio/superman_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-qfa-2025-06-11-13-37-41.mp3
+Audio duration: 10.34s
+Processed Superman: Well, Spiderman, there are several types of operating systems, including Windows, macOS, and Linux, each with its own strengths and weaknesses. -> superman_8.mp3 (10.34s)
+Synthesizing text: I see. So it's like a choice between different superpowers? to media/generated/audio/spiderman_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-msu-2025-06-11-13-38-00.mp3
+Audio duration: 3.16s
+Processed Spiderman: I see. So it's like a choice between different superpowers? -> spiderman_9.mp3 (3.16s)
+Synthesizing text: Ha! Yes, Spiderman, operating systems are like different superpowers, each with its own unique abilities. to media/generated/audio/superman_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-wso-2025-06-11-13-38-26.mp3
+Audio duration: 7.42s
+Processed Superman: Ha! Yes, Spiderman, operating systems are like different superpowers, each with its own unique abilities. -> superman_10.mp3 (7.42s)
+Synthesizing text: Thanks for explaining it to me, Superman. to media/generated/audio/spiderman_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-xjp-2025-06-11-13-38-41.mp3
+Audio duration: 1.75s
+Processed Spiderman: Thanks for explaining it to me, Superman. -> spiderman_11.mp3 (1.75s)
+Synthesizing text: No problem, Spiderman. It's always great to talk tech with a fellow superhero. to media/generated/audio/superman_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-hdy-2025-06-11-13-38-58.mp3
+Audio duration: 5.51s
+Processed Superman: No problem, Spiderman. It's always great to talk tech with a fellow superhero. -> superman_12.mp3 (5.51s)
+Synthesizing text: By the way, what's the difference between a 32-bit and 64-bit operating system? to media/generated/audio/spiderman_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-nlr-2025-06-11-13-39-14.mp3
+Audio duration: 4.31s
+Processed Spiderman: By the way, what's the difference between a 32-bit and 64-bit operating system? -> spiderman_13.mp3 (4.31s)
+Synthesizing text: Ah, Spiderman, a 32-bit operating system can only handle up to 4 GB of RAM, while a 64-bit operating system can handle much more memory. to media/generated/audio/superman_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-beg-2025-06-11-13-39-30.mp3
+Audio duration: 10.34s
+Processed Superman: Ah, Spiderman, a 32-bit operating system can only handle up to 4 GB of RAM, while a 64-bit operating system can handle much more memory. -> superman_14.mp3 (10.34s)
+Synthesizing text: That's impressive. I had no idea. to media/generated/audio/spiderman_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-zve-2025-06-11-13-39-46.mp3
+Audio duration: 1.80s
+Processed Spiderman: That's impressive. I had no idea. -> spiderman_15.mp3 (1.80s)
+Synthesizing text: Yes, Spiderman, it's an important distinction to make when choosing an operating system. to media/generated/audio/superman_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dmm-2025-06-11-13-40-02.mp3
+Audio duration: 5.38s
+Processed Superman: Yes, Spiderman, it's an important distinction to make when choosing an operating system. -> superman_16.mp3 (5.38s)
+Synthesizing text: Thanks for the tip, Superman. to media/generated/audio/spiderman_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ety-2025-06-11-13-40-18.mp3
+Audio duration: 1.44s
+Processed Spiderman: Thanks for the tip, Superman. -> spiderman_17.mp3 (1.44s)
+Synthesizing text: No problem, Spiderman. to media/generated/audio/superman_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-iab-2025-06-11-13-40-34.mp3
+Audio duration: 1.93s
+Processed Superman: No problem, Spiderman. -> superman_18.mp3 (1.93s)
+Synthesizing text: Bye, Superman. to media/generated/audio/spiderman_19.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ssf-2025-06-11-13-40-50.mp3
+Audio duration: 0.97s
+Processed Spiderman: Bye, Superman. -> spiderman_19.mp3 (0.97s)
+Synthesizing text: Bye, Spiderman. to media/generated/audio/superman_20.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Final audio path: media/generated/audio/final_audio.mp3
+Timeline: [{"speaker": "Spiderman", "start": 0.0, "duration": 3.84, "filename": "spiderman_1.mp3"}, {"speaker": "Superman", "start": 3.84, "duration": 7.9412244897959186, "filename": "superman_2.mp3"}, {"speaker": "Spiderman", "start": 11.781224489795918, "duration": 3.2914285714285714, "filename": "spiderman_3.mp3"}, {"speaker": "Superman", "start": 15.07265306122449, "duration": 9.430204081632652, "filename": "superman_4.mp3"}, {"speaker": "Spiderman", "start": 24.502857142857142, "duration": 3.526530612244898, "filename": "spiderman_5.mp3"}, {"speaker": "Superman", "start": 28.02938775510204, "duration": 7.471020408163265, "filename": "superman_6.mp3"}, {"speaker": "Spiderman", "start": 35.500408163265305, "duration": 3.6048979591836736, "filename": "spiderman_7.mp3"}, {"speaker": "Superman", "start": 39.10530612244898, "duration": 10.344489795918367, "filename": "superman_8.mp3"}, {"speaker": "Spiderman", "start": 49.44979591836734, "duration": 3.1608163265306124, "filename": "spiderman_9.mp3"}, {"speaker": "Superman", "start": 52.61061224489796, "duration": 7.418775510204082, "filename": "superman_10.mp3"}, {"speaker": "Spiderman", "start": 60.029387755102036, "duration": 1.750204081632653, "filename": "spiderman_11.mp3"}, {"speaker": "Superman", "start": 61.77959183673469, "duration": 5.511836734693878, "filename": "superman_12.mp3"}, {"speaker": "Spiderman", "start": 67.29142857142857, "duration": 4.310204081632653, "filename": "spiderman_13.mp3"}, {"speaker": "Superman", "start": 71.60163265306122, "duration": 10.344489795918367, "filename": "superman_14.mp3"}, {"speaker": "Spiderman", "start": 81.94612244897958, "duration": 1.8024489795918368, "filename": "spiderman_15.mp3"}, {"speaker": "Superman", "start": 83.74857142857141, "duration": 5.381224489795918, "filename": "superman_16.mp3"}, {"speaker": "Spiderman", "start": 89.12979591836732, "duration": 1.436734693877551, "filename": "spiderman_17.mp3"}, {"speaker": "Superman", "start": 90.56653061224488, "duration": 1.933061224489796, "filename": "superman_18.mp3"}, {"speaker": "Spiderman", "start": 92.49959183673467, "duration": 0.966530612244898, "filename": "spiderman_19.mp3"}]
+{"audio_path": "media/generated/audio/final_audio.mp3", "timestamps": [{"speaker": "Spiderman", "start": 0.0, "duration": 3.84, "filename": "spiderman_1.mp3"}, {"speaker": "Superman", "start": 3.84, "duration": 7.9412244897959186, "filename": "superman_2.mp3"}, {"speaker": "Spiderman", "start": 11.781224489795918, "duration": 3.2914285714285714, "filename": "spiderman_3.mp3"}, {"speaker": "Superman", "start": 15.07265306122449, "duration": 9.430204081632652, "filename": "superman_4.mp3"}, {"speaker": "Spiderman", "start": 24.502857142857142, "duration": 3.526530612244898, "filename": "spiderman_5.mp3"}, {"speaker": "Superman", "start": 28.02938775510204, "duration": 7.471020408163265, "filename": "superman_6.mp3"}, {"speaker": "Spiderman", "start": 35.500408163265305, "duration": 3.6048979591836736, "filename": "spiderman_7.mp3"}, {"speaker": "Superman", "start": 39.10530612244898, "duration": 10.344489795918367, "filename": "superman_8.mp3"}, {"speaker": "Spiderman", "start": 49.44979591836734, "duration": 3.1608163265306124, "filename": "spiderman_9.mp3"}, {"speaker": "Superman", "start": 52.61061224489796, "duration": 7.418775510204082, "filename": "superman_10.mp3"}, {"speaker": "Spiderman", "start": 60.029387755102036, "duration": 1.750204081632653, "filename": "spiderman_11.mp3"}, {"speaker": "Superman", "start": 61.77959183673469, "duration": 5.511836734693878, "filename": "superman_12.mp3"}, {"speaker": "Spiderman", "start": 67.29142857142857, "duration": 4.310204081632653, "filename": "spiderman_13.mp3"}, {"speaker": "Superman", "start": 71.60163265306122, "duration": 10.344489795918367, "filename": "superman_14.mp3"}, {"speaker": "Spiderman", "start": 81.94612244897958, "duration": 1.8024489795918368, "filename": "spiderman_15.mp3"}, {"speaker": "Superman", "start": 83.74857142857141, "duration": 5.381224489795918, "filename": "superman_16.mp3"}, {"speaker": "Spiderman", "start": 89.12979591836732, "duration": 1.436734693877551, "filename": "spiderman_17.mp3"}, {"speaker": "Superman", "start": 90.56653061224488, "duration": 1.933061224489796, "filename": "superman_18.mp3"}, {"speaker": "Spiderman", "start": 92.49959183673467, "duration": 0.966530612244898, "filename": "spiderman_19.mp3"}]}
+STATUS: Sticker images downloaded.
+STATUS: Video created with stickers.
+STATUS: Generating script...
+Generated script: {
+"Captain America": "Green Lantern, I've been hearing about this new operating system called Arch OS and I wanted to get your take on it.",
+"Green Lantern": "Ah, Captain America, Arch OS is a highly customizable and lightweight operating system that's gained a lot of popularity in recent years.",
+"Captain America": "That's fascinating. So it's like a superpower for your computer?",
+"Green Lantern": "Ha! Yes, Captain America, Arch OS is like a superpower for your computer, allowing you to customize it to your heart's content.",
+"Captain America": "I see. So it's like a tool for fighting crime in the digital world.",
+"Green Lantern": "Exactly, Captain America. Arch OS is a powerful tool that can help you navigate the digital world and keep your systems running smoothly.",
+"Captain America": "What about the benefits of using Arch OS? Can you tell me more?",
+"Green Lantern": "Well, Captain America, Arch OS offers several benefits, including speed, flexibility, and a small footprint.",
+"Captain America": "That's impressive. And what about the challenges of implementing Arch OS?",
+"Green Lantern": "Ah, Captain America, one of the main challenges is the learning curve, as Arch OS can be quite complex to set up and configure.",
+"Captain America": "I see. So it's like a puzzle to be solved.",
+"Green Lantern": "Exactly, Captain America. But with the right tools and expertise, Arch OS can be a powerful solution for many use cases.",
+"Captain America": "Thanks for explaining it to me, Green Lantern.",
+"Green Lantern": "No problem, Captain America. It's always great to talk tech with a fellow superhero.",
+"Captain America": "By the way, what's the difference between Arch OS and other operating systems?",
+"Green Lantern": "Ah, Captain America, Arch OS is a rolling-release distribution, meaning it's constantly updated and improved, whereas other operating systems are often stuck in a specific version.",
+"Captain America": "That's impressive. I had no idea.",
+"Green Lantern": "Yes, Captain America, it's an important distinction to make when choosing an operating system.",
+"Captain America": "Thanks for the tip, Green Lantern.",
+"Green Lantern": "No problem, Captain America.",
+"Captain America": "Bye, Green Lantern.",
+"Green Lantern": "Bye, Captain America."
+{
+"Captain America": "Green Lantern, I've been hearing about this new operating system called Arch OS and I wanted to get your take on it.",
+"Green Lantern": "Ah, Captain America, Arch OS is a highly customizable and lightweight operating system that's gained a lot of popularity in recent years.",
+"Captain America": "That's fascinating. So it's like a superpower for your computer?",
+"Green Lantern": "Ha! Yes, Captain America, Arch OS is like a superpower for your computer, allowing you to customize it to your heart's content.",
+"Captain America": "I see. So it's like a tool for fighting crime in the digital world.",
+"Green Lantern": "Exactly, Captain America. Arch OS is a powerful tool that can help you navigate the digital world and keep your systems running smoothly.",
+"Captain America": "What about the benefits of using Arch OS? Can you tell me more?",
+"Green Lantern": "Well, Captain America, Arch OS offers several benefits, including speed, flexibility, and a small footprint.",
+"Captain America": "That's impressive. And what about the challenges of implementing Arch OS?",
+"Green Lantern": "Ah, Captain America, one of the main challenges is the learning curve, as Arch OS can be quite complex to set up and configure.",
+"Captain America": "I see. So it's like a puzzle to be solved.",
+"Green Lantern": "Exactly, Captain America. But with the right tools and expertise, Arch OS can be a powerful solution for many use cases.",
+"Captain America": "Thanks for explaining it to me, Green Lantern.",
+"Green Lantern": "No problem, Captain America. It's always great to talk tech with a fellow superhero.",
+"Captain America": "By the way, what's the difference between Arch OS and other operating systems?",
+"Green Lantern": "Ah, Captain America, Arch OS is a rolling-release distribution, meaning it's constantly updated and improved, whereas other operating systems are often stuck in a specific version.",
+"Captain America": "That's impressive. I had no idea.",
+"Green Lantern": "Yes, Captain America, it's an important distinction to make when choosing an operating system.",
+"Captain America": "Thanks for the tip, Green Lantern.",
+"Green Lantern": "No problem, Captain America.",
+"Captain America": "Bye, Green Lantern.",
+"Green Lantern": "Bye, Captain America."}
+STATUS: Script generated.
+STATUS: Converting text to voice for Captain America...
+STATUS: Converting text to voice for Green Lantern...
+STATUS: emptied audio folder
+Parsed script: [('Captain America', "Green Lantern, I've been hearing about this new operating system called Arch OS and I wanted to get your take on it."), ('Green Lantern', "Ah, Captain America, Arch OS is a highly customizable and lightweight operating system that's gained a lot of popularity in recent years."), ('Captain America', "That's fascinating. So it's like a superpower for your computer?"), ('Green Lantern', "Ha! Yes, Captain America, Arch OS is like a superpower for your computer, allowing you to customize it to your heart's content."), ('Captain America', "I see. So it's like a tool for fighting crime in the digital world."), ('Green Lantern', 'Exactly, Captain America. Arch OS is a powerful tool that can help you navigate the digital world and keep your systems running smoothly.'), ('Captain America', 'What about the benefits of using Arch OS? Can you tell me more?'), ('Green Lantern', 'Well, Captain America, Arch OS offers several benefits, including speed, flexibility, and a small footprint.'), ('Captain America', "That's impressive. And what about the challenges of implementing Arch OS?"), ('Green Lantern', 'Ah, Captain America, one of the main challenges is the learning curve, as Arch OS can be quite complex to set up and configure.'), ('Captain America', "I see. So it's like a puzzle to be solved."), ('Green Lantern', 'Exactly, Captain America. But with the right tools and expertise, Arch OS can be a powerful solution for many use cases.'), ('Captain America', 'Thanks for explaining it to me, Green Lantern.'), ('Green Lantern', "No problem, Captain America. It's always great to talk tech with a fellow superhero."), ('Captain America', "By the way, what's the difference between Arch OS and other operating systems?"), ('Green Lantern', "Ah, Captain America, Arch OS is a rolling-release distribution, meaning it's constantly updated and improved, whereas other operating systems are often stuck in a specific version."), ('Captain America', "That's impressive. I had no idea."), ('Green Lantern', "Yes, Captain America, it's an important distinction to make when choosing an operating system."), ('Captain America', 'Thanks for the tip, Green Lantern.'), ('Green Lantern', 'No problem, Captain America.'), ('Captain America', 'Bye, Green Lantern.'), ('Green Lantern', 'Bye, Captain America.')]
+entered run
+Synthesizing text: Green Lantern, I've been hearing about this new operating system called Arch OS and I wanted to get your take on it. to media/generated/audio/captain_america_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ouw-2025-06-11-14-36-25.mp3
+Audio duration: 4.86s
+Processed Captain America: Green Lantern, I've been hearing about this new operating system called Arch OS and I wanted to get your take on it. -> captain_america_1.mp3 (4.86s)
+Synthesizing text: Ah, Captain America, Arch OS is a highly customizable and lightweight operating system that's gained a lot of popularity in recent years. to media/generated/audio/green_lantern_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-rhe-2025-06-11-14-36-42.mp3
+Audio duration: 9.61s
+Processed Green Lantern: Ah, Captain America, Arch OS is a highly customizable and lightweight operating system that's gained a lot of popularity in recent years. -> green_lantern_2.mp3 (9.61s)
+Synthesizing text: That's fascinating. So it's like a superpower for your computer? to media/generated/audio/captain_america_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-wpl-2025-06-11-14-36-59.mp3
+Audio duration: 3.34s
+Processed Captain America: That's fascinating. So it's like a superpower for your computer? -> captain_america_3.mp3 (3.34s)
+Synthesizing text: Ha! Yes, Captain America, Arch OS is like a superpower for your computer, allowing you to customize it to your heart's content. to media/generated/audio/green_lantern_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-avi-2025-06-11-14-37-16.mp3
+Audio duration: 9.38s
+Processed Green Lantern: Ha! Yes, Captain America, Arch OS is like a superpower for your computer, allowing you to customize it to your heart's content. -> green_lantern_4.mp3 (9.38s)
+Synthesizing text: I see. So it's like a tool for fighting crime in the digital world. to media/generated/audio/captain_america_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-nwd-2025-06-11-14-37-33.mp3
+Audio duration: 3.58s
+Processed Captain America: I see. So it's like a tool for fighting crime in the digital world. -> captain_america_5.mp3 (3.58s)
+Synthesizing text: Exactly, Captain America. Arch OS is a powerful tool that can help you navigate the digital world and keep your systems running smoothly. to media/generated/audio/green_lantern_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-yla-2025-06-11-14-37-49.mp3
+Audio duration: 9.51s
+Processed Green Lantern: Exactly, Captain America. Arch OS is a powerful tool that can help you navigate the digital world and keep your systems running smoothly. -> green_lantern_6.mp3 (9.51s)
+Synthesizing text: What about the benefits of using Arch OS? Can you tell me more? to media/generated/audio/captain_america_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-qvw-2025-06-11-14-38-06.mp3
+Audio duration: 3.00s
+Processed Captain America: What about the benefits of using Arch OS? Can you tell me more? -> captain_america_7.mp3 (3.00s)
+Synthesizing text: Well, Captain America, Arch OS offers several benefits, including speed, flexibility, and a small footprint. to media/generated/audio/green_lantern_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-iwa-2025-06-11-14-38-24.mp3
+Audio duration: 8.44s
+Processed Green Lantern: Well, Captain America, Arch OS offers several benefits, including speed, flexibility, and a small footprint. -> green_lantern_8.mp3 (8.44s)
+Synthesizing text: That's impressive. And what about the challenges of implementing Arch OS? to media/generated/audio/captain_america_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lof-2025-06-11-14-38-41.mp3
+Audio duration: 3.71s
+Processed Captain America: That's impressive. And what about the challenges of implementing Arch OS? -> captain_america_9.mp3 (3.71s)
+Synthesizing text: Ah, Captain America, one of the main challenges is the learning curve, as Arch OS can be quite complex to set up and configure. to media/generated/audio/green_lantern_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-gps-2025-06-11-14-38-58.mp3
+Audio duration: 8.31s
+Processed Green Lantern: Ah, Captain America, one of the main challenges is the learning curve, as Arch OS can be quite complex to set up and configure. -> green_lantern_10.mp3 (8.31s)
+Synthesizing text: I see. So it's like a puzzle to be solved. to media/generated/audio/captain_america_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-kht-2025-06-11-14-39-14.mp3
+Audio duration: 2.40s
+Processed Captain America: I see. So it's like a puzzle to be solved. -> captain_america_11.mp3 (2.40s)
+Synthesizing text: Exactly, Captain America. But with the right tools and expertise, Arch OS can be a powerful solution for many use cases. to media/generated/audio/green_lantern_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dan-2025-06-11-14-39-31.mp3
+Audio duration: 9.14s
+Processed Green Lantern: Exactly, Captain America. But with the right tools and expertise, Arch OS can be a powerful solution for many use cases. -> green_lantern_12.mp3 (9.14s)
+Synthesizing text: Thanks for explaining it to me, Green Lantern. to media/generated/audio/captain_america_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-val-2025-06-11-14-39-47.mp3
+Audio duration: 1.91s
+Processed Captain America: Thanks for explaining it to me, Green Lantern. -> captain_america_13.mp3 (1.91s)
+Synthesizing text: No problem, Captain America. It's always great to talk tech with a fellow superhero. to media/generated/audio/green_lantern_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-mbt-2025-06-11-14-40-03.mp3
+Audio duration: 5.85s
+Processed Green Lantern: No problem, Captain America. It's always great to talk tech with a fellow superhero. -> green_lantern_14.mp3 (5.85s)
+Synthesizing text: By the way, what's the difference between Arch OS and other operating systems? to media/generated/audio/captain_america_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-iei-2025-06-11-14-40-20.mp3
+Audio duration: 3.42s
+Processed Captain America: By the way, what's the difference between Arch OS and other operating systems? -> captain_america_15.mp3 (3.42s)
+Synthesizing text: Ah, Captain America, Arch OS is a rolling-release distribution, meaning it's constantly updated and improved, whereas other operating systems are often stuck in a specific version. to media/generated/audio/green_lantern_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vmd-2025-06-11-14-40-37.mp3
+Audio duration: 11.73s
+Processed Green Lantern: Ah, Captain America, Arch OS is a rolling-release distribution, meaning it's constantly updated and improved, whereas other operating systems are often stuck in a specific version. -> green_lantern_16.mp3 (11.73s)
+Synthesizing text: That's impressive. I had no idea. to media/generated/audio/captain_america_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gbv-2025-06-11-14-40-54.mp3
+Audio duration: 1.70s
+Processed Captain America: That's impressive. I had no idea. -> captain_america_17.mp3 (1.70s)
+Synthesizing text: Yes, Captain America, it's an important distinction to make when choosing an operating system. to media/generated/audio/green_lantern_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vzw-2025-06-11-14-41-09.mp3
+Audio duration: 6.09s
+Processed Green Lantern: Yes, Captain America, it's an important distinction to make when choosing an operating system. -> green_lantern_18.mp3 (6.09s)
+Synthesizing text: Thanks for the tip, Green Lantern. to media/generated/audio/captain_america_19.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-nul-2025-06-11-14-41-29.mp3
+Audio duration: 1.57s
+Processed Captain America: Thanks for the tip, Green Lantern. -> captain_america_19.mp3 (1.57s)
+Synthesizing text: No problem, Captain America. to media/generated/audio/green_lantern_20.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Green Lantern. to media/generated/audio/captain_america_21.mp3 using model: shapesinc/doomvoice5
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Captain America. to media/generated/audio/green_lantern_22.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Final audio path: media/generated/audio/final_audio.mp3
+Timeline: [{"speaker": "Captain America", "start": 0.0, "duration": 4.858775510204081, "filename": "captain_america_1.mp3"}, {"speaker": "Green Lantern", "start": 4.858775510204081, "duration": 9.613061224489796, "filename": "green_lantern_2.mp3"}, {"speaker": "Captain America", "start": 14.471836734693877, "duration": 3.3436734693877552, "filename": "captain_america_3.mp3"}, {"speaker": "Green Lantern", "start": 17.815510204081633, "duration": 9.37795918367347, "filename": "green_lantern_4.mp3"}, {"speaker": "Captain America", "start": 27.1934693877551, "duration": 3.5787755102040815, "filename": "captain_america_5.mp3"}, {"speaker": "Green Lantern", "start": 30.772244897959183, "duration": 9.508571428571429, "filename": "green_lantern_6.mp3"}, {"speaker": "Captain America", "start": 40.28081632653061, "duration": 3.0040816326530613, "filename": "captain_america_7.mp3"}, {"speaker": "Green Lantern", "start": 43.284897959183674, "duration": 8.437551020408163, "filename": "green_lantern_8.mp3"}, {"speaker": "Captain America", "start": 51.72244897959184, "duration": 3.709387755102041, "filename": "captain_america_9.mp3"}, {"speaker": "Green Lantern", "start": 55.43183673469388, "duration": 8.306938775510204, "filename": "green_lantern_10.mp3"}, {"speaker": "Captain America", "start": 63.738775510204086, "duration": 2.403265306122449, "filename": "captain_america_11.mp3"}, {"speaker": "Green Lantern", "start": 66.14204081632653, "duration": 9.142857142857142, "filename": "green_lantern_12.mp3"}, {"speaker": "Captain America", "start": 75.28489795918367, "duration": 1.906938775510204, "filename": "captain_america_13.mp3"}, {"speaker": "Green Lantern", "start": 77.19183673469387, "duration": 5.851428571428571, "filename": "green_lantern_14.mp3"}, {"speaker": "Captain America", "start": 83.04326530612244, "duration": 3.422040816326531, "filename": "captain_america_15.mp3"}, {"speaker": "Green Lantern", "start": 86.46530612244896, "duration": 11.728979591836735, "filename": "green_lantern_16.mp3"}, {"speaker": "Captain America", "start": 98.1942857142857, "duration": 1.6979591836734693, "filename": "captain_america_17.mp3"}, {"speaker": "Green Lantern", "start": 99.89224489795917, "duration": 6.086530612244898, "filename": "green_lantern_18.mp3"}, {"speaker": "Captain America", "start": 105.97877551020407, "duration": 1.5673469387755101, "filename": "captain_america_19.mp3"}]
+{"audio_path": "media/generated/audio/final_audio.mp3", "timestamps": [{"speaker": "Captain America", "start": 0.0, "duration": 4.858775510204081, "filename": "captain_america_1.mp3"}, {"speaker": "Green Lantern", "start": 4.858775510204081, "duration": 9.613061224489796, "filename": "green_lantern_2.mp3"}, {"speaker": "Captain America", "start": 14.471836734693877, "duration": 3.3436734693877552, "filename": "captain_america_3.mp3"}, {"speaker": "Green Lantern", "start": 17.815510204081633, "duration": 9.37795918367347, "filename": "green_lantern_4.mp3"}, {"speaker": "Captain America", "start": 27.1934693877551, "duration": 3.5787755102040815, "filename": "captain_america_5.mp3"}, {"speaker": "Green Lantern", "start": 30.772244897959183, "duration": 9.508571428571429, "filename": "green_lantern_6.mp3"}, {"speaker": "Captain America", "start": 40.28081632653061, "duration": 3.0040816326530613, "filename": "captain_america_7.mp3"}, {"speaker": "Green Lantern", "start": 43.284897959183674, "duration": 8.437551020408163, "filename": "green_lantern_8.mp3"}, {"speaker": "Captain America", "start": 51.72244897959184, "duration": 3.709387755102041, "filename": "captain_america_9.mp3"}, {"speaker": "Green Lantern", "start": 55.43183673469388, "duration": 8.306938775510204, "filename": "green_lantern_10.mp3"}, {"speaker": "Captain America", "start": 63.738775510204086, "duration": 2.403265306122449, "filename": "captain_america_11.mp3"}, {"speaker": "Green Lantern", "start": 66.14204081632653, "duration": 9.142857142857142, "filename": "green_lantern_12.mp3"}, {"speaker": "Captain America", "start": 75.28489795918367, "duration": 1.906938775510204, "filename": "captain_america_13.mp3"}, {"speaker": "Green Lantern", "start": 77.19183673469387, "duration": 5.851428571428571, "filename": "green_lantern_14.mp3"}, {"speaker": "Captain America", "start": 83.04326530612244, "duration": 3.422040816326531, "filename": "captain_america_15.mp3"}, {"speaker": "Green Lantern", "start": 86.46530612244896, "duration": 11.728979591836735, "filename": "green_lantern_16.mp3"}, {"speaker": "Captain America", "start": 98.1942857142857, "duration": 1.6979591836734693, "filename": "captain_america_17.mp3"}, {"speaker": "Green Lantern", "start": 99.89224489795917, "duration": 6.086530612244898, "filename": "green_lantern_18.mp3"}, {"speaker": "Captain America", "start": 105.97877551020407, "duration": 1.5673469387755101, "filename": "captain_america_19.mp3"}]}
+STATUS: Sticker images downloaded.
+STATUS: Video created with stickers.

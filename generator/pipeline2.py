@@ -4,19 +4,22 @@
 
 #this is for using voices of shapes doomvoice2 and doomvoice3 and ONLY these voices
 
-
 import sys
 import json
 import os
 import glob
+
+def get_project_root():
+    # Returns the doomteach/ directory (one level up from this file)
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 from script_generator import generate_script, identify_characters
 from tts2 import TTSPipeline
 from get_stickers import download_character_stickers
 from video_editing import create_video_with_stickers  # <-- import the new function
 
-LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline2.log")
-AUDIO_FOLDER = os.path.join(os.path.dirname(__file__), "media/generated/audio")
+LOG_FILE = os.path.join(get_project_root(), "generator", "pipeline2.log")
+AUDIO_FOLDER = os.path.join(get_project_root(), "media", "generated", "audio")
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
@@ -26,7 +29,6 @@ def call_script_generator(user_prompt):
     script = generate_script(user_prompt)
     characters = identify_characters(user_prompt)
     return script, characters
-
 
 def my_pipeline_function(char_list, script):
     """
@@ -70,14 +72,11 @@ if __name__ == "__main__":
     log_line(script)
     log_line("STATUS: Script generated.")
 
-
     char_list = [c.strip() for c in characters.split(',') if c.strip()] if characters else []
     tokens = []
     indices = []
     for character in char_list:
         log_line(f"STATUS: Converting text to voice for {character}...")
-
-
 
     empty_audio_folder()
     log_line("STATUS: emptied audio folder")
@@ -98,18 +97,10 @@ if __name__ == "__main__":
         log_line(f"ERROR: Failed to parse script JSON: {e}")
         parsed_script = []
 
-
-
     log_line(f"Parsed script: {parsed_script}")
-
-    
-    
 
     tts_output = my_pipeline_function(char_list, parsed_script)
     log_line(json.dumps(tts_output))
-
-    
-
 
     # Download stickers for the characters after TTS is done
     character_img_paths = {}
@@ -122,12 +113,14 @@ if __name__ == "__main__":
 
     # Call video editing after TTS and stickers
     try:
+        # Always use relative paths from doomteach/ root
         create_video_with_stickers(
             tts_output,
-            character_img_paths,  # Ensure all stickers are passed
+            character_img_paths,
             char_list,
             bg_video_path="media/bg_videos/vid1.mp4",
-            audio_path=tts_output["audio_path"]  # Pass audio path to video editor
+            audio_path=tts_output["audio_path"],
+            output_dir="media/generated/video"
         )
         log_line("STATUS: Video created with stickers.")
     except Exception as e:

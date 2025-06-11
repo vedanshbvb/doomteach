@@ -134,7 +134,8 @@ if __name__ == "__main__":
             character_img_paths,  # Make sure this dict has all characters
             char_list,
             bg_video_path="media/bg_videos/vid1.mp4",
-            audio_path=tts_output["audio_path"]  # Pass audio path to video editor
+            audio_path=tts_output["audio_path"],  # Pass audio path to video editor
+            output_dir="media/generated/video"  # Always use this relative path
         )
         log_line("STATUS: Video created with stickers.")
     except Exception as e:
