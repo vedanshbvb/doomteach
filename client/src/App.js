@@ -4,25 +4,26 @@ import './App.css';
 
 function App() {
   const [prompt, setPrompt] = useState('');
-  const [response, setResponse] = useState('');
   const [status, setStatus] = useState('');
+  const [videoGenerated, setVideoGenerated] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('Generating script...');
-    setResponse('');
+    setStatus('Generating...');
+    setVideoGenerated(false);
     try {
       const res = await axios.post('http://localhost:5000/api/generate', { prompt });
-      setResponse(res.data.script);
       setStatus('');
+      setVideoGenerated(true);
     } catch (err) {
-      setStatus('Error generating script.');
+      setStatus('Error generating video.');
     }
   };
 
   return (
     <div className="app">
       <h1 className="title">doomteach</h1>
+      <div className="subtitle">Your viral video is just a prompt away (once I deploy this ;))</div>
       <form onSubmit={handleSubmit} className="prompt-form">
         <input
           type="text"
@@ -32,11 +33,12 @@ function App() {
         />
         <button type="submit">Send</button>
       </form>
-      {status && <p className="response">{status}</p>}
-      {response && (
-        <div className="response">
-          <strong>Script:</strong>
-          <pre style={{whiteSpace: 'pre-wrap'}}>{response}</pre>
+      {status === 'Generating...' && (
+        <div className="generating-text">Generating...</div>
+      )}
+      {videoGenerated && (
+        <div className="video-generated-text">
+          Video generated at <span className="video-path">doomteach/media/generated/video/doom_video.mp4</span>
         </div>
       )}
     </div>

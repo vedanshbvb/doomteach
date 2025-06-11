@@ -1,5 +1,6 @@
 # tts.py
 
+from dotenv import load_dotenv
 import os
 import asyncio
 import tempfile
@@ -8,9 +9,15 @@ import wave
 from pydub import AudioSegment
 from fakeyou import AsyncFakeYou
 
-# Replace these if you want to default them here; or pass them in.
-EMAIL = "vedanshbvb"
-PASSWORD = "Ved@fakeyou"
+
+
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the variables
+EMAIL = os.getenv("EMAIL")
+PASSWORD = os.getenv("PASSWORD")
 LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline.log")
 
 class TTSPipeline:
