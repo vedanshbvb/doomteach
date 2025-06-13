@@ -9,4 +9,5 @@ pydub
 fakeyou
 moviepy==1.0.3
 asyncio
-
+aiolimiter
+faster-whisper
