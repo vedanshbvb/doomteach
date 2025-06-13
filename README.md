@@ -85,6 +85,15 @@ DoomTeach is a Python-based pipeline for generating short, entertaining video re
       sudo apt-get install imagemagick ffmpeg
       ```
 
+      You may have to grant some permissions using: 
+      ```
+      sudo gedit /etc/ImageMagick-6/policy.xml
+      ```
+      Comment out the lines as shown:
+      <img src="./images_for_readme/comment.png" alt="App Preview" width="350" />
+
+
+
 ## Usage
 
 
@@ -95,7 +104,8 @@ DoomTeach is a Python-based pipeline for generating short, entertaining video re
     ```
    By default, this runs on [http://localhost:5000](http://localhost:5000).
 
-2. **Start the frontend React app:**
+2. **Start the frontend React app:**  
+   In another terminal:  
     ```bash
     cd ../client
     npm start
