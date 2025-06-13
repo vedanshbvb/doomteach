@@ -17,6 +17,8 @@ from script_generator import generate_script, identify_characters
 from tts2 import TTSPipeline
 from get_stickers import download_character_stickers
 from video_editing import create_video_with_stickers  # <-- import the new function
+from add_subtitles import generate_subtitles, overlay_subtitles_on_video
+from moviepy.editor import VideoFileClip
 
 LOG_FILE = os.path.join(get_project_root(), "generator", "pipeline2.log")
 AUDIO_FOLDER = os.path.join(get_project_root(), "media", "generated", "audio")
@@ -126,6 +128,7 @@ if __name__ == "__main__":
     # Call video editing after TTS and stickers
     try:
         # Always use relative paths from doomteach/ root
+        output_video_path = os.path.join("media/generated/video", "doom_video.mp4")
         create_video_with_stickers(
             tts_output,
             character_img_paths,
@@ -135,6 +138,20 @@ if __name__ == "__main__":
             output_dir="media/generated/video"
         )
         log_line("STATUS: Video created with stickers.")
+
+        log_line("adding subtitles...")
+
+        # === Add subtitles ===
+        # Generate subtitle chunks and SRT
+        subtitle_chunks = generate_subtitles()
+        log_line("STATUS: Subtitles generated.")
+        # Load the video just created
+        video_clip = VideoFileClip(output_video_path)
+        # Overlay subtitles and get output path
+        output_with_subs = os.path.join("media/generated/video", "final_video_with_subs.mp4")
+        final_video_path = overlay_subtitles_on_video(video_clip, subtitle_chunks, output_with_subs, log_line=log_line)
+        log_line(f"STATUS: Subtitled video saved to {final_video_path}")
+
     except Exception as e:
         log_line(f"ERROR: Failed to create video: {e}")
 

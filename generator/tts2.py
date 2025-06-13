@@ -13,6 +13,7 @@ from pydub import AudioSegment
 import requests
 from dotenv import load_dotenv
 from openai import OpenAI
+from aiolimiter import AsyncLimiter  # Added rate limiter
 
 load_dotenv()
 SHAPES_API_KEY = os.environ.get("SHAPES_API_KEY")
@@ -26,7 +27,7 @@ shapes_client = OpenAI(
 
 # Replace these if you want to default them here; or pass them in.
 LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline2.log")
-out_dir="/media/generated/audio"
+out_dir = "/media/generated/audio"
 
 class TTSPipeline:
 
@@ -84,7 +85,6 @@ class TTSPipeline:
 
     def run(self, script_lines, out_dir="media/generated/audio"):
         self.log_line("entered run")
-        
 
         tempdir = out_dir or tempfile.mkdtemp(prefix="tts_")
         timeline = []
@@ -102,18 +102,19 @@ class TTSPipeline:
         if len(speakers) > 1:
             speaker_model[speakers[1]] = "shapesinc/doomvoice6"
 
+        rate_limiter = AsyncLimiter(20, 60)  # 20 requests per 60 seconds
+
         async def _process_all():
             nonlocal current_start
             for idx, (speaker, text) in enumerate(script_lines, start=1):
-                
                 fname = f"{speaker.lower().replace(' ', '_')}_{idx}.mp3"
                 path = os.path.join(tempdir, fname)
 
                 # Pick model for speaker
                 model = speaker_model.get(speaker, "shapesinc/doomvoice5")
 
-                duration = await self._synthesize(text, path, model=model)
-                await asyncio.sleep(10)  # avoid rate limit
+                async with rate_limiter:
+                    duration = await self._synthesize(text, path, model=model)
 
                 if duration > 0:
                     self.log_line(f"Processed {speaker}: {text} -> {fname} ({duration:.2f}s)")

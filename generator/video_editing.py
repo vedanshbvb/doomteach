@@ -4,35 +4,28 @@ mpy_conf.change_settings({"textclip_backend": "imagemagick"})
 import os
 import json
 import subprocess
-from moviepy.editor import VideoFileClip, AudioFileClip, CompositeVideoClip, ImageClip, TextClip
+from moviepy.editor import VideoFileClip, AudioFileClip, CompositeVideoClip, ImageClip
 from moviepy.video.fx.all import loop
 
 def get_project_root():
-    # Returns the doomteach/ directory (one level up from this file)
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 def convert_mp3_to_wav(mp3_path, wav_path):
-    """Converts MP3 to WAV using ffmpeg"""
     subprocess.run([
         "ffmpeg", "-y", "-i", mp3_path, wav_path
     ], check=True)
 
-
 LOG_FILE = os.path.join(get_project_root(), "generator", "pipeline2.log")
+
 def log_line(line):
     with open(LOG_FILE, "a") as f:
         f.write(line + "\n")
 
-
-
-
 def resolve_path(path):
-    base_dir = os.path.dirname(os.path.abspath(__file__))  # doomteach/generator/
-    project_root = os.path.dirname(base_dir)               # doomteach/
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(base_dir)
     abs_path = os.path.join(project_root, path) if not os.path.isabs(path) else path
     return abs_path
-
 
 def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_video_path, audio_path=None, output_dir="media/generated/video"):
     output_dir = resolve_path(output_dir)
@@ -52,7 +45,7 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
 
     # Load background video
     bg_video = VideoFileClip(bg_video_path)
-    
+
     # Load audio to get the target duration
     if audio_path and os.path.exists(audio_path):
         audio = AudioFileClip(audio_path)
@@ -63,18 +56,14 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
 
     # Prepare background video to match audio duration
     if bg_video.duration < target_duration:
-        # If background video is shorter than audio, loop it
         video = loop(bg_video, duration=target_duration)
     else:
-        # If background video is longer than audio, trim it
         video = bg_video.subclip(0, target_duration)
-    
-    # Ensure video duration matches exactly
-    video = video.set_duration(target_duration)
 
+    video = video.set_duration(target_duration)
     clips = [video]
 
-    # Position stickers (left/right)
+    # Position stickers
     position_map = {}
     if len(char_list) >= 2:
         position_map = {
@@ -82,23 +71,21 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
             char_list[1]: ("right", 0.75),
         }
 
-    # Add stickers and subtitles
+    # Add stickers (no subtitles)
     for entry in tts_output["timestamps"]:
         speaker = entry["speaker"]
         start = entry["start"]
         duration = entry["duration"]
-        
-        # Make sure we don't exceed the video duration
+
         if start >= target_duration:
             continue
         if start + duration > target_duration:
             duration = target_duration - start
-        
+
         img_path = character_img_paths.get(speaker)
         if img_path:
             img_path = resolve_path(img_path)
 
-        # === IMAGE STICKERS ===
         if img_path and os.path.exists(img_path) and speaker in position_map:
             x_frac = position_map[speaker][1]
             try:
@@ -113,72 +100,40 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
             except Exception as e:
                 print(f"Warning: Could not load sticker image {img_path}: {e}")
 
-        # === TEXT SUBTITLES ===
-        subtitle_text = entry.get("text", "")
-        if subtitle_text:
-            text_width = int(video.w * 0.9)
+        log_line(f"Total clips to composite: {len(clips)} (1 video + {len(clips)-1} overlays)")
 
-            try:
-                subtitle = (
-                    TextClip(
-                        txt=subtitle_text,
-                        fontsize=40,
-                        color='white',
-                        # font='Arial-Bold',
-                        font='Helvetica-Bold',
-                        stroke_color='black',
-                        stroke_width=2,
-                        size=(text_width, None),
-                        align='center',
-                        method='caption'
-                    )
-                    .set_duration(duration)
-                    .set_start(start)
-                    .set_position(('center', 'center'))
-                )
-                clips.append(subtitle)
-                log_line(f"Created subtitle for '{subtitle_text}' at {start:.2f}s with duration {duration:.2f}s")
-            except Exception as e:
-                print(f"Warning: Could not create subtitle for '{subtitle_text}': {e}")
-                log_line(f"ERROR: Could not create subtitle for '{subtitle_text}': {e}")
-
-
-    # Create final composite video
     final_video = CompositeVideoClip(clips, size=video.size).set_duration(target_duration)
 
-    # Add audio if available
     if audio:
         final_video = final_video.set_audio(audio)
 
-    # Export final video
     try:
+        print("Starting video export...")
         final_video.write_videofile(
             output_path,
             codec="libx264",
             audio_codec="aac" if audio else None,
             temp_audiofile="temp-audio.m4a" if audio else None,
             remove_temp=True,
-            fps=bg_video.fps,  # Use original video fps
-            verbose=False,
-            logger=None
+            fps=bg_video.fps,
+            verbose=True,
+            logger='bar'
         )
+        print("✅ Video export completed successfully")
     except Exception as e:
         print(f"Error during video export: {e}")
         raise
 
-    # Clean up
     bg_video.close()
     if audio:
         audio.close()
     final_video.close()
-    
-    # Clean up clips
+
     for clip in clips:
         if hasattr(clip, 'close'):
             clip.close()
 
     return output_path
-
 
 if __name__ == "__main__":
     import argparse

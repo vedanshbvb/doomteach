@@ -57,7 +57,7 @@ def download_character_stickers(characters, output_dir=output_dir):
     return character_paths
 
 if __name__ == "__main__":
-    characters = ["Elon Musk", "Donald Trump", "Albert Einstein"]
+    characters = ["mickey mouse"]
     paths = download_character_stickers(characters)
     print("\n📁 Final Paths:")
     for character, path in paths.items():
