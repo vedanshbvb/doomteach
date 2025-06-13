@@ -25,6 +25,7 @@ DoomTeach is a Python-based pipeline for generating short, entertaining video re
     │   ├── tts2.py
     │   ├── video_editing.py
     │   ├── voice_generator.py
+    │   ├── add_subtitles.py  
     ├── media/
         ├── bg_videos/
         ├── stickers/
@@ -111,6 +112,12 @@ DoomTeach is a Python-based pipeline for generating short, entertaining video re
     "Captain America and Donald Trump talk about AWS"
     ```
     <img src="./images_for_readme/prompt.png" alt="App Preview" width="350" />
+
+3. **Output:**
+
+    Go to `doomteach/media/generated/video/final_video_with_subs.mp4`  
+    This is the final video.
+
 
 ### Components
 
