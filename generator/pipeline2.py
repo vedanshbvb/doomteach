@@ -110,6 +110,8 @@ if __name__ == "__main__":
 
     log_line(f"Parsed script: {parsed_script}")
 
+    
+
     tts_output = my_pipeline_function(char_list, parsed_script)
     log_line(json.dumps(tts_output))
 

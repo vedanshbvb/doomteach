@@ -3,14 +3,27 @@ import json
 import os
 import glob
 
+def get_project_root():
+    # Returns the doomteach/ directory (one level up from this file)
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 from script_generator import generate_script, identify_characters
 from voice_generator import get_token_for_character, voices
 from tts import TTSPipeline
 from get_stickers import download_character_stickers
 from video_editing import create_video_with_stickers  # <-- import the new function
+from add_subtitles import generate_subtitles, overlay_subtitles_on_video
+from moviepy.editor import VideoFileClip
 
-LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline.log")
-AUDIO_FOLDER = os.path.join(os.path.dirname(__file__), "media/generated/audio")
+# LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline.log")
+# AUDIO_FOLDER = os.path.join(os.path.dirname(__file__), "media/generated/audio")
+
+
+LOG_FILE = os.path.join(get_project_root(), "generator", "pipeline2.log")
+AUDIO_FOLDER = os.path.join(get_project_root(), "media", "generated", "audio")
+VIDEO_FOLDER = os.path.join(get_project_root(), "media", "generated", "video")
+
+
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
@@ -49,6 +62,14 @@ def my_pipeline_function(result, script):
 
 def empty_audio_folder():
     files = glob.glob(os.path.join(AUDIO_FOLDER, "*"))
+    for f in files:
+        try:
+            os.remove(f)
+        except Exception as e:
+            log_line(f"ERROR: Could not remove {f}: {e}")
+
+def empty_video_folder():
+    files = glob.glob(os.path.join(VIDEO_FOLDER, "*"))
     for f in files:
         try:
             os.remove(f)
@@ -118,29 +139,70 @@ if __name__ == "__main__":
     
 
 
-    # Download stickers for the characters after TTS is done
-    character_img_paths = {}
-    if char_list:
-        try:
-            character_img_paths = download_character_stickers(char_list)
-            log_line("STATUS: Sticker images downloaded.")
-        except Exception as e:
-            log_line(f"ERROR: Failed to download stickers: {e}")
+    # # Download stickers for the characters after TTS is done
+    # character_img_paths = {}
+    # if char_list:
+    #     try:
+    #         character_img_paths = download_character_stickers(char_list)
+    #         log_line("STATUS: Sticker images downloaded.")
+    #     except Exception as e:
+    #         log_line(f"ERROR: Failed to download stickers: {e}")
 
-    # Call video editing after TTS and stickers
+    # # Call video editing after TTS and stickers
+    # try:
+    #     create_video_with_stickers(
+    #         tts_output,
+    #         character_img_paths,  # Make sure this dict has all characters
+    #         char_list,
+    #         bg_video_path="media/bg_videos/vid1.mp4",
+    #         audio_path=tts_output["audio_path"],  # Pass audio path to video editor
+    #         output_dir="media/generated/video"  # Always use this relative path
+    #     )
+    #     log_line("STATUS: Video created with stickers.")
+    # except Exception as e:
+    #     log_line(f"ERROR: Failed to create video: {e}")
+
+
+
+# Download stickers for the characters after TTS is done
+character_img_paths = {}
+if char_list:
     try:
-        create_video_with_stickers(
-            tts_output,
-            character_img_paths,  # Make sure this dict has all characters
-            char_list,
-            bg_video_path="media/bg_videos/vid1.mp4",
-            audio_path=tts_output["audio_path"],  # Pass audio path to video editor
-            output_dir="media/generated/video"  # Always use this relative path
-        )
-        log_line("STATUS: Video created with stickers.")
+        character_img_paths = download_character_stickers(char_list)
+        log_line("STATUS: Sticker images downloaded.")
     except Exception as e:
-        log_line(f"ERROR: Failed to create video: {e}")
+        log_line(f"ERROR: Failed to download stickers: {e}")
 
+empty_video_folder()
+log_line("STATUS: emptied video folder")
 
+# Call video editing after TTS and stickers
+try:
+    # Always use relative paths from doomteach/ root
+    output_video_path = os.path.join("media/generated/video", "doom_video.mp4")
+    create_video_with_stickers(
+        tts_output,
+        character_img_paths,
+        char_list,
+        bg_video_path="media/bg_videos/vid1.mp4",
+        audio_path=tts_output["audio_path"],
+        output_dir="media/generated/video"
+    )
+    log_line("STATUS: Video created with stickers.")
 
+    log_line("adding subtitles...")
+
+    # === Add subtitles ===
+    # Generate subtitle chunks and SRT
+    subtitle_chunks = generate_subtitles()
+    log_line("STATUS: Subtitles generated.")
+    # Load the video just created
+    video_clip = VideoFileClip(output_video_path)
+    # Overlay subtitles and get output path
+    output_with_subs = os.path.join("media/generated/video", "final_video_with_subs.mp4")
+    final_video_path = overlay_subtitles_on_video(video_clip, subtitle_chunks, output_with_subs, log_line=log_line)
+    log_line(f"STATUS: Subtitled video saved to {final_video_path}")
+
+except Exception as e:
+    log_line(f"ERROR: Failed to create video: {e}")
 
