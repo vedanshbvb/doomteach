@@ -83,7 +83,7 @@ class TTSPipeline:
             return 0.0
         return duration
 
-    def run(self, script_lines, out_dir="media/generated/audio"):
+    async def run(self, script_lines, out_dir="media/generated/audio"):
         self.log_line("entered run")
 
         tempdir = out_dir or tempfile.mkdtemp(prefix="tts_")
@@ -127,13 +127,7 @@ class TTSPipeline:
                     audio_files.append(path)
                     current_start += duration
 
-        try:
-            asyncio.run(_process_all())
-        except RuntimeError:
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            loop.run_until_complete(_process_all())
-            loop.close()
+        await _process_all()
 
         # Merge final audio (MP3)
         combined = AudioSegment.empty()

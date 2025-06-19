@@ -1,0 +1,84 @@
+entered run
+entered run
+Synthesizing text: Hey Donald, what's the deal with Amazon Web Services? to media/generated/audio/peter_griffin_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ocr-2025-06-19-16-18-56.mp3
+Audio duration: 2.40s
+Processed Peter Griffin: Hey Donald, what's the deal with Amazon Web Services? -> peter_griffin_1.mp3 (2.40s)
+Synthesizing text: Ah, Peter, AWS is a comprehensive cloud computing platform that provides a wide range of services for computing, storage, databases, analytics, machine learning, and more. to media/generated/audio/donald_duck_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-pyq-2025-06-19-16-19-02.mp3
+Audio duration: 12.72s
+Processed Donald Duck: Ah, Peter, AWS is a comprehensive cloud computing platform that provides a wide range of services for computing, storage, databases, analytics, machine learning, and more. -> donald_duck_2.mp3 (12.72s)
+Synthesizing text: Whoa, that's a lot of services! What's the most popular one? to media/generated/audio/peter_griffin_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dhp-2025-06-19-16-19-07.mp3
+Audio duration: 3.16s
+Processed Peter Griffin: Whoa, that's a lot of services! What's the most popular one? -> peter_griffin_3.mp3 (3.16s)
+Synthesizing text: Well, Peter, one of the most popular services is S3, which is a simple storage service for storing and serving large amounts of data. to media/generated/audio/donald_duck_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-eol-2025-06-19-16-19-13.mp3
+Audio duration: 9.01s
+Processed Donald Duck: Well, Peter, one of the most popular services is S3, which is a simple storage service for storing and serving large amounts of data. -> donald_duck_4.mp3 (9.01s)
+Synthesizing text: S3? Sounds like a new kind of beer! to media/generated/audio/peter_griffin_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-kmz-2025-06-19-16-19-19.mp3
+Audio duration: 2.12s
+Processed Peter Griffin: S3? Sounds like a new kind of beer! -> peter_griffin_5.mp3 (2.12s)
+Synthesizing text: Ha! No, Peter, it's actually a very powerful storage service. to media/generated/audio/donald_duck_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-xtf-2025-06-19-16-19-24.mp3
+Audio duration: 4.68s
+Processed Donald Duck: Ha! No, Peter, it's actually a very powerful storage service. -> donald_duck_6.mp3 (4.68s)
+Synthesizing text: Okay, got it. What about security? Is it safe? to media/generated/audio/peter_griffin_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dxs-2025-06-19-16-19-28.mp3
+Audio duration: 2.64s
+Processed Peter Griffin: Okay, got it. What about security? Is it safe? -> peter_griffin_7.mp3 (2.64s)
+Synthesizing text: Absolutely, Peter. AWS has a number of security features, including encryption, access controls, and monitoring. to media/generated/audio/donald_duck_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-kcs-2025-06-19-16-19-33.mp3
+Audio duration: 8.62s
+Processed Donald Duck: Absolutely, Peter. AWS has a number of security features, including encryption, access controls, and monitoring. -> donald_duck_8.mp3 (8.62s)
+Synthesizing text: That's great to hear. What about cost? Is it expensive? to media/generated/audio/peter_griffin_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-iyd-2025-06-19-16-19-38.mp3
+Audio duration: 3.11s
+Processed Peter Griffin: That's great to hear. What about cost? Is it expensive? -> peter_griffin_9.mp3 (3.11s)
+Synthesizing text: Not necessarily, Peter. AWS offers a pay-as-you-go pricing model, so you only pay for what you use. to media/generated/audio/donald_duck_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-pgx-2025-06-19-16-19-43.mp3
+Audio duration: 7.11s
+Processed Donald Duck: Not necessarily, Peter. AWS offers a pay-as-you-go pricing model, so you only pay for what you use. -> donald_duck_10.mp3 (7.11s)
+Synthesizing text: That sounds good. I think I'll give it a try. to media/generated/audio/peter_griffin_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-vwv-2025-06-19-16-19-48.mp3
+Audio duration: 2.04s
+Processed Peter Griffin: That sounds good. I think I'll give it a try. -> peter_griffin_11.mp3 (2.04s)
+Synthesizing text: Great decision, Peter! AWS is a fantastic platform. to media/generated/audio/donald_duck_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vhy-2025-06-19-16-19-53.mp3
+Audio duration: 3.89s
+Processed Donald Duck: Great decision, Peter! AWS is a fantastic platform. -> donald_duck_12.mp3 (3.89s)
+Synthesizing text: Thanks for the advice, Donald. to media/generated/audio/peter_griffin_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-obs-2025-06-19-16-19-58.mp3
+Audio duration: 1.33s
+Processed Peter Griffin: Thanks for the advice, Donald. -> peter_griffin_13.mp3 (1.33s)
+Synthesizing text: No problem, Peter. to media/generated/audio/donald_duck_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-cmu-2025-06-19-16-20-10.mp3
+Audio duration: 1.38s
+Processed Donald Duck: No problem, Peter. -> donald_duck_14.mp3 (1.38s)
+Synthesizing text: So, what do you think is the future of cloud computing? to media/generated/audio/peter_griffin_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ftc-2025-06-19-16-20-16.mp3
+Audio duration: 2.35s
+Processed Peter Griffin: So, what do you think is the future of cloud computing? -> peter_griffin_15.mp3 (2.35s)
+Synthesizing text: I think the future of cloud computing is going to be all about scalability and reliability. to media/generated/audio/donald_duck_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dpp-2025-06-19-16-20-21.mp3
+Audio duration: 5.85s
+Processed Donald Duck: I think the future of cloud computing is going to be all about scalability and reliability. -> donald_duck_16.mp3 (5.85s)
+Synthesizing text: That's great to hear. And how do you see AWS fitting into that future? to media/generated/audio/peter_griffin_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gxa-2025-06-19-16-20-27.mp3
+Audio duration: 3.37s
+Processed Peter Griffin: That's great to hear. And how do you see AWS fitting into that future? -> peter_griffin_17.mp3 (3.37s)
+Synthesizing text: I think AWS is going to play a big role in the future of cloud computing, especially with its scalability and reliability features. to media/generated/audio/donald_duck_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ymk-2025-06-19-16-20-33.mp3
+Audio duration: 9.20s
+Processed Donald Duck: I think AWS is going to play a big role in the future of cloud computing, especially with its scalability and reliability features. -> donald_duck_18.mp3 (9.20s)
+Synthesizing text: That's fantastic. Thanks for the insight, Donald. to media/generated/audio/peter_griffin_19.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dzl-2025-06-19-16-20-39.mp3
+Audio duration: 2.32s
+Processed Peter Griffin: That's fantastic. Thanks for the insight, Donald. -> peter_griffin_19.mp3 (2.32s)
+Synthesizing text: No problem, Peter. to media/generated/audio/donald_duck_20.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Donald. to media/generated/audio/peter_griffin_21.mp3 using model: shapesinc/doomvoice5
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Peter. to media/generated/audio/donald_duck_22.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}

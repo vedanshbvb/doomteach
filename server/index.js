@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const { spawn } = require('child_process');
+const fs = require('fs');
 
 const app = express();
 const PORT = 5000;
@@ -21,26 +22,17 @@ app.post('/api/generate', (req, res) => {
     return res.status(400).json({ error: 'Prompt is required' });
   }
 
-  // // Call the new pipeline.py script, for fakeyou
-  // const py = spawn('python3', [
-  //   './generator/pipeline.py',
-  //   prompt
-  // ], { cwd: __dirname + '/..' });
-
-//for Shapes API
+  // Call the new ADK agent pipeline
   const py = spawn('python3', [
-    './generator/pipeline2.py',
+    './run_pipeline.py',
     prompt
   ], { cwd: __dirname + '/..' });
 
-
-
-
   let output = '';
   let statusUpdates = [];
+  let logContent = '';
 
   py.stdout.on('data', (data) => {
-    // Expect pipeline.py to send status updates as lines starting with "STATUS:"
     const lines = data.toString().split('\n');
     lines.forEach(line => {
       if (line.startsWith('STATUS:')) {
@@ -56,22 +48,25 @@ app.post('/api/generate', (req, res) => {
   });
 
   py.on('close', (code) => {
-    // Expect output as JSON on the last line
-    let result = {};
+    console.log(`Child process exited with code ${code}`);
+    
+    // Read the log file
+    const logPath = __dirname + '/../run_pipeline.log';
+    
     try {
-      // Find the last non-empty line and parse as JSON
-      const lines = output.trim().split('\n').filter(Boolean);
-      result = JSON.parse(lines[lines.length - 1]);
-    } catch (e) {
-      return res.status(500).json({ error: 'Failed to parse pipeline output' });
+      if (fs.existsSync(logPath)) {
+        logContent = fs.readFileSync(logPath, 'utf8');
+      }
+    } catch (err) {
+      console.error('Error reading log file:', err);
     }
-    // Pass through script, characters, tokens, indices, and statusUpdates
-    res.json({ 
-      script: result.script, // may be undefined
-      characters: result.characters,
-      tokens: result.tokens,
-      indices: result.indices,
-      statusUpdates
+
+    res.json({
+      success: code === 0,
+      output: output,
+      statusUpdates: statusUpdates,
+      logContent: logContent,
+      exitCode: code
     });
   });
 });
