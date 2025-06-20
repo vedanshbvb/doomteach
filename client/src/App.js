@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="app">
       <h1 className="title">doomteach</h1>
-      <div className="subtitle">Your viral video is just a prompt away (once I deploy this ;))</div>
+      <div className="subtitle">Your viral video is just a prompt away</div>
       <form onSubmit={handleSubmit} className="prompt-form">
         <input
           type="text"
@@ -38,7 +38,7 @@ function App() {
       )}
       {videoGenerated && (
         <div className="video-generated-text">
-          Video generated at <span className="video-path">doomteach/media/generated/video/doom_video.mp4</span>
+          Video generated at <span className="video-path">doomteach/media/generated/video/doom_video_with_subs.mp4</span>
         </div>
       )}
     </div>

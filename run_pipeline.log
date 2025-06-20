@@ -1,57 +1,155 @@
-STATUS: Starting pipeline for prompt: batman and superman talk about react hooks
+STATUS: Starting pipeline for prompt: Mickey mouse and Green lantern talk very briefly about Kafka
+STATUS: Session created.
+STATUS: Running RootAgent...
+STATUS: RootAgent completed successfully.
+STATUS: Starting pipeline for prompt: Mickey mouse and Green lantern talk very briefly about Kafka
 STATUS: Session created.
 STATUS: Running RootAgent...
 EVENT: Event
-CONTENT: Okay, I can create a video of Batman and Superman talking about React hooks. First, I need to generate a script for their conversation. I'll use the ScriptAgent for this.
+CONTENT: Okay, I can create a video of Mickey Mouse and Green Lantern talking about Kafka. Here's the plan:
+
+1.  **Script Generation:** I'll start by using the `script_agent` to generate a script for this scenario.
+2.  **Character Identification:** Next, I'll use the `identify_characters_agent` to confirm the character names for use in the voice generation.
+3.  **Voice Generation:** I'll use the `voice_agent` to generate the audio and timeline from the script.
+4.  **Video Creation:** I'll use the `video_agent` to fetch stickers, compose the video, and add subtitles.
+5.  **Final Result:** I'll return the path to the generated video.
+
+Let's start with the script generation.
+
 
 STATUS: Starting script generation...
 Generated script: {
-"Batman": "Superman, I've been hearing about these new React hooks. Can you tell me more about them?",
-"Superman": "Ah, Batman, React hooks are a way to use state and other React features without having to write a class component.",
-"Batman": "That's fascinating. How do they work?",
-"Superman": "Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code.",
-"Batman": "I see. And what about useState? How does it work?",
-"Superman": "useState is a hook that allows you to add state to a functional component, making it easier to manage state and keep your code organized.",
-"Batman": "That's great to hear. And what about useEffect? How does it work?",
-"Superman": "useEffect is a hook that allows you to run side effects, such as API calls or DOM mutations, after rendering a component.",
-"Batman": "I'm impressed. React hooks sound like a powerful tool.",
-"Superman": "Yes, Batman. React hooks are a fundamental part of the React ecosystem, making it easier to write efficient and effective code.",
-"Batman": "Thanks for explaining it to me, Superman.",
-"Superman": "No problem, Batman.",
-"Batman": "So, what do you think is the future of React?",
-"Superman": "I think the future of React is going to be all about hooks and functional components.",
-"Batman": "That's great to hear. And how do you see React hooks fitting into that future?",
-"Superman": "I think React hooks are going to play a big role in the future of React, especially with their ability to simplify state management and improve code organization.",
-"Batman": "That's fantastic. Thanks for the insight, Superman.",
-"Superman": "No problem, Batman.",
-"Batman": "One more thing, Superman. Can you give me an example of how to use useState?",
-"Superman": "Sure thing, Batman. Here's an example: const [count, setCount] = useState(0);",
-"Batman": "That's great. Thanks for the help, Superman.",
-"Superman": "No problem, Batman."}
+"Mickey Mouse": "Green Lantern, I've been hearing about Kafka. Can you tell me more about it?",
+"Green Lantern": "Ah, Mickey, Kafka is a popular open-source streaming platform for building real-time data pipelines and applications.",
+"Mickey Mouse": "That sounds like a powerful tool. How does it work?",
+"Green Lantern": "Well, Mickey, Kafka uses a distributed architecture to process and store messages in real-time, making it ideal for applications that require low-latency and high-throughput.",
+"Mickey Mouse": "I see. And what are some benefits of using Kafka?",
+"Green Lantern": "The benefits include scalability, fault-tolerance, and high-performance.",
+"Mickey Mouse": "That's amazing. Can you give me an example of how to use Kafka?",
+"Green Lantern": "Sure thing, Mickey. Let's say we're building a real-time analytics application. We can use Kafka to process and store data in real-time, and then get insights into user behavior.",
+"Mickey Mouse": "Wow, that's impressive. Thanks for explaining it to me, Green Lantern.",
+"Green Lantern": "No problem, Mickey. Anytime you need help, just let me know.",
+"Mickey Mouse": "Bye, Green Lantern.",
+"Green Lantern": "Bye, Mickey Mouse.",
+"Mickey Mouse": "One more thing, Green Lantern. Can you recommend a good resource for learning more about Kafka?",
+"Green Lantern": "Yes, Mickey. I recommend checking out the Apache Kafka website or taking an online course on Kafka.",
+"Mickey Mouse": "Thanks for the recommendation, Green Lantern.",
+"Green Lantern": "No problem, Mickey."}
 
 
 
 script done
-Parsed script: [['Batman', "Superman, I've been hearing about these new React hooks. Can you tell me more about them?"], ['Superman', 'Ah, Batman, React hooks are a way to use state and other React features without having to write a class component.'], ['Batman', "That's fascinating. How do they work?"], ['Superman', 'Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code.'], ['Batman', 'I see. And what about useState? How does it work?'], ['Superman', 'useState is a hook that allows you to add state to a functional component, making it easier to manage state and keep your code organized.'], ['Batman', "That's great to hear. And what about useEffect? How does it work?"], ['Superman', 'useEffect is a hook that allows you to run side effects, such as API calls or DOM mutations, after rendering a component.'], ['Batman', "I'm impressed. React hooks sound like a powerful tool."], ['Superman', 'Yes, Batman. React hooks are a fundamental part of the React ecosystem, making it easier to write efficient and effective code.'], ['Batman', 'Thanks for explaining it to me, Superman.'], ['Superman', 'No problem, Batman.'], ['Batman', 'So, what do you think is the future of React?'], ['Superman', 'I think the future of React is going to be all about hooks and functional components.'], ['Batman', "That's great to hear. And how do you see React hooks fitting into that future?"], ['Superman', 'I think React hooks are going to play a big role in the future of React, especially with their ability to simplify state management and improve code organization.'], ['Batman', "That's fantastic. Thanks for the insight, Superman."], ['Superman', 'No problem, Batman.'], ['Batman', 'One more thing, Superman. Can you give me an example of how to use useState?'], ['Superman', "Sure thing, Batman. Here's an example: const [count, setCount] = useState(0);"], ['Batman', "That's great. Thanks for the help, Superman."], ['Superman', 'No problem, Batman.']]
+Parsed script: [['Mickey Mouse', "Green Lantern, I've been hearing about Kafka. Can you tell me more about it?"], ['Green Lantern', 'Ah, Mickey, Kafka is a popular open-source streaming platform for building real-time data pipelines and applications.'], ['Mickey Mouse', 'That sounds like a powerful tool. How does it work?'], ['Green Lantern', 'Well, Mickey, Kafka uses a distributed architecture to process and store messages in real-time, making it ideal for applications that require low-latency and high-throughput.'], ['Mickey Mouse', 'I see. And what are some benefits of using Kafka?'], ['Green Lantern', 'The benefits include scalability, fault-tolerance, and high-performance.'], ['Mickey Mouse', "That's amazing. Can you give me an example of how to use Kafka?"], ['Green Lantern', "Sure thing, Mickey. Let's say we're building a real-time analytics application. We can use Kafka to process and store data in real-time, and then get insights into user behavior."], ['Mickey Mouse', "Wow, that's impressive. Thanks for explaining it to me, Green Lantern."], ['Green Lantern', 'No problem, Mickey. Anytime you need help, just let me know.'], ['Mickey Mouse', 'Bye, Green Lantern.'], ['Green Lantern', 'Bye, Mickey Mouse.'], ['Mickey Mouse', 'One more thing, Green Lantern. Can you recommend a good resource for learning more about Kafka?'], ['Green Lantern', 'Yes, Mickey. I recommend checking out the Apache Kafka website or taking an online course on Kafka.'], ['Mickey Mouse', 'Thanks for the recommendation, Green Lantern.'], ['Green Lantern', 'No problem, Mickey.']]
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: Great, I have the script. Now I need to identify the characters involved so I can use their voices appropriately. I'll use the IdentifyCharactersAgent for this.
+CONTENT: Great, the script is generated. Now, let's identify the characters.
+
 
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: Okay, the characters are Batman and Superman. Now I'll use the VoiceAgent to generate the audio and timeline for the video, using the script and character names.
+CONTENT: Okay, the characters are confirmed as Mickey Mouse and Green Lantern. Now let's generate the audio and timeline.
 
-STATUS: Starting script generation...
+
+STATUS: Starting AUDIO generation...
+entered run
+Synthesizing text: Green Lantern, I've been hearing about Kafka. Can you tell me more about it? to media/generated/audio/mickey_mouse_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-nci-2025-06-20-17-13-57.mp3
+Audio duration: 3.42s
+Processed Mickey Mouse: Green Lantern, I've been hearing about Kafka. Can you tell me more about it? -> mickey_mouse_1.mp3 (3.42s)
+Synthesizing text: Ah, Mickey, Kafka is a popular open-source streaming platform for building real-time data pipelines and applications. to media/generated/audio/green_lantern_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-uzt-2025-06-20-17-14-03.mp3
+Audio duration: 8.59s
+Processed Green Lantern: Ah, Mickey, Kafka is a popular open-source streaming platform for building real-time data pipelines and applications. -> green_lantern_2.mp3 (8.59s)
+Synthesizing text: That sounds like a powerful tool. How does it work? to media/generated/audio/mickey_mouse_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-mhn-2025-06-20-17-14-09.mp3
+Audio duration: 2.77s
+Processed Mickey Mouse: That sounds like a powerful tool. How does it work? -> mickey_mouse_3.mp3 (2.77s)
+Synthesizing text: Well, Mickey, Kafka uses a distributed architecture to process and store messages in real-time, making it ideal for applications that require low-latency and high-throughput. to media/generated/audio/green_lantern_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dsb-2025-06-20-17-14-14.mp3
+Audio duration: 12.96s
+Processed Green Lantern: Well, Mickey, Kafka uses a distributed architecture to process and store messages in real-time, making it ideal for applications that require low-latency and high-throughput. -> green_lantern_4.mp3 (12.96s)
+Synthesizing text: I see. And what are some benefits of using Kafka? to media/generated/audio/mickey_mouse_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-oal-2025-06-20-17-14-19.mp3
+Audio duration: 2.69s
+Processed Mickey Mouse: I see. And what are some benefits of using Kafka? -> mickey_mouse_5.mp3 (2.69s)
+Synthesizing text: The benefits include scalability, fault-tolerance, and high-performance. to media/generated/audio/green_lantern_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-lnm-2025-06-20-17-14-22.mp3
+Audio duration: 5.38s
+Processed Green Lantern: The benefits include scalability, fault-tolerance, and high-performance. -> green_lantern_6.mp3 (5.38s)
+Synthesizing text: That's amazing. Can you give me an example of how to use Kafka? to media/generated/audio/mickey_mouse_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dha-2025-06-20-17-14-28.mp3
+Audio duration: 3.19s
+Processed Mickey Mouse: That's amazing. Can you give me an example of how to use Kafka? -> mickey_mouse_7.mp3 (3.19s)
+Synthesizing text: Sure thing, Mickey. Let's say we're building a real-time analytics application. We can use Kafka to process and store data in real-time, and then get insights into user behavior. to media/generated/audio/green_lantern_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ojj-2025-06-20-17-14-33.mp3
+Audio duration: 12.12s
+Processed Green Lantern: Sure thing, Mickey. Let's say we're building a real-time analytics application. We can use Kafka to process and store data in real-time, and then get insights into user behavior. -> green_lantern_8.mp3 (12.12s)
+Synthesizing text: Wow, that's impressive. Thanks for explaining it to me, Green Lantern. to media/generated/audio/mickey_mouse_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-tyt-2025-06-20-17-14-38.mp3
+Audio duration: 3.11s
+Processed Mickey Mouse: Wow, that's impressive. Thanks for explaining it to me, Green Lantern. -> mickey_mouse_9.mp3 (3.11s)
+Synthesizing text: No problem, Mickey. Anytime you need help, just let me know. to media/generated/audio/green_lantern_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-qih-2025-06-20-17-14-42.mp3
+Audio duration: 4.00s
+Processed Green Lantern: No problem, Mickey. Anytime you need help, just let me know. -> green_lantern_10.mp3 (4.00s)
+Synthesizing text: Bye, Green Lantern. to media/generated/audio/mickey_mouse_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-bao-2025-06-20-17-14-47.mp3
+Audio duration: 1.07s
+Processed Mickey Mouse: Bye, Green Lantern. -> mickey_mouse_11.mp3 (1.07s)
+Synthesizing text: Bye, Mickey Mouse. to media/generated/audio/green_lantern_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ged-2025-06-20-17-14-51.mp3
+Audio duration: 1.49s
+Processed Green Lantern: Bye, Mickey Mouse. -> green_lantern_12.mp3 (1.49s)
+Synthesizing text: One more thing, Green Lantern. Can you recommend a good resource for learning more about Kafka? to media/generated/audio/mickey_mouse_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lpd-2025-06-20-17-14-55.mp3
+Audio duration: 4.36s
+Processed Mickey Mouse: One more thing, Green Lantern. Can you recommend a good resource for learning more about Kafka? -> mickey_mouse_13.mp3 (4.36s)
+Synthesizing text: Yes, Mickey. I recommend checking out the Apache Kafka website or taking an online course on Kafka. to media/generated/audio/green_lantern_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-bkc-2025-06-20-17-15-00.mp3
+Audio duration: 7.34s
+Processed Green Lantern: Yes, Mickey. I recommend checking out the Apache Kafka website or taking an online course on Kafka. -> green_lantern_14.mp3 (7.34s)
+Synthesizing text: Thanks for the recommendation, Green Lantern. to media/generated/audio/mickey_mouse_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-uyj-2025-06-20-17-15-04.mp3
+Audio duration: 1.99s
+Processed Mickey Mouse: Thanks for the recommendation, Green Lantern. -> mickey_mouse_15.mp3 (1.99s)
+Synthesizing text: No problem, Mickey. to media/generated/audio/green_lantern_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ijw-2025-06-20-17-15-08.mp3
+Audio duration: 1.38s
+Processed Green Lantern: No problem, Mickey. -> green_lantern_16.mp3 (1.38s)
+timeline INSIDE TTS2.py: [{'speaker': 'Mickey Mouse', 'start': 0.0, 'duration': 3.422040816326531, 'filename': 'mickey_mouse_1.mp3'}, {'speaker': 'Green Lantern', 'start': 3.422040816326531, 'duration': 8.594285714285714, 'filename': 'green_lantern_2.mp3'}, {'speaker': 'Mickey Mouse', 'start': 12.016326530612245, 'duration': 2.7689795918367346, 'filename': 'mickey_mouse_3.mp3'}, {'speaker': 'Green Lantern', 'start': 14.78530612244898, 'duration': 12.956734693877552, 'filename': 'green_lantern_4.mp3'}, {'speaker': 'Mickey Mouse', 'start': 27.74204081632653, 'duration': 2.690612244897959, 'filename': 'mickey_mouse_5.mp3'}, {'speaker': 'Green Lantern', 'start': 30.43265306122449, 'duration': 5.381224489795918, 'filename': 'green_lantern_6.mp3'}, {'speaker': 'Mickey Mouse', 'start': 35.813877551020404, 'duration': 3.186938775510204, 'filename': 'mickey_mouse_7.mp3'}, {'speaker': 'Green Lantern', 'start': 39.00081632653061, 'duration': 12.120816326530612, 'filename': 'green_lantern_8.mp3'}, {'speaker': 'Mickey Mouse', 'start': 51.121632653061226, 'duration': 3.1085714285714285, 'filename': 'mickey_mouse_9.mp3'}, {'speaker': 'Green Lantern', 'start': 54.23020408163266, 'duration': 3.996734693877551, 'filename': 'green_lantern_10.mp3'}, {'speaker': 'Mickey Mouse', 'start': 58.226938775510206, 'duration': 1.0710204081632653, 'filename': 'mickey_mouse_11.mp3'}, {'speaker': 'Green Lantern', 'start': 59.29795918367347, 'duration': 1.4889795918367348, 'filename': 'green_lantern_12.mp3'}, {'speaker': 'Mickey Mouse', 'start': 60.78693877551021, 'duration': 4.362448979591837, 'filename': 'mickey_mouse_13.mp3'}, {'speaker': 'Green Lantern', 'start': 65.14938775510204, 'duration': 7.340408163265306, 'filename': 'green_lantern_14.mp3'}, {'speaker': 'Mickey Mouse', 'start': 72.48979591836735, 'duration': 1.9853061224489796, 'filename': 'mickey_mouse_15.mp3'}, {'speaker': 'Green Lantern', 'start': 74.47510204081632, 'duration': 1.3844897959183673, 'filename': 'green_lantern_16.mp3'}]
+tts_output RECEIVED BY TTS TOOL: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'speaker': 'Mickey Mouse', 'start': 0.0, 'duration': 3.422040816326531, 'filename': 'mickey_mouse_1.mp3'}, {'speaker': 'Green Lantern', 'start': 3.422040816326531, 'duration': 8.594285714285714, 'filename': 'green_lantern_2.mp3'}, {'speaker': 'Mickey Mouse', 'start': 12.016326530612245, 'duration': 2.7689795918367346, 'filename': 'mickey_mouse_3.mp3'}, {'speaker': 'Green Lantern', 'start': 14.78530612244898, 'duration': 12.956734693877552, 'filename': 'green_lantern_4.mp3'}, {'speaker': 'Mickey Mouse', 'start': 27.74204081632653, 'duration': 2.690612244897959, 'filename': 'mickey_mouse_5.mp3'}, {'speaker': 'Green Lantern', 'start': 30.43265306122449, 'duration': 5.381224489795918, 'filename': 'green_lantern_6.mp3'}, {'speaker': 'Mickey Mouse', 'start': 35.813877551020404, 'duration': 3.186938775510204, 'filename': 'mickey_mouse_7.mp3'}, {'speaker': 'Green Lantern', 'start': 39.00081632653061, 'duration': 12.120816326530612, 'filename': 'green_lantern_8.mp3'}, {'speaker': 'Mickey Mouse', 'start': 51.121632653061226, 'duration': 3.1085714285714285, 'filename': 'mickey_mouse_9.mp3'}, {'speaker': 'Green Lantern', 'start': 54.23020408163266, 'duration': 3.996734693877551, 'filename': 'green_lantern_10.mp3'}, {'speaker': 'Mickey Mouse', 'start': 58.226938775510206, 'duration': 1.0710204081632653, 'filename': 'mickey_mouse_11.mp3'}, {'speaker': 'Green Lantern', 'start': 59.29795918367347, 'duration': 1.4889795918367348, 'filename': 'green_lantern_12.mp3'}, {'speaker': 'Mickey Mouse', 'start': 60.78693877551021, 'duration': 4.362448979591837, 'filename': 'mickey_mouse_13.mp3'}, {'speaker': 'Green Lantern', 'start': 65.14938775510204, 'duration': 7.340408163265306, 'filename': 'green_lantern_14.mp3'}, {'speaker': 'Mickey Mouse', 'start': 72.48979591836735, 'duration': 1.9853061224489796, 'filename': 'mickey_mouse_15.mp3'}, {'speaker': 'Green Lantern', 'start': 74.47510204081632, 'duration': 1.3844897959183673, 'filename': 'green_lantern_16.mp3'}]}
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: Cool, I have the audio and timeline. Now I can proceed to create the video using the VideoAgent.
+CONTENT: Great! The audio and timeline have been generated. Now let's create the video.
 
+
+tts_output in FILE video_editing_tool.py: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'filename': 'mickey_mouse_1.mp3', 'speaker': 'Mickey Mouse', 'duration': 3.422040816326531, 'start': 0}, {'speaker': 'Green Lantern', 'filename': 'green_lantern_2.mp3', 'start': 3.422040816326531, 'duration': 8.594285714285714}, {'filename': 'mickey_mouse_3.mp3', 'start': 12.016326530612245, 'speaker': 'Mickey Mouse', 'duration': 2.7689795918367346}, {'filename': 'green_lantern_4.mp3', 'start': 14.78530612244898, 'speaker': 'Green Lantern', 'duration': 12.956734693877552}, {'speaker': 'Mickey Mouse', 'start': 27.74204081632653, 'duration': 2.690612244897959, 'filename': 'mickey_mouse_5.mp3'}, {'start': 30.43265306122449, 'filename': 'green_lantern_6.mp3', 'duration': 5.381224489795918, 'speaker': 'Green Lantern'}, {'filename': 'mickey_mouse_7.mp3', 'start': 35.813877551020404, 'speaker': 'Mickey Mouse', 'duration': 3.186938775510204}, {'speaker': 'Green Lantern', 'filename': 'green_lantern_8.mp3', 'duration': 12.120816326530612, 'start': 39.00081632653061}, {'start': 51.121632653061226, 'filename': 'mickey_mouse_9.mp3', 'duration': 3.1085714285714285, 'speaker': 'Mickey Mouse'}, {'start': 54.23020408163266, 'speaker': 'Green Lantern', 'duration': 3.996734693877551, 'filename': 'green_lantern_10.mp3'}, {'start': 58.226938775510206, 'speaker': 'Mickey Mouse', 'duration': 1.0710204081632653, 'filename': 'mickey_mouse_11.mp3'}, {'filename': 'green_lantern_12.mp3', 'start': 59.29795918367347, 'speaker': 'Green Lantern', 'duration': 1.4889795918367348}, {'duration': 4.362448979591837, 'start': 60.78693877551021, 'speaker': 'Mickey Mouse', 'filename': 'mickey_mouse_13.mp3'}, {'filename': 'green_lantern_14.mp3', 'duration': 7.340408163265306, 'speaker': 'Green Lantern', 'start': 65.14938775510204}, {'speaker': 'Mickey Mouse', 'duration': 1.9853061224489796, 'filename': 'mickey_mouse_15.mp3', 'start': 72.48979591836735}, {'filename': 'green_lantern_16.mp3', 'speaker': 'Green Lantern', 'duration': 1.3844897959183673, 'start': 74.47510204081632}]}
+inside create video with stickers
+tts_output in FILE video_editing.py: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'filename': 'mickey_mouse_1.mp3', 'speaker': 'Mickey Mouse', 'duration': 3.422040816326531, 'start': 0}, {'speaker': 'Green Lantern', 'filename': 'green_lantern_2.mp3', 'start': 3.422040816326531, 'duration': 8.594285714285714}, {'filename': 'mickey_mouse_3.mp3', 'start': 12.016326530612245, 'speaker': 'Mickey Mouse', 'duration': 2.7689795918367346}, {'filename': 'green_lantern_4.mp3', 'start': 14.78530612244898, 'speaker': 'Green Lantern', 'duration': 12.956734693877552}, {'speaker': 'Mickey Mouse', 'start': 27.74204081632653, 'duration': 2.690612244897959, 'filename': 'mickey_mouse_5.mp3'}, {'start': 30.43265306122449, 'filename': 'green_lantern_6.mp3', 'duration': 5.381224489795918, 'speaker': 'Green Lantern'}, {'filename': 'mickey_mouse_7.mp3', 'start': 35.813877551020404, 'speaker': 'Mickey Mouse', 'duration': 3.186938775510204}, {'speaker': 'Green Lantern', 'filename': 'green_lantern_8.mp3', 'duration': 12.120816326530612, 'start': 39.00081632653061}, {'start': 51.121632653061226, 'filename': 'mickey_mouse_9.mp3', 'duration': 3.1085714285714285, 'speaker': 'Mickey Mouse'}, {'start': 54.23020408163266, 'speaker': 'Green Lantern', 'duration': 3.996734693877551, 'filename': 'green_lantern_10.mp3'}, {'start': 58.226938775510206, 'speaker': 'Mickey Mouse', 'duration': 1.0710204081632653, 'filename': 'mickey_mouse_11.mp3'}, {'filename': 'green_lantern_12.mp3', 'start': 59.29795918367347, 'speaker': 'Green Lantern', 'duration': 1.4889795918367348}, {'duration': 4.362448979591837, 'start': 60.78693877551021, 'speaker': 'Mickey Mouse', 'filename': 'mickey_mouse_13.mp3'}, {'filename': 'green_lantern_14.mp3', 'duration': 7.340408163265306, 'speaker': 'Green Lantern', 'start': 65.14938775510204}, {'speaker': 'Mickey Mouse', 'duration': 1.9853061224489796, 'filename': 'mickey_mouse_15.mp3', 'start': 72.48979591836735}, {'filename': 'green_lantern_16.mp3', 'speaker': 'Green Lantern', 'duration': 1.3844897959183673, 'start': 74.47510204081632}]}
+Total clips to composite: 2 (1 video + 1 overlays)
+Total clips to composite: 3 (1 video + 2 overlays)
+Total clips to composite: 4 (1 video + 3 overlays)
+Total clips to composite: 5 (1 video + 4 overlays)
+Total clips to composite: 6 (1 video + 5 overlays)
+Total clips to composite: 7 (1 video + 6 overlays)
+Total clips to composite: 8 (1 video + 7 overlays)
+Total clips to composite: 9 (1 video + 8 overlays)
+Total clips to composite: 10 (1 video + 9 overlays)
+Total clips to composite: 11 (1 video + 10 overlays)
+Total clips to composite: 12 (1 video + 11 overlays)
+Total clips to composite: 13 (1 video + 12 overlays)
+Total clips to composite: 14 (1 video + 13 overlays)
+Total clips to composite: 15 (1 video + 14 overlays)
+Total clips to composite: 16 (1 video + 15 overlays)
+Total clips to composite: 17 (1 video + 16 overlays)
+Generating subtitles for /home/vedansh/doomteach_parent/doomteach/media/generated/audio/final_audio.mp3
+Subtitles generated and saved to /home/vedansh/doomteach_parent/doomteach/subtitles.srt
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: I already ran the VoiceAgent, which generated the audio and timeline. I'll provide the necessary information to the VideoAgent to proceed.
+CONTENT: Okay, the video has been created! The video is located at `media/generated/video/doom_video_with_subs.mp4`.
 
 STATUS: RootAgent completed successfully.

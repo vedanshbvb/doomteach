@@ -26,7 +26,9 @@ shapes_client = OpenAI(
 )
 
 # Replace these if you want to default them here; or pass them in.
-LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline2.log")
+# LOG_FILE = os.path.join(os.path.dirname(__file__), "pipeline2.log")
+LOG_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "run_pipeline.log")
+
 out_dir = "/media/generated/audio"
 
 class TTSPipeline:
@@ -137,5 +139,8 @@ class TTSPipeline:
 
         final_path = os.path.join(tempdir, "final_audio.mp3")
         combined.export(final_path, format="mp3")
+
+        # self.log_line(f"final_path: {final_path}")
+        self.log_line(f"timeline INSIDE TTS2.py: {timeline}")
 
         return final_path, timeline

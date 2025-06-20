@@ -9,15 +9,17 @@ def get_project_root():
 
 def resolve_path(path):
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.dirname(base_dir)
+    project_root = os.path.dirname(base_dir)    #doomteach
     abs_path = os.path.join(project_root, path) if not os.path.isabs(path) else path
     return abs_path
 
 # === Constants ===
 
 AUDIO_PATH = resolve_path("media/generated/audio/final_audio.mp3")
+VIDEO_PATH = resolve_path("media/generated/video/")
 SRT_PATH = resolve_path("subtitles.srt")
-LOG_FILE = resolve_path("generator/pipeline2.log")
+# LOG_FILE = resolve_path("generator/pipeline2.log")
+LOG_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "run_pipeline.log")
 
 # === Logging ===
 
@@ -28,6 +30,7 @@ def log_line(line):
 # === Subtitle Generation ===
 
 def generate_subtitles(audio_path=AUDIO_PATH, srt_path=SRT_PATH, group_size=3):
+    log_line(f"Generating subtitles for {audio_path}")
     model = WhisperModel("base", compute_type="float32")
     segments, _ = model.transcribe(audio_path, word_timestamps=True)
     chunks = []
@@ -60,7 +63,9 @@ def generate_subtitles(audio_path=AUDIO_PATH, srt_path=SRT_PATH, group_size=3):
 # === Subtitle Overlay ===
 
 def overlay_subtitles_on_video(video, subtitle_chunks, output_path, log_line=print):
-    output_path = resolve_path(output_path)
+    # output_path = resolve_path(output_path)
+    output_path = VIDEO_PATH + "doom_video_with_subs.mp4"
+
     clips = [video]
 
     for start, end, subtitle_text in subtitle_chunks:

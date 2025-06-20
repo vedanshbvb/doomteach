@@ -15,7 +15,8 @@ def convert_mp3_to_wav(mp3_path, wav_path):
         "ffmpeg", "-y", "-i", mp3_path, wav_path
     ], check=True)
 
-LOG_FILE = os.path.join(get_project_root(), "run_pipeline.log")
+# LOG_FILE = os.path.join(get_project_root(), "run_pipeline.log")
+LOG_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "run_pipeline.log")
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
@@ -28,6 +29,9 @@ def resolve_path(path):
     return abs_path
 
 def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_video_path="media/bg_videos/vid1.mp4", audio_path=None, output_dir="media/generated/video"):
+
+    log_line("inside create video with stickers")
+
     output_dir = resolve_path(output_dir)
     bg_video_path = resolve_path(bg_video_path)
     if audio_path:
@@ -78,7 +82,11 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
             char_list[1]: ("right", 0.75),
         }
 
-    log_line(f"tts_output: {tts_output}")
+    log_line(f"tts_output in FILE video_editing.py: {tts_output}")
+
+    if "timestamps" not in tts_output:
+        log_line(f"ERROR: tts_output missing 'timestamps' key. tts_output={tts_output}")
+        raise KeyError(f"tts_output does not contain 'timestamps' key. Full tts_output: {tts_output}")
 
     # Add stickers (no subtitles)
     for entry in tts_output["timestamps"]:
