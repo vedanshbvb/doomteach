@@ -5,7 +5,7 @@ import os
 import json
 import subprocess
 from moviepy.editor import VideoFileClip, AudioFileClip, CompositeVideoClip, ImageClip
-from moviepy.video.fx.all import loop
+from moviepy.video.fx.loop import loop
 
 def get_project_root():
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -15,11 +15,11 @@ def convert_mp3_to_wav(mp3_path, wav_path):
         "ffmpeg", "-y", "-i", mp3_path, wav_path
     ], check=True)
 
-LOG_FILE = os.path.join(get_project_root(), "generator", "pipeline2.log")
+LOG_FILE = os.path.join(get_project_root(), "run_pipeline.log")
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
-        f.write(line + "\n")
+        f.write(line + "\n")    
 
 def resolve_path(path):
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -27,7 +27,7 @@ def resolve_path(path):
     abs_path = os.path.join(project_root, path) if not os.path.isabs(path) else path
     return abs_path
 
-def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_video_path, audio_path=None, output_dir="media/generated/video"):
+def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_video_path="media/bg_videos/vid1.mp4", audio_path=None, output_dir="media/generated/video"):
     output_dir = resolve_path(output_dir)
     bg_video_path = resolve_path(bg_video_path)
     if audio_path:
@@ -40,8 +40,15 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
     output_filename = "doom_video.mp4"
     output_path = os.path.join(output_dir, output_filename)
 
+    # Check if the background video exists, if not try the default path
     if not os.path.exists(bg_video_path):
-        raise FileNotFoundError(f"Background video not found: {bg_video_path}")
+        print(f"Warning: Background video not found at {bg_video_path}")
+        default_bg_path = resolve_path("media/bg_videos/vid1.mp4")
+        if os.path.exists(default_bg_path):
+            print(f"Using default background video: {default_bg_path}")
+            bg_video_path = default_bg_path
+        else:
+            raise FileNotFoundError(f"Background video not found at {bg_video_path} or default location {default_bg_path}")
 
     # Load background video
     bg_video = VideoFileClip(bg_video_path)
@@ -70,6 +77,8 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
             char_list[0]: ("left", 0.05),
             char_list[1]: ("right", 0.75),
         }
+
+    log_line(f"tts_output: {tts_output}")
 
     # Add stickers (no subtitles)
     for entry in tts_output["timestamps"]:

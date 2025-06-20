@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 from google.genai.types import Schema
 from generator.tts2 import TTSPipeline
+from typing import List
 
 load_dotenv()
 
@@ -17,12 +18,12 @@ class TTSTool(FunctionTool):
     ADK Tool for running TTS on a script and returning audio path and timeline.
     """
     def __init__(self):
-        async def tts_tool(script: list[list[str]]) -> dict:
+        async def tts_tool(script: List[List[str]]) -> dict:
             """
             Converts a script (list of [speaker, line] lists) to audio using TTS and returns audio path and timeline.
 
             Args:
-                script (list[list[str]]): List of [speaker, line] lists.
+                script (List[List[str]]): List of [speaker, line] lists.
 
             Returns:
                 dict: {"audio_path": str, "timestamps": list}
@@ -32,26 +33,6 @@ class TTSTool(FunctionTool):
             final_audio, timeline = await tts.run(script)
             return {"audio_path": final_audio, "timestamps": timeline}
 
-        schema = {
-            "type": "object",
-            "properties": {
-
-                "script": {
-                    "type": "array",
-                    "items": {
-                        "type": "array",
-                        "items": [
-                            {"type": "string"},  # speaker
-                            {"type": "string"}   # line
-                        ],
-                        "minItems": 2,
-                        "maxItems": 2
-                    },
-                    "description": "List of [speaker, line] pairs."
-                }
-            },
-            "required": ["script"]
-        }
 
 
         super().__init__(func=tts_tool)

@@ -1,5 +1,6 @@
 import sys
 import os
+import glob
 import asyncio
 from google.adk.sessions import InMemorySessionService
 from google.adk.runners import Runner
@@ -11,6 +12,24 @@ def get_project_root():
     return os.path.dirname(os.path.abspath(__file__))
 
 LOG_FILE = os.path.join(get_project_root(), "run_pipeline.log")
+AUDIO_FOLDER = os.path.join(get_project_root(), "media", "generated", "audio")
+VIDEO_FOLDER = os.path.join(get_project_root(), "media", "generated", "video")
+
+def empty_audio_folder():
+    files = glob.glob(os.path.join(AUDIO_FOLDER, "*"))
+    for f in files:
+        try:
+            os.remove(f)
+        except Exception as e:
+            log_line(f"ERROR: Could not remove {f}: {e}")
+
+def empty_video_folder():
+    files = glob.glob(os.path.join(VIDEO_FOLDER, "*"))
+    for f in files:
+        try:
+            os.remove(f)
+        except Exception as e:
+            log_line(f"ERROR: Could not remove {f}: {e}")
 
 def log_line(line):
     with open(LOG_FILE, "a") as f:
@@ -34,6 +53,9 @@ async def main():
     await session_service.create_session(app_name=app_name, user_id=user_id, session_id=session_id)
     
     log_line("STATUS: Session created.")
+
+    empty_audio_folder()
+    empty_video_folder()
     
     runner = Runner(agent=RootAgent, app_name=app_name, session_service=session_service)
     

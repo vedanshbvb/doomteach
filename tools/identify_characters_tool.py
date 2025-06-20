@@ -2,6 +2,7 @@ from google.adk.tools import FunctionTool
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
+from typing import List
 
 load_dotenv()
 
@@ -10,7 +11,7 @@ class IdentifyCharactersTool(FunctionTool):
     ADK Tool for identifying character names from a user prompt using the Shapes API.
     """
     def __init__(self):
-        def identify_characters(user_prompt: str) -> str:
+        def identify_characters(user_prompt: str) -> List[str]:
             """
             Identifies the character names in a user prompt and returns them as a comma-separated string.
 
@@ -18,7 +19,7 @@ class IdentifyCharactersTool(FunctionTool):
                 user_prompt (str): The prompt describing the script to generate.
 
             Returns:
-                str: Comma-separated character names.
+                List[str]: List of comma-separated characters names.
             """
             shapes_client = OpenAI(
                 api_key=os.environ.get("SHAPES_API_KEY"),
@@ -37,6 +38,6 @@ class IdentifyCharactersTool(FunctionTool):
             )
             content = response.choices[0].message.content
             if content is not None:
-                return content.strip()
-            return ""
+                return [name.strip() for name in content.strip().split(",") if name.strip()] 
+            return []
         super().__init__(func=identify_characters)
